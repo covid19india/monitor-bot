@@ -19,17 +19,22 @@ logging.basicConfig(
 
 def setup():
     """Setup Twitter and Telegram"""
-
+    
     # Twitter
+    try:
+        tc = os.environ["TWITTER_CREDENTIALS"]
+        with open('./twitter_credentials.json','w') as f:
+            json.dump(tc,f)
+    except KeyError:
+        logging.error("Twitter credentials not available in environment")
+        pass
+
     try:
         with open("twitter_credentials.json", "r") as f:
             tc = json.load(f)["TWITTER_CREDENTIALS"]
     except FileNotFoundError:
-        try:
-            tc = os.environ["TWITTER_CREDENTIALS"]
-        except KeyError:
-            logging.error("Twitter credentials not available in environment")
-            raise
+        logging.error('Twitter credentials not available')
+
 
     auth = tweepy.OAuthHandler(tc["consumer_key"], tc["consumer_secret"])
     auth.set_access_token(tc["access_token"], tc["access_token_secret"])
@@ -69,7 +74,7 @@ def stream_tweets(api, queries, bot, chat_id, minutes=10):
     logging.info(f"Fetching tweets since {since}")
     # Traverse the queries list forward or backward (probabilistically)
     order = random.choice([-1,1])
-    logger.info(f"Traverse order = {order}")
+    logging.info(f"Traverse order = {order}")
     for query in queries[::order]:
         logging.info(query)
         # sleep(5) # Tweepy timeout can handle rate limits
