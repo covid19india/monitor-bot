@@ -24,11 +24,12 @@ def setup():
     try:
         tc = os.environ["TWITTER_CREDENTIALS"]
         with open('./twitter_credentials.json','w') as f:
-            json.dump(tc,f)
+            json.dump(json.loads(tc),f)
     except KeyError:
         logging.error("Twitter credentials not available in environment")
         pass
 
+    # Using file to make life easy to run locally
     try:
         with open("twitter_credentials.json", "r") as f:
             tc = json.load(f)["TWITTER_CREDENTIALS"]
