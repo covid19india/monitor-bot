@@ -9,14 +9,12 @@ on:
       - master
 
 jobs:
-  update-json-data:
+  twitter-notifications:
     runs-on: ubuntu-latest
     timeout-minutes: 14
 
     steps:
-      - uses: actions/checkout@v2
-      - run: |
-          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+    - uses: actions/checkout@v2
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
@@ -40,5 +38,3 @@ jobs:
           MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
           DATA_OPS_CHAT_ID: ${{ secrets.DATA_OPS_CHAT_ID }}
           TWITTER_CREDENTIALS: ${{secrets.TWITTER_CREDENTIALS}}
-        env:
-          status: ${{job.status}}
