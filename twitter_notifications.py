@@ -1,0 +1,115 @@
+import tweepy
+import telegram
+
+from datetime import datetime, timedelta
+from time import sleep
+import random
+
+import os
+import requests
+import json
+import logging
+
+logging.basicConfig(
+    format="%(asctime)s %(levelname)-8s %(message)s",
+    level=logging.INFO,
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+
+
+def setup():
+    """Setup Twitter and Telegram"""
+
+    # Twitter
+    try:
+        with open("twitter_credentials.json", "r") as f:
+            tc = json.load(f)["TWITTER_CREDENTIALS"]
+    except FileNotFoundError:
+        try:
+            tc = os.environ["TWITTER_CREDENTIALS"]
+        except KeyError:
+            logging.error("Twitter credentials not available in environment")
+            raise
+
+    auth = tweepy.OAuthHandler(tc["consumer_key"], tc["consumer_secret"])
+    auth.set_access_token(tc["access_token"], tc["access_token_secret"])
+
+    api = tweepy.API(
+        auth_handler=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
+    )
+
+    # Telegram
+    bot_token = os.environ["MONITOR_BOT_TOKEN"]
+    bot = telegram.Bot(bot_token)
+
+    chat_id = os.environ["DATA_OPS_CHAT_ID"]
+
+    return bot, api, chat_id
+
+
+def get_latest_query_strings():
+    """Get the serach filters from sheet"""
+
+    try:
+        result = requests.get(
+            "https://api.covid19india.org/twitter_queries.json"
+        ).json()["twitter_queries"]
+        queries = [x["searchcriteria"] for x in result]
+    except Exception as e:
+        logging.error("Error while fetching filters", e)
+
+    return queries
+
+
+def stream_tweets(api, queries, bot, chat_id, minutes=10):
+    """Get the chats that match the `queries`
+    in the past `minutes` and post to `chat_id`"""
+
+    since = datetime.utcnow() - timedelta(minutes=minutes)
+    logging.info(f"Fetching tweets since {since}")
+    # Traverse the queries list forward or backward (probabilistically)
+    order = random.choice([-1,1])
+    logger.info(f"Traverse order = {order}")
+    for query in queries[::order]:
+        logging.info(query)
+        # sleep(5) # Tweepy timeout can handle rate limits
+        for status in tweepy.Cursor(
+            api.search, q=query, count=10, result="recent", include_entities=True
+        ).items():
+            if status.created_at < since:
+                continue
+            try:
+                # Tweet url is combination of user screen name and the tweet ID
+                url = f"http://twitter.com/{status._json['user']['screen_name']}/status/{status._json['id_str']}"
+
+                # TODO : Use automation scripts here
+                # automate(url)
+                
+                message = f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
+                post_telegram_message(bot, chat_id, message)
+                logging.info(message)
+            except KeyError:
+                logging.error("Couldn't capture tweet url")
+                continue
+
+
+def post_telegram_message(bot, chat_id, message):
+    """Send `message` to `chat_id`"""
+
+    try:
+        bot.send_message(chat_id=chat_id, text=message)
+    except Exception as e:
+        logging.error("Error while sending message to group")
+        pass
+
+
+def main():
+    """Run all"""
+
+    bot, api, chat_id = setup()
+    queries = get_latest_query_strings()
+    stream_tweets(api, queries, bot, chat_id=chat_id, minutes=15)
+
+
+if __name__ == "__main__":
+    main()
