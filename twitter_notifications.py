@@ -80,25 +80,29 @@ def stream_tweets(api, queries, bot, chat_id, minutes=10):
     logging.info(f"Traverse order = {order}")
     for query in queries[::order]:
         logging.info(query)
-        for status in tweepy.Cursor(
-            api.search, q=query, count=10, result="recent", include_entities=True
-        ).items():
-            sleep(2) # Avoid per minute rate limitation
-            if status.created_at < since:
-                break
-            try:
-                # Tweet url is combination of user screen name and the tweet ID
-                url = f"http://twitter.com/{status._json['user']['screen_name']}/status/{status._json['id_str']}"
+        try: 
+            for status in tweepy.Cursor(
+                api.search, q=query, count=10, result="recent", include_entities=True
+            ).items():
+                sleep(2) # Avoid per minute rate limitation
+                if status.created_at < since:
+                    break
+                try:
+                    # Tweet url is combination of user screen name and the tweet ID
+                    url = f"http://twitter.com/{status._json['user']['screen_name']}/status/{status._json['id_str']}"
 
-                # TODO : Use automation scripts here
-                # automate(url)
-                
-                message = f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
-                post_telegram_message(bot, chat_id, message)
-                logging.info(message)
-            except KeyError:
-                logging.error("Couldn't capture tweet url")
-                continue
+                    # TODO : Use automation scripts here
+                    # automate(url)
+                    
+                    message = f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
+                    post_telegram_message(bot, chat_id, message)
+                    logging.info(message)
+                except KeyError:
+                    logging.error("Couldn't capture tweet url")
+                    continue
+        except tweepy.TweepError as e:
+            logging.error("Error while fetching data from Twitter", e)
+            continue
 
 
 def post_telegram_message(bot, chat_id, message):
