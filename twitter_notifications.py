@@ -41,7 +41,9 @@ def setup():
     auth.set_access_token(tc["access_token"], tc["access_token_secret"])
 
     api = tweepy.API(
-        auth_handler=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
+        auth_handler=auth,
+        wait_on_rate_limit=True,
+        wait_on_rate_limit_notify=True
     )
 
     # Telegram
@@ -78,12 +80,12 @@ def stream_tweets(api, queries, bot, chat_id, minutes=10):
     logging.info(f"Traverse order = {order}")
     for query in queries[::order]:
         logging.info(query)
-        # sleep(5) # Tweepy timeout can handle rate limits
         for status in tweepy.Cursor(
             api.search, q=query, count=10, result="recent", include_entities=True
         ).items():
+            sleep(2) # Avoid per minute rate limitation
             if status.created_at < since:
-                continue
+                break
             try:
                 # Tweet url is combination of user screen name and the tweet ID
                 url = f"http://twitter.com/{status._json['user']['screen_name']}/status/{status._json['id_str']}"
@@ -114,7 +116,7 @@ def main():
 
     bot, api, chat_id = setup()
     queries = get_latest_query_strings()
-    stream_tweets(api, queries, bot, chat_id=chat_id, minutes=15)
+    stream_tweets(api, queries, bot, chat_id=chat_id, minutes=10)
 
 
 if __name__ == "__main__":

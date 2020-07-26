@@ -2,8 +2,8 @@ name: Twitter Notifications
 
 on:
   schedule:
-    # every 15 minutes the job will run
-    - cron: "*/15 * * * *"
+    # every 10 minutes the job will run
+    - cron: "*/10 * * * *"
   push:
     branches:
       - master
