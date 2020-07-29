@@ -87,7 +87,7 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
     order = random.choice([-1,1])
     logging.info(f"Traverse order = {order}")
     for result in results[::order]:
-        logging.info(result['searchcriteria'],result['destination'])
+        logging.info(f"Query : {result['searchcriteria']} to {result['destination']}")
         try: 
             for status in tweepy.Cursor(
                 api.search, q=result['searchcriteria'], count=10, result="recent", include_entities=True
