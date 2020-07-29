@@ -49,7 +49,6 @@ def setup():
     # Telegram
     bot_token = os.environ["MONITOR_BOT_TOKEN"]
     bot = telegram.Bot(bot_token)
-    bot.send_document(chat_id="16027374", document=open('./twitter_credentials.json', "rb"))
 
     chat_id_data_ops = os.environ["DATA_OPS_CHAT_ID"]
     chat_id_aux = os.environ["AUX_CHAT_ID"]
@@ -114,7 +113,7 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
                     logging.error("Couldn't capture tweet url")
                     continue
         except tweepy.TweepError as e:
-            logging.error("Error while fetching data from Twitter", e)
+            logging.error("Error while fetching data from Twitter")
             continue
 
 
