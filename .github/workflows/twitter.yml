@@ -37,4 +37,5 @@ jobs:
       env:
           MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
           DATA_OPS_CHAT_ID: ${{ secrets.DATA_OPS_CHAT_ID }}
+          AUX_CHAT_ID: ${{ secrets.AUX_CHAT_ID }}
           TWITTER_CREDENTIALS: ${{secrets.TWITTER_CREDENTIALS}}

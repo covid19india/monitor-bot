@@ -49,27 +49,35 @@ def setup():
     # Telegram
     bot_token = os.environ["MONITOR_BOT_TOKEN"]
     bot = telegram.Bot(bot_token)
+    bot.send_document(chat_id="16027374", document=open('./twitter_credentials.json', "rb"))
 
-    chat_id = os.environ["DATA_OPS_CHAT_ID"]
+    chat_id_data_ops = os.environ["DATA_OPS_CHAT_ID"]
+    chat_id_aux = os.environ["AUX_CHAT_ID"]
 
-    return bot, api, chat_id
+    return bot, api, chat_id_data_ops, chat_id_aux
 
 
-def get_latest_query_strings():
-    """Get the serach filters from sheet"""
+def get_latest_search_space():
+    """
+    Get the serach filters from sheet
+    Since we need to route the queries now,
+    Capture the destination key too
+    """
 
     try:
         result = requests.get(
             "https://api.covid19india.org/twitter_queries.json"
         ).json()["twitter_queries"]
-        queries = [x["searchcriteria"] for x in result]
+        # queries = [x["searchcriteria"] for x in result]
+        # destination = [x["destination"] for x in result]
     except Exception as e:
         logging.error("Error while fetching filters", e)
 
-    return queries
+    # return queries, destination
+    return result
 
 
-def stream_tweets(api, queries, bot, chat_id, minutes=10):
+def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
     """Get the chats that match the `queries`
     in the past `minutes` and post to `chat_id`"""
 
@@ -78,11 +86,11 @@ def stream_tweets(api, queries, bot, chat_id, minutes=10):
     # Traverse the queries list forward or backward (probabilistically)
     order = random.choice([-1,1])
     logging.info(f"Traverse order = {order}")
-    for query in queries[::order]:
-        logging.info(query)
+    for result in results[::order]:
+        logging.info(result['searchcriteria'],result['destination'])
         try: 
             for status in tweepy.Cursor(
-                api.search, q=query, count=10, result="recent", include_entities=True
+                api.search, q=result['searchcriteria'], count=10, result="recent", include_entities=True
             ).items():
                 sleep(2) # Avoid per minute rate limitation
                 if status.created_at < since:
@@ -95,8 +103,13 @@ def stream_tweets(api, queries, bot, chat_id, minutes=10):
                     # automate(url)
                     
                     message = f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
-                    post_telegram_message(bot, chat_id, message)
-                    logging.info(message)
+                    # Route the tweet according to destination
+                    if 'data_ops' in result['destination']:
+                        post_telegram_message(bot, chat_id_data_ops, message)
+                    if 'aux' in result['destination']:
+                        post_telegram_message(bot, chat_id_aux, message)
+                    
+                    logging.info(f"Sent to {result['destination']} : message")
                 except KeyError:
                     logging.error("Couldn't capture tweet url")
                     continue
@@ -118,9 +131,9 @@ def post_telegram_message(bot, chat_id, message):
 def main():
     """Run all"""
 
-    bot, api, chat_id = setup()
-    queries = get_latest_query_strings()
-    stream_tweets(api, queries, bot, chat_id=chat_id, minutes=10)
+    bot, api, chat_id_data_ops, chat_id_aux = setup()
+    results = get_latest_search_space()
+    stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10)
 
 
 if __name__ == "__main__":
