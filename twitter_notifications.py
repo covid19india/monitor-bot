@@ -80,9 +80,9 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
     since = datetime.utcnow() - timedelta(minutes=minutes)
     logging.info(f"Fetching tweets since {since}")
     # Traverse the queries list forward or backward (probabilistically)
-    order = random.choice([-1, 1])
-    logging.info(f"Traverse order = {order}")
-    for result in results[::order]:
+    # order = random.choice([-1, 1])
+    # logging.info(f"Traverse order = {order}")
+    for result in results:
         logging.info(f"Query : {result['searchcriteria']} to {result['destination']}")
         try:
             # print(result['searchcriteria'])
