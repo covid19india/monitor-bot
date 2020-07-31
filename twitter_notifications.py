@@ -19,12 +19,12 @@ logging.basicConfig(
 
 def setup():
     """Setup Twitter and Telegram"""
-    
+
     # Twitter
     try:
         tc = os.environ["TWITTER_CREDENTIALS"]
-        with open('./twitter_credentials.json','w') as f:
-            json.dump(json.loads(tc),f)
+        with open("./twitter_credentials.json", "w") as f:
+            json.dump(json.loads(tc), f)
     except KeyError:
         logging.error("Twitter credentials not available in environment")
         pass
@@ -34,16 +34,13 @@ def setup():
         with open("twitter_credentials.json", "r") as f:
             tc = json.load(f)["TWITTER_CREDENTIALS"]
     except FileNotFoundError:
-        logging.error('Twitter credentials not available')
-
+        logging.error("Twitter credentials not available")
 
     auth = tweepy.OAuthHandler(tc["consumer_key"], tc["consumer_secret"])
     auth.set_access_token(tc["access_token"], tc["access_token_secret"])
 
     api = tweepy.API(
-        auth_handler=auth,
-        wait_on_rate_limit=True,
-        wait_on_rate_limit_notify=True
+        auth_handler=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
     )
 
     # Telegram
@@ -83,15 +80,22 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
     since = datetime.utcnow() - timedelta(minutes=minutes)
     logging.info(f"Fetching tweets since {since}")
     # Traverse the queries list forward or backward (probabilistically)
-    order = random.choice([-1,1])
+    order = random.choice([-1, 1])
     logging.info(f"Traverse order = {order}")
     for result in results[::order]:
         logging.info(f"Query : {result['searchcriteria']} to {result['destination']}")
-        try: 
+        try:
+            # print(result['searchcriteria'])
+            # if 'from:jabalpurdm' not in result['searchcriteria']:
+            #     continue
             for status in tweepy.Cursor(
-                api.search, q=result['searchcriteria'], count=10, result="recent", include_entities=True
+                api.search,
+                q=result["searchcriteria"],
+                count=10,
+                result="recent",
+                include_entities=True,
             ).items():
-                sleep(2) # Avoid per minute rate limitation
+                sleep(2)  # Avoid per minute rate limitation
                 if status.created_at < since:
                     break
                 try:
@@ -100,15 +104,19 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
 
                     # TODO : Use automation scripts here
                     # automate(url)
-                    
-                    message = f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
+
+                    message = (
+                        f"@{status._json['user']['screen_name']} tweeted :\n\n{url}"
+                        f"\n\n#{result['statename'].replace(' ','')}"
+                        f"{'#'+result['districtname'].replace(' ','') if result['districtname']!='' else ''}"
+                    )
                     # Route the tweet according to destination
-                    if 'data_ops' in result['destination']:
+                    if "data_ops" in result["destination"]:
                         post_telegram_message(bot, chat_id_data_ops, message)
-                    if 'aux' in result['destination']:
+                    if "aux" in result["destination"]:
                         post_telegram_message(bot, chat_id_aux, message)
-                    
-                    logging.info(f"Sent to {result['destination']} : message")
+
+                    logging.info(f"Sent to {result['destination']} :\n {message}")
                 except KeyError:
                     logging.error("Couldn't capture tweet url")
                     continue

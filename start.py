@@ -36,7 +36,7 @@ def main():
 
     """
     # How long the container exist
-    LIFESPAN = 1*60*60
+    LIFESPAN = 1 * 60 * 60
 
     setup_env()
     cmd = ["python3", "covid19indiatracker_bot.py"]
