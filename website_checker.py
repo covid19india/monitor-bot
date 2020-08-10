@@ -119,7 +119,7 @@ if __name__ == "__main__":
 	]
 	#Setup BOT TOKEN and CHAT ID from environment variable
 	MONITOR_BOT_TOKEN = os.environ['MONITOR_BOT_TOKEN']
-	CHAT_ID = "16027374"
+	CHAT_ID = os.environ['DATA_OPS_CHAT_ID']
 
 
 	for a in range(len(urls)):
