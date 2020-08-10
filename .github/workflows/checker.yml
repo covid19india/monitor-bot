@@ -1,0 +1,36 @@
+name: Website Checker
+
+on: 
+  schedule:
+    # every 15 minutes the job will run
+    - cron: "*/15 * * * *"
+  push:
+    branches:
+      - file_store
+
+jobs:
+  website-checker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+      - name: run
+        run: |
+          pip3 install beautifulsoup4 pytz
+          python3 main.py
+          echo "the job completed"
+        env:
+          MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          ref: 'file_store'
+          author_name: Bob
+          author_email: bot@botplace.com
+          message: "Latest website copy"
+          add: "."
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOB_TOKEN }}
