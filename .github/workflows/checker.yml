@@ -20,14 +20,13 @@ jobs:
       - name: run
         run: |
           pip3 install beautifulsoup4 pytz
-          sh run_site_checker.sh
+          python3 website_checker.py
           echo "the job completed"
         env:
           MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
-          ref: 'file_store'
           author_name: Bob
           author_email: bot@botplace.com
           message: "Latest website copy"
