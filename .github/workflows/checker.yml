@@ -24,6 +24,7 @@ jobs:
           echo "the job completed"
         env:
           MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
+          DATA_OPS_CHAT_ID: ${{ secrets.DATA_OPS_CHAT_ID }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v4
         with:
