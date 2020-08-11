@@ -114,7 +114,7 @@ if __name__ == "__main__":
 		{
 			"name" : "WestBengal",
 			"url" : "https://www.wbhealth.gov.in/pages/corona/bulletin",
-			"check":'<tbody>'
+			"check" : 'href="https://www.wbhealth.gov.in/uploaded_files/corona/'
 		}
 	]
 	#Setup BOT TOKEN and CHAT ID from environment variable
