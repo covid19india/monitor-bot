@@ -39,7 +39,8 @@ def check_now(a,urls):
 		old.readlines(),
 		new.readlines(),
 		fromfile=old_file_path,
-		tofile=new_file_path
+		tofile=new_file_path,
+		n=0
 		)
 	# If there is a difference, change status from Same to Updated
 	status = "Same"
