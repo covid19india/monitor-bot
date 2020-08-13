@@ -318,37 +318,37 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">1751</div>
+<div class="card-body">1842</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">1023</div>
+<div class="card-body">1076</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">26</div>
+<div class="card-body">27</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Total Sampled</div>
-<div class="card-body">19141</div>
+<div class="card-body">19593</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Positive Cases</div>
-<div class="card-body">1751</div>
+<div class="card-body">1842</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Negative Cases</div>
-<div class="card-body">17302</div>
+<div class="card-body">17662</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
@@ -360,7 +360,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Result Awaited</div>
-<div class="card-body">85</div>
+<div class="card-body">86</div>
 </div>
 </div>
 <div class="col-12 pt-10 text-center">* Statistics sourced from Department of Health, Chandigarh</div>
@@ -381,19 +381,19 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-4">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">2416163</div>
+<div class="card-body">2429738</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">1712912</div>
+<div class="card-body">1722993</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">47325</div>
+<div class="card-body">47488</div>
 </div>
 </div>
 </div>
@@ -644,9 +644,9 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <td>2203</td>
 </tr><tr>
 <td colspan="2">Total number of confirmed cases in India</td>
-<td>2416163</td>
-<td>1712912</td>
-<td>47325</td>
+<td>2429738</td>
+<td>1722993</td>
+<td>47488</td>
 </tr></tbody>
 </table>
 </div>
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 2427602
-                            [recovered] =&gt; 1721956
-                            [deaths] =&gt; 47483
-                            [active] =&gt; 657689
+                            [total] =&gt; 2429738
+                            [recovered] =&gt; 1722993
+                            [deaths] =&gt; 47488
+                            [active] =&gt; 658783
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-08-13T14:30:22.189Z
+    [lastRefreshed] =&gt; 2020-08-13T14:42:23.363Z
     [lastOriginUpdate] =&gt; 2020-08-13T02:30:00.000Z
 )
 
