@@ -120,12 +120,12 @@ if __name__ == "__main__":
 			"url" : "https://www.wbhealth.gov.in/pages/corona/bulletin",
 			"check" : 'href="https://www.wbhealth.gov.in/uploaded_files/corona/'
 		},
-{
+		{
 			"name" : "Gujarat",
 			"url" : "https://gujcovid19.gujarat.gov.in/DrillDownCharts.aspx",
 			"check" : ''
 		},
-{
+		{
 			"name" : "AndraPradesh",
 			"url" : "http://covid19.ap.gov.in/Covid19_Admin/index.html",
 			"check" : ''
