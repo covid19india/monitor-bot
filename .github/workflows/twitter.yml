@@ -11,7 +11,7 @@ on:
 jobs:
   twitter-notifications:
     runs-on: ubuntu-latest
-    timeout-minutes: 14
+    timeout-minutes: 18
 
     steps:
     - uses: actions/checkout@v2
