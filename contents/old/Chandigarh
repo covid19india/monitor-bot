@@ -368,7 +368,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="row">
 <div class="col-md-12 form-group pt-10 mb-0">
 <div class="card bg-success text-white mb-10 plr-10">
-<div class="card-body ptb-10 text-center">Home Quarantined :  19206</div>
+<div class="card-body ptb-10 text-center">Home Quarantined :  19995</div>
 </div>
 <div class="col-12 text-center">* Statistics sourced from Municipal Corporation, Chandigarh</div>
 </div>
@@ -381,19 +381,19 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-4">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">2935673</div>
+<div class="card-body">2951736</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">2186467</div>
+<div class="card-body">2199928</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">55313</div>
+<div class="card-body">55534</div>
 </div>
 </div>
 </div>
@@ -644,9 +644,9 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <td>2634</td>
 </tr><tr>
 <td colspan="2">Total number of confirmed cases in India</td>
-<td>2935673</td>
-<td>2186467</td>
-<td>55313</td>
+<td>2951736</td>
+<td>2199928</td>
+<td>55534</td>
 </tr></tbody>
 </table>
 </div>
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 2951736
-                            [recovered] =&gt; 2199928
-                            [deaths] =&gt; 55534
-                            [active] =&gt; 695735
+                            [total] =&gt; 2952940
+                            [recovered] =&gt; 2201252
+                            [deaths] =&gt; 55548
+                            [active] =&gt; 695601
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-08-21T15:18:24.184Z
+    [lastRefreshed] =&gt; 2020-08-21T15:30:22.678Z
     [lastOriginUpdate] =&gt; 2020-08-21T02:30:00.000Z
 )
 
