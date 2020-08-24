@@ -140,7 +140,7 @@ def main():
 
     bot, api, chat_id_data_ops, chat_id_aux = setup()
     results = get_latest_search_space()
-    stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10)
+    stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=16)
 
 
 if __name__ == "__main__":
