@@ -381,19 +381,19 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-4">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">3333581</div>
+<div class="card-body">3335708</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">2541032</div>
+<div class="card-body">2542759</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">60848</div>
+<div class="card-body">60880</div>
 </div>
 </div>
 </div>
@@ -644,9 +644,9 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <td>2964</td>
 </tr><tr>
 <td colspan="2">Total number of confirmed cases in India</td>
-<td>3333581</td>
-<td>2541032</td>
-<td>60848</td>
+<td>3335708</td>
+<td>2542759</td>
+<td>60880</td>
 </tr></tbody>
 </table>
 </div>
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 3333747
-                            [recovered] =&gt; 2541196
-                            [deaths] =&gt; 60848
-                            [active] =&gt; 731129
+                            [total] =&gt; 3335708
+                            [recovered] =&gt; 2542759
+                            [deaths] =&gt; 60880
+                            [active] =&gt; 731495
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-08-27T13:54:24.399Z
+    [lastRefreshed] =&gt; 2020-08-27T14:18:23.517Z
     [lastOriginUpdate] =&gt; 2020-08-27T02:30:00.000Z
 )
 
