@@ -91,7 +91,7 @@ def stream_tweets(api, results, bot, chat_id_data_ops, chat_id_aux, minutes=10):
             for status in tweepy.Cursor(
                 api.search,
                 q=result["searchcriteria"],
-                count=10,
+                count=15,
                 result="recent",
                 include_entities=True,
             ).items():
