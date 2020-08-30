@@ -40,7 +40,7 @@ def main():
 
     setup_env()
     cmd = ["python3", "covid19indiatracker_bot.py"]
-    p = subprocess.Popen(cmd, stderr=sys.stdout, cwd="covid19indiatracker_bot/tracker/")
+    p = subprocess.Popen(cmd, stderr=sys.stdout, stdout=sys.stdout, cwd="covid19indiatracker_bot/tracker/")
     logging.info("Start sleeping... 💤")
     sleep(LIFESPAN)
     logging.info("Enough for the day! Passing on to next Meeseek")
