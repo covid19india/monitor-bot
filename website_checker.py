@@ -71,10 +71,12 @@ if __name__ == "__main__":
 	datetime_ist = datetime.now(IST)
 			    
 	# For KL
-	today_1 = datetime_ist.strftime('%d/%m/%Y')
+	today_1 = str(datetime_ist.strftime('%d/%m/%Y'))
+	print(today_1)
 
 	# For PY
-	today_2 = datetime_ist.strftime('%d-%m-%Y') 
+	today_2 = str(datetime_ist.strftime('%d-%m-%Y'))
+	print(today_2)
 
 	# Setup URLS
 	urls = [
@@ -108,6 +110,7 @@ if __name__ == "__main__":
 			"url" : "http://dhs.kerala.gov.in/%E0%B4%A1%E0%B5%86%E0%B4%AF%E0%B4%BF%E0%B4%B2%E0%B4%BF-%E0%B4%AC%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B4%BF%E0%B4%A8%E0%B5%8D%E2%80%8D/",
 			"check": "title=" + today_1
 		},
+		{
 			"name" : "Puducherry",
 			"url" : "https://health.py.gov.in/",
 			"check": "health.py.gov.in/sites/default/files/" + today_2
@@ -130,7 +133,7 @@ if __name__ == "__main__":
 		{
 			"name" : "AndraPradesh",
 			"url" : "http://covid19.ap.gov.in/Covid19_Admin/index.html",
-			"check" : 'id="tyms"'
+			"check" : 'id="ActiveCases"'
 		}
 	]
 	#Setup BOT TOKEN and CHAT ID from environment variable
