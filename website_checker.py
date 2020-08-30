@@ -8,7 +8,6 @@ import shutil
 
 import difflib
 
-
 def check_now(a,urls):
 	url = urls[a]
 	# Make a new folder
@@ -61,14 +60,21 @@ def check_now(a,urls):
 	new.close()
 	
 	return status
-	
+		
 	
 if __name__ == "__main__":
 	'''
 	Code to check if a URL has updated
 	'''
-	# For KL
-	today = datetime.now(pytz.timezone('Asia/Calcutta')).strftime('%d/%m/%Y')
+	
+#	IST = pytz.timezone('Asia/Kolkata')
+#	datetime_ist = datetime.now(IST)
+			    
+#	# For KL
+#	today_1 = print(datetime_ist.strftime('%d/%m/%Y'))
+
+#	# For PY
+#	today_2 = print(datetime_ist.strftime('%d-%m-%Y')) 
 
 	# Setup URLS
 	urls = [
@@ -97,16 +103,15 @@ if __name__ == "__main__":
 			"url" : "http://www.nhmharyana.gov.in/page.aspx?id=208",
 			"check" : '<a href="/WriteReadData/userfiles/file/'
 		},
-# 		{
-# 			"name" : "Kerala",
-# 			"url" : "http://dhs.kerala.gov.in/%E0%B4%A1%E0%B5%86%E0%B4%AF%E0%B4%BF%E0%B4%B2%E0%B4%BF-%E0%B4%AC%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B4%BF%E0%B4%A8%E0%B5%8D%E2%80%8D/",
-# 			"check":'title="' + today + '"'
-# 		},
-# 		{
-# 			"name" : "Puducherry",
-# 			"url" : "https://health.py.gov.in/",
-# 			"check": 'health.py.gov.in/sites/default/files/'
-# 		},
+#		{
+#			"name" : "Kerala",
+#			"url" : "http://dhs.kerala.gov.in/%E0%B4%A1%E0%B5%86%E0%B4%AF%E0%B4%BF%E0%B4%B2%E0%B4%BF-%E0%B4%AC%E0%B5%81%E0%B4%B3%E0%B5%8D%E0%B4%B3%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B4%BF%E0%B4%A8%E0%B5%8D%E2%80%8D/",
+#			"check": '<a href='"' title=" + today_1 + '"'
+#		},
+#			"name" : "Puducherry",
+#			"url" : "https://health.py.gov.in/",
+#			"check": 'health.py.gov.in/sites/default/files/'+today_2 +''
+#		},
 		{
 			"name" : "Tripura",
 			"url" : "https://covid19.tripura.gov.in",
@@ -116,6 +121,16 @@ if __name__ == "__main__":
 			"name" : "WestBengal",
 			"url" : "https://www.wbhealth.gov.in/pages/corona/bulletin",
 			"check" : 'href="https://www.wbhealth.gov.in/uploaded_files/corona/'
+		},
+		{
+			"name" : "Gujarat",
+			"url" : "https://gujcovid19.gujarat.gov.in/DrillDownCharts.aspx",
+			"check" : 'ctl00_body_lblDate'
+		},
+		{
+			"name" : "AndraPradesh",
+			"url" : "http://covid19.ap.gov.in/Covid19_Admin/index.html",
+			"check" : 'id="tyms"'
 		}
 	]
 	#Setup BOT TOKEN and CHAT ID from environment variable
