@@ -85,11 +85,11 @@ if __name__ == "__main__":
 			"url" : "https://dhs.andaman.gov.in",
 			"check" : 'ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19'
 		},
-		{
-			"name" : "Assam" ,
-			"url" : "https://covid19.assam.gov.in/all-districts/",
-			"check" : ''
-		},
+		#{
+		#	"name" : "Assam" ,
+		#	"url" : "https://covid19.assam.gov.in/all-districts/",
+		#	"check" : ''
+		#},
 		{
 			"name" : "Chandigarh",
 			"url" : "http://chdcovid19.in/",
