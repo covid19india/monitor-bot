@@ -368,7 +368,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="row">
 <div class="col-md-12 form-group pt-10 mb-0">
 <div class="card bg-success text-white mb-10 plr-10">
-<div class="card-body ptb-10 text-center">Home Quarantined :  28833</div>
+<div class="card-body ptb-10 text-center">Home Quarantined :  29277</div>
 </div>
 <div class="col-12 text-center">* Statistics sourced from Municipal Corporation, Chandigarh</div>
 </div>
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 4689354
-                            [recovered] =&gt; 3649354
-                            [deaths] =&gt; 77768
-                            [active] =&gt; 961580
+                            [total] =&gt; 4693675
+                            [recovered] =&gt; 3652495
+                            [deaths] =&gt; 77793
+                            [active] =&gt; 962735
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-09-12T13:30:22.512Z
+    [lastRefreshed] =&gt; 2020-09-12T13:42:24.219Z
     [lastOriginUpdate] =&gt; 2020-09-12T02:30:00.000Z
 )
 
