@@ -1,2 +1,2 @@
 # monitor-bot
-Tracks the changes in websites and new tweets from official handles.
+Track the changes in covid19 data showing websites and new tweets from official twitter handles.
