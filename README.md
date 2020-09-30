@@ -1,2 +1,2 @@
-# monitor-bot
-Tracks the changes in websites and new tweets from official handles.
+# Monitor-Bot
+Tracks the changes in websites and fresh tweets from official handles.
