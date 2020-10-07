@@ -17,7 +17,7 @@
 </head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="yN/AiJNlI2J8ivVCo3VkmKOxL092cqDfZu6dPwA5Yg0WIN93+Sj1xnG0ufa8r1R6y2c669pEU4b08HQ15n6TXMohVGpYpmnoRvn0UtADjCjR9FsT0QBs3Qy4lLMhTegmccDLfC1EU/+Boypzf3++FtyRQgxYw+RRoVa7n1bGbj/weA6fEIWHPCgoxZlGD6mdzf8NAJWk7bvxsHLhreAi65VLavUyNflXV7BApzTitUXpyC5grDK6Z8Xzxr59lOQq"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="3VPP8dBhtYrg9mejDWEu7DAE/v5yu+kusL0Z8N1FJpKLcZmIaCk88gm8iEetgSiR/rqx5LCJza8/5dA01Whsy4dsygmWZHdq596hKQmRmtodKjCFhlWzeh9//RHrBzTQoqKiPM1tl8TSwP18u1CX/m6NlibTXYJsvgm2jZK35SEJ8l0j3ca3BmFuir6vwfdCOMEwtPpirRzt+v6ECQUoMgQyepCCdDbuPt5izUtlVWgbUcFIm6ircQ3VAkS6doYb"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
 <nav class="navbar navbar-expand-md bg-violet navbar-dark">
@@ -92,14 +92,14 @@
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-file-medical text-danger"></i>
-<span class="Count" id="lblActiceCases">4567</span>
+<span class="Count" id="lblActiceCases">4621</span>
 <p>Active COVID-19 Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-heartbeat text-danger"></i>
-<span class="Count" id="lblCuredCases">22654</span>
+<span class="Count" id="lblCuredCases">22600</span>
 <p>Cured Cases</p>
 </div>
 </div>
@@ -309,7 +309,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <span id="lblStatsAsPerDate">06 Oct 2020</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">469140</span></strong>
+<span id="lblVisitorNumber">469152</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
