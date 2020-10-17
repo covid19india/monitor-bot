@@ -403,7 +403,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-6">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Individual volunteer</div>
-<div class="card-body">226 </div>
+<div class="card-body">228 </div>
 </div>
 </div>
 <div class="col-md-6">
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 7430769
-                            [recovered] =&gt; 6521904
+                            [total] =&gt; 7430785
+                            [recovered] =&gt; 6521910
                             [deaths] =&gt; 113036
-                            [active] =&gt; 794635
+                            [active] =&gt; 794645
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-10-17T04:54:23.150Z
+    [lastRefreshed] =&gt; 2020-10-17T05:18:24.424Z
     [lastOriginUpdate] =&gt; 2020-10-17T02:30:00.000Z
 )
 
