@@ -318,49 +318,49 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">13532</div>
+<div class="card-body">13582</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">12352</div>
+<div class="card-body">12460</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">206</div>
+<div class="card-body">207</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Total Sampled</div>
-<div class="card-body">93420</div>
+<div class="card-body">94462</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Positive Cases</div>
-<div class="card-body">13532</div>
+<div class="card-body">13582</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Negative Cases</div>
-<div class="card-body">79320</div>
+<div class="card-body">80308</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Rejected Samples</div>
-<div class="card-body">568</div>
+<div class="card-body">572</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Result Awaited</div>
-<div class="card-body">142</div>
+<div class="card-body">121</div>
 </div>
 </div>
 <div class="col-12 pt-10 text-center">* Statistics sourced from Department of Health, Chandigarh</div>
@@ -782,10 +782,10 @@ stdClass Object
                     [0] =&gt; stdClass Object
                         (
                             [source] =&gt; covid19india.org
-                            [total] =&gt; 7434630
-                            [recovered] =&gt; 6524075
-                            [deaths] =&gt; 113062
-                            [active] =&gt; 796299
+                            [total] =&gt; 7442823
+                            [recovered] =&gt; 6533867
+                            [deaths] =&gt; 113165
+                            [active] =&gt; 794597
                         )
 
                 )
@@ -1156,7 +1156,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2020-10-17T12:54:24.010Z
+    [lastRefreshed] =&gt; 2020-10-17T13:18:23.369Z
     [lastOriginUpdate] =&gt; 2020-10-17T02:30:00.000Z
 )
 
