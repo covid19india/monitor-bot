@@ -46,6 +46,21 @@
 @import url("https://health.py.gov.in/sites/all/modules/colorbox/styles/default/colorbox_style.css");
 @import url("https://health.py.gov.in/sites/all/modules/ctools/css/ctools.css");
 @import url("https://health.py.gov.in/sites/all/modules/dynamic_banner/css/banner.css");
+</style>
+<link href="https://health.py.gov.in/sites/all/themes/chh/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"/>
+<style media="all" type="text/css">
+@import url("https://health.py.gov.in/sites/all/modules/tb_megamenu/css/bootstrap.css");
+@import url("https://health.py.gov.in/sites/all/modules/tb_megamenu/css/base.css");
+@import url("https://health.py.gov.in/sites/all/modules/tb_megamenu/css/default.css");
+@import url("https://health.py.gov.in/sites/all/modules/tb_megamenu/css/compatibility.css");
+</style>
+<style media="all" type="text/css">
+<!--/*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+
+/*]]>*/-->
+</style>
+<style media="all" type="text/css">
 @import url("https://health.py.gov.in/sites/all/modules/text_resize/text_resize.css");
 @import url("https://health.py.gov.in/sites/all/modules/views_slideshow/views_slideshow_controls_text.css");
 @import url("https://health.py.gov.in/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css");
@@ -74,6 +89,8 @@
 <script src="https://health.py.gov.in/sites/all/modules/colorbox/js/colorbox.js" type="text/javascript"></script>
 <script src="https://health.py.gov.in/sites/all/modules/colorbox/styles/default/colorbox_style.js" type="text/javascript"></script>
 <script src="https://health.py.gov.in/sites/all/modules/dynamic_banner/js/banner.js" type="text/javascript"></script>
+<script src="https://health.py.gov.in/sites/all/modules/tb_megamenu/js/tb-megamenu-frontend.js" type="text/javascript"></script>
+<script src="https://health.py.gov.in/sites/all/modules/tb_megamenu/js/tb-megamenu-touch.js" type="text/javascript"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 var text_resize_scope = "main";
@@ -98,7 +115,7 @@ var text_resize_scope = "main";
 <script src="https://health.py.gov.in/sites/all/themes/chh/js/jquery.pause.js" type="text/javascript"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"AfItj80gK1fzhfNh3a3Z4ysi8ygIOoTuARN49YD35Lw","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"fYPcmmRuLuejw0XJKIyoiVe9aHH4fGysHEuBMMyky8A","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"https:\/\/health.py.gov.in\/sites\/all\/themes\/chh\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
 //--><!]]>
 </script>
 <!--[if lt IE 9]><script src="/sites/all/themes/chh/js/html5.js"></script><![endif]-->
@@ -499,7 +516,7 @@ $(document).scroll(function() {
 <label class="element-invisible" for="edit-search-block-form--2">Search </label>
 <input class="form-text" id="edit-search-block-form--2" maxlength="128" name="search_block_form" size="15" title="Enter the terms you wish to search for." type="text" value=""/>
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-qDtQZON9czCMUkvYlDadrFl_vPvISIthWZimeVT-a10"/>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-3sFkqxdrky6J5s4nE8drMq50ca0e8mWFP9iTNT9ygkc"/>
 <input name="form_id" type="hidden" value="search_block_form"/>
 </div>
 <!-- END OUTPUT from 'modules/search/search-block-form.tpl.php' -->
@@ -519,7 +536,1140 @@ $(document).scroll(function() {
 <div class="container">
 <div class="col-sm-12">
 <div id="cssmenu">
-<div id="topNav"></div>
+<div id="topNav">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--header.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/chh/templates/region.tpl.php' -->
+<div class="region region-header">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('block') -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--tb-megamenu--main-menu.tpl.php
+   * block--tb-megamenu.tpl.php
+   * block--header.tpl.php
+   x block.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
+<div class="block block-tb-megamenu" id="block-tb-megamenu-main-menu">
+<div class="content">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu.tpl.php' -->
+<div class="tb-megamenu tb-megamenu-main-menu animate slide" data-delay="200" data-duration="400" id="tb-megamenu-main-menu">
+<button class="btn btn-navbar tb-megamenu-button" data-target=".nav-collapse" data-toggle="collapse" type="button">
+     .<img alt="menu" src="https://health.py.gov.in/sites/all/themes/chh/images/menu.png"/>
+</button>
+<div class="nav-collapse always-show">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_nav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-nav.tpl.php' -->
+<ul class="tb-megamenu-nav nav level-0 items-13">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega active active-trail" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="736" data-level="1" data-type="menu_item" data-xicon="">
+<a href="/" title="Home">
+        
+    Home          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown active active-trail" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4085" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    NEW          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-3">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-3">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4160" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/bulletins">
+        
+    Bulletins          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4095" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    Transfer &amp; Postings          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-1">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-9">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4143" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/transfer-policy-health-department-circular">
+        
+    Transfer Policy for Health Department-Circular          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4136" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/plumber">
+        
+    Transfer &amp; Posting of Plumber          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4164" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/transfer-posting-health-assistant-0">
+        
+    Transfer &amp; Posting of Health  Assistant          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4137" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/dieticians">
+        
+    Transfer &amp; Posting of Dieticians          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4139" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/radiographers">
+        
+    Radiographers          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4140" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/ophthalmic-technician">
+        
+    Ophthalmic Technician          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4142" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/medical-officer">
+        
+    Medical Officer          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4138" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/health-inspectors">
+        
+    Health Inspectors          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4141" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/sr-lab-technicians">
+        
+    Sr Lab Technicians          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4108" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    Seniority List          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-2">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-6">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4156" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/final-seniority-slt">
+        
+    Final Seniority of SLT          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4144" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/final-seniority-list-nursing-officer">
+        
+    Final Seniority list of Nursing Officer          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4145" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/final-seniority-list-health-assistant">
+        
+    Final Seniority list of Health Assistant          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4146" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/final-seniority-list-dark-rook-assistant">
+        
+    Final Seniority list of Dark Rook Assistant          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4162" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/final-seniority-anmmaterity-assistant">
+        
+    Final Seniority ANM/Materity Assistant          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4148" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/tentative-seniority-list-slt">
+        
+    Tentative Seniority list of SLT          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown active active-trail" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3940" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    COVID-19          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-7">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-9">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4125" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/purchases-made-so-far-management-covid-19">
+        
+    Purchases-COVID-19          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3947" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    SOP          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-4">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-5">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4074" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/soponpreventive-measures-be-followed-while-conducting-examinations-contain-spread-covid19.pdf">
+        
+    SOPonpreventive measures to be followed while conducting examinations to contain spread of COVID19          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4079" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/final-sop-partial-resumption-activities-schools.pdf">
+        
+    SOP for partial reopening of Schools for students of 9 th to 12th classes           </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4082" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/revised-sop-preventive-measures-be-followed-while-conducting-examinations-contain-spread-ofcovid19.pdf">
+        
+    Revised SOP on preventive measures to be followed while conducting examinations to contain spread ofCOVID19          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4078" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/final-sop-skil-linstitutions-pg-institutes.pdf">
+        
+    Final SOP on Skil linstitutions &amp; PG institutes           </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3960" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/closing-office-sop.pdf">
+        
+    Closing of Office Premises on Covid Positive Cases          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4155" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/bulletin-21-10-2020-1000am">
+        
+    BULLETIN 21-10-2020 @ 10.00am          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4149" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/iggghpgi-20-10-2020-0">
+        
+    IGGGH&amp;PGI 20-10-2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4126" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/rggwch-19-10-2020">
+        
+    RGGW&amp;CH 19-10-2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4151" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/bulletin-20-10-2020-1200-noon-0">
+        
+    BULLETIN 20-10-2020 @ 12.00 NOON          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4127" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/09-10-2020-1200-noon">
+        
+    BULLETIN 09-10-2020 @ 12.00 NOON          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3946" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    Protocol          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-5">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4134" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/sop-preventive-measures-contain-spread-ofcovid19-during-festivities">
+        
+    SOP-on preventive measures to contain spread ofCOVID19 during festivities          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4147" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/sop-partial-reopening-schools-students-9-th-12th-classes">
+        
+    SOP for partial reopening of Schools for students of 9 th to 12th classes          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4093" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/post-covid-management-protocol.pdf">
+        
+    Post COVID Management Protocol          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3955" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/Clinical%20Management%20Protocol%20for%20COVID19%20.pdf">
+        
+    CLINICAL MANAGEMENT PROTOCOL          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3948" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="#">
+        
+    Guidelines          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-6">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3957" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/revised-guidelines-enforcement-extended-lock-down-measures-31.05.2020.pdf">
+        
+    Revised Guidelines for Enforcement of Extended Lock Down Measures on 31.05.2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4163" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/mgt-co-infection-covid-19-other-seasonal-epidemic-prone-diseases">
+        
+    Guidelines for management of co-infection of COVID-19 with other seasonal epidemic prone diseases          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4153" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/clinicalguidanceondiabetesmanagementatcovid19patientmanagementfacility.pdf">
+        
+    Clinical Guidance on Diabetes Mgt          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3956" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/dhfws-guidelines-home-isolation-very-mild-pre-symptomatic-asymptomatic-covid-19-cases-reg..pdf">
+        
+    Home Isolation of very mild/pre-symptomatic/asymptomatic Covid-19          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3433" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/about-us" title="About Us">
+        
+    About Us          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-8">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-7">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="990" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/acts-rules" title="Acts &amp; Rules">
+        
+    Acts &amp; Rules          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="1669" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/organization-chart" title="Organization Chart">
+        
+    Organization Chart          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="993" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/programmes-schemes" title="Programmes &amp; Schemes">
+        
+    Programmes &amp; Schemes          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="999" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/whos-who" title="Who's who">
+        
+    Who's who          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3845" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/administration" title="Administration">
+        
+    Administration          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3854" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/statistics">
+        
+    Statistics          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3864" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/vision-2020" title="Vision 2020">
+        
+    Vision 2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="2760" data-level="1" data-type="menu_item" data-xicon="">
+<a href="/services" title="Services">
+        
+    Services          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3858" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/statistics-glance" title="Statistics">
+        
+    Statistics          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-9">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-1">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3860" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/hospital-statistics" title="Hospital Statistics">
+        
+    Hospital Statistics          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3846" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/budget" title="Budget">
+        
+    Budget          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-10">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-1">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4128" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/expenditure-upto-september-2020">
+        
+    Expenditure upto September 2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3847" data-level="1" data-type="menu_item" data-xicon="">
+<a href="/photo-gallery" title="Photo Gallery">
+        
+    Photo Gallery          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="2940" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/notice-board" title="Notice Board">
+        
+    Notice Board          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-13">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-8">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4083" data-level="2" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/transfer-medical-officer.pdf">
+        
+    Transfer &amp; Postings          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3952" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/">
+        
+    BIO MEDICAL WASTE          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-11">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-4">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3959" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/bmwjuly20.pdf">
+        
+    RGGW&amp;CH-July 2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4097" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/scan0915.pdf">
+        
+    RGGW&amp;CH-August 2020          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3951" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/rggwchbiomedicalannualreport.pdf">
+        
+    RGGW&amp;CH Annual Report 2018          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3953" data-level="3" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/bmw-annual-report_1.pdf">
+        
+    Biomedical waste annual report of RGGWCH - 2019          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3255" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/news" title="News">
+        
+    News          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="2944" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/tenders" title="Tenders">
+        
+    Tenders          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega dropdown-submenu" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3250" data-level="2" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/recruitments" title="Recruitment">
+        
+    Recruitment          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-12">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-2 items-2">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3850" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/posts-strength-vacancy" title="Posts, Strength &amp; Vacancy">
+        
+    Posts, Strength &amp; Vacancy          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3849" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/recruitment-results" title="Recruitment Results">
+        
+    Recruitment Results          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3407" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/notifications" title="Notifications">
+        
+    Notifications          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3848" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/circulars" title="Orders and Circulars">
+        
+    Orders and Circulars          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3851" data-level="2" data-type="menu_item" data-xicon="">
+<a href="/press-release" title="Press Release">
+        
+    Press Release          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3404" data-level="1" data-type="menu_item" data-xicon="">
+<a href="/right-to-information-act" title="Right To Information">
+        
+    RTI          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega dropdown" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="3861" data-level="1" data-type="menu_item" data-xicon="">
+<a class="dropdown-toggle" href="/frequently-asked-questions-faq" title="Frequently Asked Questions (FAQ)">
+        
+    FAQ          <span class="caret"></span>
+</a>
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_submenu') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+<div class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child" data-class="" data-width="">
+<div class="mega-dropdown-inner">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_row') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+<div class="tb-megamenu-row row-fluid">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_column') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+<div class="tb-megamenu-column span12 mega-col-nav" data-class="" data-hidewcol="0" data-width="12" id="tb-megamenu-column-14">
+<div class="tb-megamenu-column-inner mega-inner clearfix">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_subnav') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+<ul class="tb-megamenu-subnav mega-nav level-1 items-1">
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-2 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4065" data-level="2" data-type="menu_item" data-xicon="">
+<a href="https://health.py.gov.in/sites/default/files/scan0877.pdf">
+        
+    FAQs on COVID-19 from AIIMS e-ICUs          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-column.tpl.php' -->
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-row.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-submenu.tpl.php' -->
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-1 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="735" data-level="1" data-type="menu_item" data-xicon="">
+<a href="/contact-us" title="Contact Us">
+        
+    Contact Us          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+</ul>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-nav.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu.tpl.php' -->
+</div>
+</div>
+<!-- END OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
+</div>
+<!-- /.region -->
+<!-- END OUTPUT from 'sites/all/themes/chh/templates/region.tpl.php' -->
+</div>
 </div>
 </div>
 </div>
@@ -550,7 +1700,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-3a42b24430ed6ac09beeec3e77d8e099">
+<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-fd387436dfafda5a9a1e25efb4fd4e65">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -600,8 +1750,8 @@ $(document).scroll(function() {
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 <span class="views-field views-field-field-slideshowimage"> <span class="field-content"><span class="slideshow-text-wrapper" tabindex="0">
-<img alt="image of Rajiv Gandhi Government Women and Children Hospital" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b1.jpg" title="Rajiv Gandhi Government Women and Children Hospital" typeof="foaf:Image" width="1536"/>
-</span></span> </span>
+<img alt="image of Rajiv Gandhi Government Women and Children Hospital" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b1.jpg" title="Rajiv Gandhi Government Women and Children Hospital" typeof="foaf:Image" width="1536">
+</img></span></span> </span>
 <div class="views-field views-field-field-image-caption"> <div class="field-content"></div> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
@@ -707,7 +1857,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-6b57fc7076929c7bc68282437cbeb433">
+<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-5d8ab48fe53b44584d80c495d686b423">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -916,7 +2066,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-7e769e3e8c741e3f5f8af2f1f3d10703">
+<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-6ff38c476dd17c89769cfe76972de990">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1342,7 +2492,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-be72898db64d5fd40bc7298cd8bb640a">
+<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-dbd5a378e6802f821d43755709e39450">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1407,7 +2557,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-4f26ae249a0483893fae442cb5d1e4e5">
+<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-e5e14fcf4bf5672881f24c12d3170830">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1568,7 +2718,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-government view-id-government view-display-id-block view-dom-id-d64b599aba0a3e2ca70194a4732f66c5">
+<div class="view view-government view-id-government view-display-id-block view-dom-id-b1ebf7a9bbde330b3c55dd55ce24b61a">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1646,7 +2796,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-documents view-id-documents view-display-id-block view-dom-id-a118f2b09ab3312c6c7b3edb327cf651">
+<div class="view view-documents view-id-documents view-display-id-block view-dom-id-97ba96d70f1b7d1c451a03abdb019ad6">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1717,7 +2867,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-b4d833a1fd56718f5bf2ba66fdcd2a52">
+<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-adae4f4aead04cc44f69f3ff94658d87">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1788,7 +2938,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-36e473095ef2ba026f5ac54e02935510">
+<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-e0ba4e2302ccbaaba38c3c59d0f64709">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -1873,7 +3023,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-f13dfe84fee47c32d3d2e6a84b6a80fc">
+<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-3fca05f003bf2b70aebaca69f28a8f9c">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -2129,7 +3279,7 @@ Page last updated date : 21-Oct-2020 11:34 am</div>
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-8753a45a6ae3dab08ca0769208dea914">
+<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-bb3d1dcd7f54c345d82c72934b530a29">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2162,7 +3312,7 @@ For any query regarding this website, please contact the Web Information Manager
 <!-- BEGIN OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
 <div class="block block-visitors" id="block-visitors-0">
 <div class="content">
-<div class="item-list"><ul><li class="first last">Site Visitors: 15052</li>
+<div class="item-list"><ul><li class="first last">Site Visitors: 15057</li>
 </ul></div> </div>
 </div>
 <!-- END OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
