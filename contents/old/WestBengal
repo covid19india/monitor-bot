@@ -1,0 +1,1637 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<title>Welcome to WB HEALTH Portal</title>
+<meta content="" name="description"/>
+<!--<meta name="description" content="" />-->
+<meta content="" name="keywords"/>
+<!--<meta name="keywords" content="" />-->
+<link href="https://www.wbhealth.gov.in/images/favicon.ico" rel="icon" type="image/ico"/>
+<link href="https://www.wbhealth.gov.in/css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="https://www.wbhealth.gov.in/css/common_css.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="https://www.wbhealth.gov.in/css/jquery.tabs.css" media="print, projection, screen" rel="stylesheet" type="text/css"/>
+<!-- Add jQuery library -->
+<script src="https://www.wbhealth.gov.in/fancy_source/jquery-3.4.1.min.js" type="text/javascript"></script>
+<!-- <script type="text/javascript" src=""></script> -->
+<script type="text/javascript">
+var offset = Math.round(new Date().getTime() / 1000);
+tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+function GetClock(){
+var d=new Date();
+var dx=d.toGMTString();
+dx=dx.substr(0,dx.length -3);
+d.setTime(Date.parse(dx))
+d.setSeconds(d.getSeconds() + 19800);
+
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+" "+nhour+":"+nmin+":"+nsec+ap+"";
+}
+
+$(function() {
+GetClock();
+setInterval(GetClock,1000);
+});
+</script>
+</head>
+<body bgproperties="fixed">
+<div id="farouter">
+<div id="outer">
+<div id="rap">
+<div id="header">
+<img alt="" src="https://www.wbhealth.gov.in/images/headerbanner.png" title="Health Portal"/>
+</div>
+</div>
+</div>
+</div>
+<div id="hmenu">
+<div id="farouter">
+<div id="hnav">
+<ul id="navlist">
+<li id="clockbox" style="color: #fff;font-weight: bold;">Oct 24, 2020</li>    |
+														<li><a href="https://mail.wbhealth.gov.in">CHECK MAIL</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/contents/right_to_information">RTI</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/pages/gallery">Gallery</a></li> |
+							<!--<li><a href="https://www.wbhealth.gov.in/pages/search_hospitals">Search Hospitals</a></li>&nbsp;|
+							<li><a href="http://www.wbhealth.gov.in/site_search.asp">SITE SEARCH</a></li>&nbsp;|
+							<li><a href="#">CAREERS</a></li>&nbsp;|-->
+<li><a href="https://www.wbhealth.gov.in/contents/contactus">CONTACT US</a></li> |
+							<li><a href="javascript:;">SITEMAP</a></li> |
+														<li><a href="https://www.wbhealth.gov.in/member/login">LOGIN</a>  </li>
+</ul>
+</div>
+</div>
+</div>
+<div id="farouter">
+<div id="outer">
+<div id="rap">
+<link href="https://www.wbhealth.gov.in/bootstrap-admin/plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css"/>
+<script src="https://www.wbhealth.gov.in/bootstrap-admin/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+	      $('.alert-error').delay(6000).fadeOut();
+	      //$('#go_fromdate, #go_todate').datepicker({dateFormat:'yy-mm-dd',changeMonth: true,
+      //changeYear: true});
+	});
+</script>
+<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tr>
+<td style="padding-left:4px;" valign="top" width="200">
+<div class="sidebarmenu" style="border: 1px solid #eee; background-color:#D2E6F5; text-align:left;">
+</div>
+<br/>
+<script type="text/javascript">
+
+	//Nested Side Bar Menu (Mar 20th, 09)
+	
+	var menuids=["sidebarmenu1"] //Enter id(s) of each Side Bar Menu's main UL, separated by commas
+
+	function initsidebarmenu()
+	{
+		for (var i=0; i<menuids.length; i++)
+		{
+  			var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    		for (var t=0; t<ultags.length; t++)
+			{
+    			ultags[t].parentNode.getElementsByTagName("a")[0].className+=" subfolderstyle"
+  				if (ultags[t].parentNode.parentNode.id==menuids[i]) //if this is a first level submenu
+   					ultags[t].style.left=ultags[t].parentNode.offsetWidth+"px" //dynamically position first level submenus to be width of main menu item
+ 		 		else //else if this is a sub level submenu (ul)
+    				ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px"//position menu to the right of menu item that activated it
+    			ultags[t].parentNode.onmouseover=function()
+				{
+    				this.getElementsByTagName("ul")[0].style.display="block"
+    			}
+    			ultags[t].parentNode.onmouseout=function()
+				{
+    				this.getElementsByTagName("ul")[0].style.display="none"
+    			}
+    		}
+  			for (var t=ultags.length-1; t>-1; t--)
+			{ 
+				//loop through all sub menus again, and use "display:none" to hide menus (to prevent possible page scrollbars
+  				ultags[t].style.visibility="visible"
+  				ultags[t].style.display="none"
+  			}
+  		}
+	}
+
+	if (window.addEventListener)
+		window.addEventListener("load", initsidebarmenu, false)
+	else if (window.attachEvent)
+		window.attachEvent("onload", initsidebarmenu)
+
+</script>
+<div class="sidebarmenu" style="border: 1px solid #eee; width:190px;">
+<ul id="sidebarmenu1">
+<li>
+<a href="https://www.wbhealth.gov.in/">
+<img src="https://www.wbhealth.gov.in/images/m1.png" style="border:none;"/> 
+    		    		Home</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/contents/aboutus">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		About us</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/contents/vision_and_mission">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Our Vision &amp; Mission</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/contents/governance">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Governance</a>
+</li>
+<li>
+<a href="javascript:;">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Health Statistics</a>
+<ul>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Directory_Medical_Inst.pdf">Directory of Medical Institutions of WB</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Health on the March, 2015-2016.pdf">Health on The March 2015-2016</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Health On the March 2015.pdf">Health on The March 2014-2015</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Health On the March 2014.pdf">Health on The March 2013-2014</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Health on March Book 2013.pdf">Health on The March 2012-2013</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Health on March Book 2012.pdf">Health on The March 2011-2012</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/Hospitals.pdf">Hospital</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/RH.pdf">Rural Hospital</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/BPHC.pdf">BPHC</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/other_files/PHC.pdf">PHC</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/health_sector_reforms">Health Sector Reforms</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="javascript:;">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Medical Institutions</a>
+<ul>
+<li>
+<a href="javascript:;">Medical Colleges &amp; Hospitals</a>
+<ul>
+<li><a href="https://www.wbhealth.gov.in/contents/sskm_medical_college">SSKM Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/kolkata_medical_college">Kolkata Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/NRS_medical_college">N.R.S. Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/calcutta_national_medical_college">National Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/RGKar_medical_college">R.G.Kar Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/midnapore_medical_college">Midnapur Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/burdwan_medical_college">Burdwan Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/bankura_medical_college">Bankura Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/northbengal_medical_college">North Bengal Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/sagar_dutta">College of Medicine &amp; Sagar Dutta Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/malda_medical_college">Malda Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/Murshidabad_medical_college">Murshidabad Medical College &amp; Hospital</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:;">Homoeopathic Medical College &amp; Hospital</a>
+<ul>
+<li><a href="https://www.wbhealth.gov.in/contents/calcutta_homoeopathic">The Calcutta Homoeopathic Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/dnde_homoeopathic">D.N. De Homoeopathic Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/mahesh_homoeopathic">Mahesh Bhattacharyya Homoeopathic Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/midnapore_homoeopathic">Midnapore Homoeopathic Medical College &amp; Hospital</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:;">Ayurvedic Colleges &amp; Hospitals</a>
+<ul>
+<li><a href="https://www.wbhealth.gov.in/contents/ipgaer_college">Institue of Post Graduate Ayurvedic Education &amp; Research</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/jbroy_college">J.B.Roy State Ayurvedic Medical College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/vamh_college">Viswanath Ayurvedic Mahavidyalaya &amp; Hospital</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:;">Dental Colleges &amp; Hospitals</a>
+<ul>
+<li><a href="https://www.wbhealth.gov.in/contents/rahmed_college">Dr. R Ahmed Dental College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/NBden_college">North Bengal Dental College &amp; Hospital</a></li>
+<li><a href="https://www.wbhealth.gov.in/contents/BWNden_college">Burdwan Dental College &amp; Hospital</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:;">Other Govt. Hospitals</a>
+<ul>
+<li><a href="https://www.wbhealth.gov.in/vidyasagarsgh">Vidyasagar SG Hospital</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/blood_bank">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Blood Bank</a>
+</li>
+<li>
+<a href="javascript:;">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Downloads</a>
+<ul>
+<li>
+<a href=" https://www.wbhealth.gov.in/uploaded_files/other_files/E_Office_Employee_ID_Creation_and_Transfer_Request.pdf">E-Office User Id and Transfer request Form (Submit to IT Cell E-mail)</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/uploaded_files/other_files/GeM_Portal_User_Id_Creation_Request_Form.pdf">GeM User Id Creation Form (Submit to IT Cell E-mail)</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/Central_Medical_Store">Central Medical Store</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/forms_download">Forms</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/asha_list">ASHA List</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/acts_rules">Acts/Rules</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/wb_cerules">Draft West Bengal CE Rules, 2012</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/common_service_center">Common Service Center</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/health_scheme">W.B. Health Scheme 2008</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/annual_administrative_report_dept">Annual Administrative Reports - H &amp; FW Deptt.</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/annual_administrative_report_inst">Annual Administrative Reports - Institutes</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/important_letter">Imp. letter Prmpl/MSVP/CMOH/BMOH</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/security_order">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Hospital Security Orders</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/gov_order">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Government Order</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/notice">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Notice</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/tender">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Tenders</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/archive">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Archive</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/career">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Recruitment</a>
+</li>
+<li>
+<a href="javascript:;">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Work Zone</a>
+<ul>
+<li>
+<a href="http://40.81.75.47:8003/">COVID Patient Management System</a>
+</li>
+<li>
+<a href="http://40.81.75.47:3005/">SARI Portal</a>
+</li>
+<li>
+<a href="http://40.81.75.47:3070/">Daily Census Report</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/gallery">Gallery</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/search_hospitals">Search Hospital</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/aav">AA&amp;V</a>
+</li>
+<li>
+<a href="http://dor.wbhealth.gov.in:8083/">Dengue Observers Report</a>
+</li>
+<li>
+<a href="http://posting.wbhealth.gov.in:8087/"> BMOH Joining</a>
+</li>
+<li>
+<a href="http://gs.wbhealth.gov.in:8099/">CMRO Correspondence</a>
+</li>
+<li>
+<a href="http://fbnc.wbhealth.gov.in:6002/">FBNC Management</a>
+</li>
+<li>
+<a href="http://mospl.wbhealth.gov.in:8089/">MO Specialist Joining</a>
+</li>
+<li>
+<a href="http://gdmo.wbhealth.gov.in:8022/">GDMO Joining</a>
+</li>
+<li>
+<a href="http://sr.wbhealth.gov.in:8046/">SR Under Indemnity Bond Joining</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/contents/right_to_information">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Right to Information</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/links">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Links</a>
+</li>
+</ul>
+</div>
+<br clear="all"/>
+<div class="sidebarmenu" style="border: 1px solid #eee; width:189px; background-color:#EEEEEE; float:left; text-align:left;">
+<div id="online" style="background-color: #000; color: #fff;padding: 10px 3px 10px 10px;"><strong>E-GOVERNANCE : </strong><span id="txtHint"></span></div>
+<div id="online" style="max-height:370px;overflow:auto;">
+<li><a class="arrow" href="http://exchange.wbhealth.gov.in:8032">EXCHANGE</a></li>
+<li><a class="arrow" href=" http://pcpndt.silpasathi.in/aspx/signin.aspx">Online PCPNDT License</a></li>
+<li><a class="arrow" href=" http://bloodbank.silpasathi.in/aspx/signin.aspx">Online Blood Bank License</a></li>
+<li><a class="arrow" href="https://drswb.wbhealth.gov.in/">Store Management Information System</a></li>
+<li><a class="arrow" href="javascript:;">Hospital Management Information System</a></li>
+<li><a class="arrow" href="http://rotto.wbhealth.gov.in:6001">Organ Transplant Registration</a></li>
+<li><a class="arrow" href="http://40.81.75.47:8002/">Dengue Surveillance System</a></li>
+<li><a class="arrow" href="http://application.wbhealth.gov.in/Requisition/">Health Infrastructure Plan Monitoring System</a></li>
+<li><a class="arrow" href="http://onlinehmis.wbhealth.gov.in">OPD Ticket Booking</a></li>
+<li><a class="arrow" href="http://ccu.wbhealth.gov.in:8001">CCU</a></li>
+<li><a class="arrow" href="javascript:;">Transport Management System</a></li>
+<li><a class="arrow" href="https://drswb.wbhealth.gov.in/vendorportal/vendorlogin.aspx">Vendor Portal</a></li>
+<li><a class="arrow" href="http://sms.wbhealth.gov.in/">Scheme Monitoring System</a></li>
+<li><a class="arrow" href="http://rbsk.wbhealth.gov.in:8083/ ">RBSK</a></li>
+<li><a class="arrow" href="http://125.22.76.14:2026/">Pharmacy Admission 2019</a></li>
+<li><a class="arrow" href="http://nts.wbhealth.gov.in:9659/">Application For Nursing Training Institutes</a></li>
+<li><a class="arrow" href="http://fps.wbhealth.gov.in/">Fair Price System</a></li>
+<li><a class="arrow" href="http://hr.wbhealth.gov.in:8888">Online Recruitment</a></li>
+<li><a class="arrow" href="https://ce.wbhealth.gov.in/WBDHFW/">Clinical Establishment</a></li>
+<li><a class="arrow" href="http://frnvst.wbhealth.gov.in:89/ ">Apply for Foreign Visit (WBHS/WBMES/WBNS)</a></li>
+<li><a class="arrow" href="https://evesoj.wbhealth.gov.in/WBDL">E Vesoj (Drug License)</a></li>
+<li><a class="arrow" href="http://application.wbhealth.gov.in:8383/ ">MCCD</a></li>
+<li><a class="arrow" href="http://164.164.119.162:8090/">USG Clinic Information</a></li>
+<li><a class="arrow" href="http://application.wbhealth.gov.in:8282/">Know Your Faculty WBMES</a></li>
+<li><a class="arrow" href="https://202.61.117.98/IndexSAM.aspx">SAM Children</a></li>
+<li><a class="arrow" href="http://egiyebangla.online">Egiye Banglar Ma o Sishu</a></li>
+<li><a class="arrow" href="https://www.wbhealth.gov.in/JeevanShaktiOnline.html">Jeevan Shakti Online</a></li>
+<li><a class="arrow" href="http://www.wbnrhm.in">GIS based Informaion</a></li>
+<li><a class="arrow" href="http://14.139.216.50">HRMIS</a></li>
+<li><a class="arrow" href="https://ccm.wbhealth.gov.in/">Court Case Monitoring</a></li>
+<li><a class="arrow" href="http://pgms.wbhealth.gov.in">PGMS (Public Grievance Monitoring System)</a></li>
+<li><a class="arrow" href="http://nursetrns.wbhealth.gov.in:8006/">Nursing Services</a></li>
+<li><a class="arrow" href="http://skms.wbhealth.gov.in:8010/">Suswasthya Management System</a></li>
+<li><a class="arrow" href="http://kyd.wbhealth.gov.in:8181/">Know Your Doctor</a></li>
+<li><a class="arrow" href="https://ce.wbhealth.gov.in/kpi">Key Performance Indicator (KPI)</a></li>
+<li><a class="arrow" href="http://mdsr.wbhealth.gov.in:6006/">Maternal Death Surveillance &amp; Response </a></li>
+<li><a class="arrow" href="http://vvd.wbhealth.gov.in:8080/">Vector Borne Disease Monitoring System</a></li>
+<li><a class="arrow" href="http://kyas.wbhealth.gov.in:8182/">Know Your Officer (Non Medical)</a></li>
+</div>
+</div>
+<br clear="all"/>
+<!--<div align="center" class="sidebarmenu" style="border: 1px solid #0066CC; width:189px; background-color:#EEEEEE;">
+							</div>-->
+</td>
+<td align="left" style="padding:0 0 0 0;" valign="top" width="800">
+<div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" rowspan="4" style="padding-left:12px;padding-right: 8px;" valign="top">
+<div style="width:485px;">
+<style>
+.middle_content	table {
+  border-collapse: collapse;
+}
+.middle_content table td,.middle_content table th {
+  /*border: 1px solid #474747;*/
+}
+.middle_content table tr:first-child th {
+  border-top: 0;
+}
+.middle_content table tr:first-child td {
+  border-top: 0;
+}
+.middle_content table tr:last-child td {
+  border-bottom: 0;
+}
+.middle_content table tr td:first-child,
+.middle_content table tr th:first-child {
+  border-left: 0;
+}
+.middle_content table tr td:last-child,
+.middle_content table tr th:last-child {
+  border-right: 0;
+}
+.ui-datepicker-calendar thead tr th {
+	font-size: 90% !important;
+	text-transform: none;
+	height: auto;
+}
+.ui-datepicker td .ui-state-default {
+	padding: 5px;
+}
+</style>
+<div class="m_content_line">
+<div class="middle_content">
+<h1 style="padding: 0;text-align: left;">
+<img src="https://www.wbhealth.gov.in/images/doc_sign.gif"/>Corona Bulletin                    </h1>
+<div>
+<br/>
+<form accept-charset="utf-8" action="https://www.wbhealth.gov.in/pages/corona/bulletin" method="post"> <table width="100%">
+<tr>
+<td align="right">Title:</td>
+<td style="width:170px;"><input autocomplete="off" id="coro_title" name="coro_title" required="" value=""/><br/>
+<small class="text-error" style="color: red;"></small></td>
+<td align="left"><input id="secnumber" name="secnumber" type="hidden" value="bulletin"/>
+<input id="submit" name="submit" type="submit" value="Search"/></td>
+</tr>
+</table>
+</form> </div>
+<div style="overflow: auto;max-height: 1200px;">
+<br/><br/>
+<table style="table-layout: fixed;" width="100%">
+<tr align="center" bgcolor="#006699" style="color: #FFF;">
+<td width="70%">Title</td>
+<td width="30%">Date</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 24th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 23rd October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 22nd October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 21st October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 14th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 13th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_OCTOBER_REPORT_FINAL1.pdf" target="_blank">2019 nCoV bulletin as on 10th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_9th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_8th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 8th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_7th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_6th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 6th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_5th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_4th_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 4th October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_3rd_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 3rd October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_2nd_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 2nd October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_1st_OCTOBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 1st October, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/10/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 30th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 29th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 28th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 27th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_26th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 26th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_25th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 25th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 24th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 23rd September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 22nd September 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_SEPTEMBER_REPORT_FINAL1.pdf" target="_blank">2019 nCoV bulletin as on 21st September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 14th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 13th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 10th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_9th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_8th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 8th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_7th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_6th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 6th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_5th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_4th_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 4th September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_3rd_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 3rd September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_2nd_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 2nd September,2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_1st_SEPTEMBER_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 1st September, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/09/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 31st August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">31/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 30th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 29th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_AUGUST_REPORT_FINAL(1).pdf" target="_blank">2019 nCoV bulletin as on 28th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 27th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_26th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 26th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_25th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 25th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 24th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_AUGUST_REPORT_DRAFT.pdf" target="_blank">2019 nCoV bulletin as on 23rd August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 22nd August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 21st August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_AUGUST_REPORT_FINAL(1).pdf" target="_blank">2019 nCoV bulletin as on 14th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_AUGUST_REPORT_DRAFT.pdf" target="_blank">2019 nCoV bulletin as on 13th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 10th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_09th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th August, 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_08th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 8th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_07th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_06th_AUGUST_REPORT_FINAL_.pdf" target="_blank">2019 nCoV bulletin as on 6th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_05th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_04th_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on  4th August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_03rd_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 3rd August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_02nd_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 2nd August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_01st_AUGUST_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 1st August 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/08/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 31st July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">31/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 30th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_JULY_REPORT_FINAL(1).pdf" target="_blank">2019 nCoV bulletin as on 29th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 28th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 27thJuly 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_26th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 26th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_25th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 25th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_JULY_REPORT_FINAL_REVISED.pdf" target="_blank">2019 nCoV bulletin as on 24th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 23rd July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 22nd July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 21st July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 14th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 13th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 10th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_9th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_8th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 8th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_7th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_6th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 6th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_5th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_4th_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 4th July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_3rd_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 3rd July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_2nd_JULY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 2nd July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_1st_JULY_REPORT_FINAL_REVISED.pdf" target="_blank">2019 nCoV bulletin as on 1st July 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/07/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 30th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 29th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 28th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 27th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_26th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 26th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_25th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 25th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 24th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 23rd June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_JUNE_REPORT_FINAL1.pdf" target="_blank">2019 nCoV bulletin as on 22nd June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_JUNE_REPORT_FINAL2.pdf" target="_blank">2019 nCoV bulletin as on 21st June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 14th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 13th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 10th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_9th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_8thJune_REVISED.pdf" target="_blank">2019 nCoV bulletin as on 8th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_7th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_6th_JUNE_REPORT_FINAL1.pdf" target="_blank">2019 nCoV bulletin as on 6th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_5th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_4th_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 4th June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_3rd_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 3rd June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_2nd_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 2nd June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_1st_JUNE_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 1st June 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/06/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 31st May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">31/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 30th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 29th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_MAY_REPORT_DRAFT.pdf" target="_blank">2019 nCoV bulletin as on 28th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 27th May 2020 </a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_26th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 26th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_25th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 25th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_24th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 24th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_23rd_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 23rd May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_22nd_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 22nd May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_21st_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 21st May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_20th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 20th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_19th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 19th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_18th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 18th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 17th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 16th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_15th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 15th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_14th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 14th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_13th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 13th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_12th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 12th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 11th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_10th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 10th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_9th_MAY_REPORT_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 9th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_8th_MAY_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 8th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_7TH_MAY_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 7th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_6TH_MAY_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 6th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_5TH_MAY_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 5th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_4TH_MAY_FINAL.pdf" target="_blank">2019 nCoV bulletin as on 4th May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_03.05_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 3rd May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_02.05_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 2nd May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_01.05_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 1st May 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/05/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_30.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 30th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_29.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 29th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_28.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 28th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_27.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 27th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_26.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 26th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_25.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 25th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_24.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 24th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_23.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 23rd April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_22.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 22nd April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_21.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 21st April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_20.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 20th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_19.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 19th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_18.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 18th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 17th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_16.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 16th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_15.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 15th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_14.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 14th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_13.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 13th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_12.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 12th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_11.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 11th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_10.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 10th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_09.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 9th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_08.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 8th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_07.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 7th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_06.04_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 6th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_04.04_.pdf" target="_blank">2019 nCoV bulletin as on 4th April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_01.04_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 1st April 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/04/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Corrigendum_Bulletin_Covid-19_31.03_.2020(1)_.pdf" target="_blank">Corrigendum to nCov bulletin dated 31 st March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">31/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/bul31-01042020173506.pdf" target="_blank"> 2019 nCoV bulletin as on 31 st March  2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">31/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_30.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 30th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">30/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_29.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 29th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_28.03_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 28th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_27.03_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 27th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_26.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 26th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_25.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 25th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/33445566-converted_(1)1.pdf" target="_blank">2019 nCoV bulletin as on 24th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_23.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 23rd March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_22.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 22nd March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_21.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 21st March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_20.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 20th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Notice_Bulletin_.pdf" target="_blank">Notice bulletin</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_18.03_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 18th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.03_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 17th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_16.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 16th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_15.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 15th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_14.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 14th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_13.03_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 13th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_12.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 12th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_11.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 11th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_10.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on  10th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_09.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 9th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">09/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_08.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 8th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_07.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 7th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_06.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 6th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_05.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 5th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_04.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 4th March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">04/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_03.03_.2020_1.pdf" target="_blank">2019 nCoV bulletin as on 3rd March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_03.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 3rd March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">03/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_02.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on  2nd March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">02/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_01.03_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 1st March 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">01/03/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_29.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 29th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_28.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 28th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">29/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_28.02_.2020_1.pdf" target="_blank">2019 nCoV bulletin as on 28h Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">28/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_27.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 27th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">27/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_26.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 26th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">26/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_25.02_.2020_(1)_.pdf" target="_blank">2019 nCoV bulletin as on 25th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">25/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_24.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 24th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">24/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_23.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 23rd Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">23/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_22.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 22nd Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">22/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_21.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 21st Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">21/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_20.02_.pdf" target="_blank">2019 nCoV bulletin as on 20th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">20/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_19.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 19th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">19/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_18.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 18th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">18/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_17.02_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 17th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">17/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_16.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 16th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">16/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_15.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 15th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">15/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_14.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 14th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">14/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/ncov13.pdf" target="_blank">2019 nCoV bulletin as on 13th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">13/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_12.02_.2020-1_.pdf" target="_blank">2019 nCoV bulletin as on 12th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">12/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_11.02_.2020__.pdf" target="_blank">2019 nCoV bulletin as on 11th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">11/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_10.02_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 10th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">10/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_08.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 8th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">08/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_07.02_.2020(1)_.pdf" target="_blank">2019 nCoV bulletin as on 7th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">07/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_06.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 6th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">06/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Bulletin_West_Bengal_05.02_.2020_.pdf" target="_blank">2019 nCoV bulletin as on 5th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/02/2020</td>
+</tr>
+<tr align="center" bgcolor="#e5eef3" style="font-size: 12px;border-bottom: solid #666 1px;">
+<td bgcolor="#AABFCF" style="padding-left: 5px;"><a href="https://www.wbhealth.gov.in/uploaded_files/corona/Media_Bulletin_West_Bengal_04.02_.2020_(final_draft)(1)_.pdf" target="_blank">2019 nCoV bulletin as on 4th Feb 2020</a></td>
+<td bgcolor="#AABFCF" style="padding-left: 5px;">05/02/2020</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td colspan="2" rowspan="4" valign="top">
+<div id="nav" style="border: 1px solid #eee; width:182px; font-size:12px; background-color:#D2E6F5; text-align:left;padding:0px 3px;">
+</div>
+<br/>
+<div id="nav" style="border: 1px solid #eee; width:182px; font-size:11px; background-color:#D2E6F5; text-align:left;padding:0px 3px;">
+<div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/plan_of_actions">Plan Of Actions</a></div>
+<div class="right_link"><a href="http://application.wbhealth.gov.in/pullopddata/usrlogin.aspx">OPD and MCS Tracking System</a></div>
+<div class="right_link"><a href="http://application.wbhealth.gov.in/SMS/Reports">SNSU SMS Report</a></div>
+<div class="right_link"><a href="https://mmu.wbhealth.gov.in/">Mobile Medical Camp Monitoring</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/Central_Medical_Store">CENTRAL MEDICAL STORE</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/NRHM">NRHM</a></div>
+<div class="right_link"><a href="http://application.wbhealth.gov.in/PPTCT">PPTCT</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/NUHM">NUHM</a></div>
+<div class="right_link"><a href="http://foodsafety.wbhealth.gov.in/">FOOD SAFETY</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/ayush">AYUSH</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/NCD">NCD</a></div>
+<div class="right_link"><a href="http://wbsapcs.wbhealth.gov.in/">AIDS</a></div>
+<div class="right_link"><a href="http://pcpndt.wbhealth.gov.in/">PCPNDT Portal</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/WBSMPB">WBSMPB</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/drug_control/">Drug Control</a></div>
+<div class="right_link"><a href="http://www.wbmsc.gov.in/">WBMSC LTD.</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/mental_health">Mental Health</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/rch">RCH</a></div>
+<div class="right_link"><a href="https://swasthyasathi.gov.in/">Swasthya Sathi</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/homoeopathy">Homoeopathy</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/samity">Health &amp; Samity</a></div>
+<div class="right_link"><a href="http://www.wbhrb.in/">Health Recruitment Board</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/fimnci">FIMNCI</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/idsp">IDSP</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/pages/ppp">Public Private Partnership</a></div>
+<div class="right_link"><a href="https://www.wbhealth.gov.in/counselling">ONLINE COUNSELLING PORTAL</a></div>
+<div class="right_link"><a href="http://rgkarmch.org/node/109">Poison Information Centre</a></div>
+<div class="right_link"><a href="http://home.wb.gov.in/doctorportal.php">Complaint Registration by Doctors</a></div>
+<div class="right_link"><a href="http://applyonline.wbhealth.gov.in/Login.aspx">ONLINE ADMISSION FOR NURSING DIPLOMA COURSE ANM(R) and GNM 2020</a></div>
+<div class="right_link"><a href="http://164.164.119.143:3036/">Application for Diploma in Pharmacy (ayurveda) and Panchakarma assistant (ayurveda) for the session 2020-21.</a></div>
+<div class="right_link"><a href="http://164.164.119.143:2026/">Diploma in Pharmacy  Online Application</a></div>
+</div>
+<br clear="all"/>
+</div>
+</td>
+<td> </td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<script src="https://www.wbhealth.gov.in/js/jquery-ui.min.js" type="text/javascript"></script>
+</div></div>
+</div>
+<div id="footer">
+<div id="hnav" style="margin: 0 auto;width: 900px;">
+<ul id="navlist" style="text-align: center;">
+<li><a href="https://www.wbhealth.gov.in/">HOME</a></li> |
+							<li><a href="javascript:;">CHECK MAIL</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/contents/right_to_information">RTI</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/pages/gallery">GALLERY</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/pages/search_hospitals">SEARCH HOSPITALS</a></li> |
+							<li><a href="https://www.wbhealth.gov.in/contents/contactus">CONTACT US</a></li> |
+							<li><a href="javascript:;">SITEMAP</a></li>
+</ul>
+</div>
+<div id="hnav" style="margin: 0 auto;width: 400px;">
+<ul id="navlist" style="text-align: center;">
+<li><a href="https://www.facebook.com/wbdhfw/" target="_blank"><img src="https://www.wbhealth.gov.in/images/facebook.png"/></a></li>
+<li><a href="https://twitter.com/wbdhfw" target="_blank"><img src="https://www.wbhealth.gov.in/images/twitter.png"/></a></li>
+<!--<li><a href="https://www.youtube.com/channel/UC3DXzxkJd-CxbK4C-cLz81A/" target="_blank"><img src="" /></a></li>-->
+</ul>
+</div>
+<p align="center" style="color:#FFFFFF;margin: 0px;"><span class="style1">Designed &amp; Developed by <a href="https://www.wbhealth.gov.in/" target="_blank"><span class="style2">Department of Health &amp; Family Welfare</span></a> (GOVT. of WB)</span>
+<br/>
+</p>
+<br/> </div>
+</body>
+</html>
