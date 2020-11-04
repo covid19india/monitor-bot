@@ -135,6 +135,12 @@ if __name__ == "__main__":
 			"url" : "http://covid19.ap.gov.in/Covid19_Admin/index.html",
 			"check" : 'id="ActiveCases"'
 		}
+                {
+			"name" : "Gurugram",
+			"url" : "https://gurugram.gov.in/health-bulletin/",
+			"check" : ''
+		}
+
 	]
 	#Setup BOT TOKEN and CHAT ID from environment variable
 	MONITOR_BOT_TOKEN = os.environ['MONITOR_BOT_TOKEN']
