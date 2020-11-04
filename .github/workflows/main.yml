@@ -1,0 +1,53 @@
+name: Me Botto
+
+on:
+  # schedule:
+  #   # every 10 minutes the job will run
+  #   - cron: "*/10 * * * *"
+  push:
+    branches:
+      - master
+  repository_dispatch:
+    types: [my-event]
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    # timeout-minutes: 9  
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Cache pip
+      uses: actions/cache@v2
+      with:
+        # This path is specific to Ubuntu
+        path: ~/.cache/pip
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+    - name: Start Bot
+      run: |
+        python start.py
+      env:
+          MONITOR_BOT_TOKEN: ${{ secrets.MONITOR_BOT_TOKEN }}
+    - name: Repository Dispatch
+      uses: actions/github-script@v2
+      with:
+        github-token: ${{secrets.BOB_TOKEN}}
+        script: |
+          const fs = require('fs');
+          await github.repos.createDispatchEvent({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  event_type: "my-event",
+                  client_payload: { greeting: "I'm Meeseek. Loot at me!" }
+                });
