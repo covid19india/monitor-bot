@@ -12,14 +12,28 @@
 	Tripura COVID19 Portal
 </title>
 <!-- Latest compiled and minified CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet"/><link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet"/><link href="Style/style1.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet"/><link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet"/>
 <!-- Vendor CSS Files -->
-</head>
+<link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/></head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="9QqUSMOyjYoTEv4Ov4VUENL3hAtiP6B9apKOJAsZLYYdhtU+1X9xdRRK8IOyOCZoUiLHsgGcB2Dr8wvsEkBDnZQ21izcD3hRKXBtfxwkh2HKBthb8r4nzDe6Lpx3l8mFc8VNPzRLKPXRnwoDqmE4pI+pjfzdn9L8vKA5ECII2TI9eINdJ9oE2l9jcTBrGxhmRL9SnUwvAOxmSbT7i7K9tuN/TePvKGwHL72Sec+3XbZ4leKvbjcLwRdiF/lSBvdS"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="7oP1oZo6sDocS4LKPkbtHopZYWF63CZNmcuLvBciYfsa8AB3GWJ5x83Cpw/YtkSgZ7iJ4uj7Br0RgA7c7LDIKYe7ag28UgfkNmNLzqTB/RJmldzN5/bOfcBp6mEknkCuuZWbeJcPAvypYHpCxnzjIlelza2BXv07MsSucoyqkOClhBpnpUUvt5vk58vdB3YUdiZOJGO/7U2+sQs8wW+lRl94/6FWZjPHSUHKKBAdhJT9iEX4uj3r01REF8guZ9q4"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
+<nav class="navbar bg-dark">
+<div class="container-fluid text-right">
+<div class="ml-auto">
+<a href="#" id="restore" title="Reset"><i aria-hidden="true" class="fa fa-sync-alt"></i>
+</a>
+<a href="#" id="contrast" title="Contrast"><i aria-hidden="true" class="fa fa-adjust"></i>
+</a>
+<a href="#" id="increaseFont" title="Increase Font Size"><i aria-hidden="true" class="fa fa-plus-circle"></i>
+</a>
+<a href="#" id="decreaseFont" title="Decrease Font Size"><i aria-hidden="true" class="fa fa-minus-circle"></i>
+</a>
+</div>
+</div>
+</nav>
 <nav class="navbar navbar-expand-md bg-violet navbar-dark">
 <!-- Brand -->
 <a class="navbar-brand m-auto" href="#">
@@ -47,6 +61,9 @@
 <a class="nav-link" href="Visitor/DistrictWiseStatus.aspx"><i class="fa fa-eye"> </i>District Wise Status</a>
 </li>
 <li class="nav-item">
+<a class="nav-link" href="Visitor/Feedback.aspx"><i class="fa fa-envelope-open"> </i>Feedback</a>
+</li>
+<li class="nav-item">
 <a class="nav-link" href="Visitor/Login.aspx"><i class="fa fa-sign-in-alt"> </i>Login</a>
 </li>
 </ul>
@@ -60,7 +77,8 @@
 <a class="btn btn-sm btn-danger btn-round m-1" href="Visitor/StrandedOutside.aspx">Are you Stranded outside Tripura?                    
                     </a>
 <a class="btn btn-sm btn-primary btn-round m-1" href="Visitor/StrandedInside.aspx">Are you Stranded inside Tripura?                    
-                    </a><br/>
+                    </a>
+<br/>
 <img src="Images/new_arrow.gif"/>
 <a class="btn btn-sm btn-success btn-round m-1" href="Visitor/ViewRequestStatus.aspx">Check Status of Assistance Request                    
                     </a>
@@ -309,7 +327,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <span id="lblStatsAsPerDate">22 Nov 2020</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">496710</span></strong>
+<span id="lblVisitorNumber">496721</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
@@ -333,6 +351,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/js/bootstrap.min.js"></script>
 <!-- Scipt to Render Tweets -->
 <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+<script src="Scripts/jAccessibility.js"></script>
 <script src="Scripts/main.js"></script>
 <script>
     $('.Count').each(function () {
