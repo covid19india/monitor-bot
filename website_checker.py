@@ -67,16 +67,18 @@ if __name__ == "__main__":
 	Code to check if a URL has updated
 	'''
 	
-	IST = pytz.timezone('Asia/Kolkata')
-	datetime_ist = datetime.now(IST)
-			    
-	# For KL
-	today_1 = str(datetime_ist.strftime('%d/%m/%Y'))
-	print(today_1)
+# assuming now contains a timezone aware datetime
+tz = pytz.timezone('Asia/Kolkata')
+now = datetime.now()
+your_now = now.astimezone(tz)
 
-	# For PY
-	today_2 = str(datetime_ist.strftime('%d-%m-%Y'))
-	print(today_2)
+# For KL
+today_1 = str(your_now.strftime('%d/%m/%Y'))
+print(today_1)
+
+# For PY
+today_2 = str(your_now.strftime('%d-%m-%Y'))
+print(today_2)
 
 	# Setup URLS
 	urls = [
