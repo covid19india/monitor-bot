@@ -115,7 +115,7 @@ print(today_2)
 		{
 			"name" : "Puducherry",
 			"url" : "https://health.py.gov.in/",
-			"check": "health.py.gov.in/sites/default/files/" + today_2
+			"check": "https://health.py.gov.in/bulletin-" + today_2 + "-1000am"
 		},
 		{
 			"name" : "Tripura",
