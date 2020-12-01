@@ -115,7 +115,7 @@ var text_resize_scope = "main";
 <script src="https://health.py.gov.in/sites/all/themes/chh/js/jquery.pause.js" type="text/javascript"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"noeeCRNq0Diszv3PPvgaclpuoWK0cM96NiRciKhJDVI","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"https:\/\/health.py.gov.in\/sites\/all\/themes\/chh\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"Cctwt2JSBESJveDXuoB9cs_3GaTI4FqmOm6tmgHwVzA","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"https:\/\/health.py.gov.in\/sites\/all\/themes\/chh\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
 //--><!]]>
 </script>
 <!--[if lt IE 9]><script src="/sites/all/themes/chh/js/html5.js"></script><![endif]-->
@@ -516,7 +516,7 @@ $(document).scroll(function() {
 <label class="element-invisible" for="edit-search-block-form--2">Search </label>
 <input class="form-text" id="edit-search-block-form--2" maxlength="128" name="search_block_form" size="15" title="Enter the terms you wish to search for." type="text" value=""/>
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-On0KaS29_PL9b9Icq16zMaLs1rPPvNOXeKU6WwF6mbY"/>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-Ep1LohEtAHZN1s5OfmS97XZWBMI3QE1rZQEN2_QdFY0"/>
 <input name="form_id" type="hidden" value="search_block_form"/>
 </div>
 <!-- END OUTPUT from 'modules/search/search-block-form.tpl.php' -->
@@ -922,7 +922,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('tb_megamenu_subnav') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-subnav.tpl.php' -->
-<ul class="tb-megamenu-subnav mega-nav level-2 items-5">
+<ul class="tb-megamenu-subnav mega-nav level-2 items-6">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('tb_megamenu_item') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
@@ -930,6 +930,15 @@ $(document).scroll(function() {
 <a href="https://health.py.gov.in/sites/default/files/soponpreventive-measures-be-followed-while-conducting-examinations-contain-spread-covid19.pdf">
         
     SOPonpreventive measures to be followed while conducting examinations to contain spread of COVID19          </a>
+</li>
+<!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<!-- THEME DEBUG -->
+<!-- CALL: theme('tb_megamenu_item') -->
+<!-- BEGIN OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
+<li class="tb-megamenu-item level-3 mega" data-alignsub="" data-caption="" data-class="" data-group="0" data-hidesub="0" data-hidewcol="0" data-id="4171" data-level="3" data-type="menu_item" data-xicon="">
+<a href="/sop-preventive-measures-markets-contain-spread-covid-19">
+        
+    SOP on preventive measures in markets to contain spread of COVID-19          </a>
 </li>
 <!-- END OUTPUT from 'sites/all/modules/tb_megamenu/templates/tb-megamenu-item.tpl.php' -->
 <!-- THEME DEBUG -->
@@ -1754,7 +1763,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-c2fe5b098b4ccfbb41366e2a1ad6145b">
+<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-330531b45bda046e6c33adb17e004b2c">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1911,7 +1920,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-48782a6f66656dedb225e6c5b06b8e1f">
+<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-bbba07341299865c9475a053c30afe96">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1933,8 +1942,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/circulation-tentative-seniority-list-radiographer-objection-called-%E2%80%94-reg">Circulation of Tentative Seniority list of Radiographer Objection Called for — Reg. </a>   </div>
-<span class="date-display-single" content="2020-11-20T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">20/11/2020</span>
+<div class="newitem"><a href="/sop-preventive-measures-markets-contain-spread-covid-19">SOP on preventive measures in markets to contain spread of COVID-19</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<span class="date-display-single" content="2020-12-01T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">01/12/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1945,8 +1954,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/iggghpgi-pnducherry-supply-12v-180aii-battery-500-kva-diesel-generator-quotations">IGGGH&amp;PGI, Pnducherry -Supply  12V 180AII Battery for 500 KVA Diesel Generator - Quotations </a>   </div>
-<span class="date-display-single" content="2020-11-16T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">16/11/2020</span>
+<div class="newitem"><a href="/circulation-tentative-seniority-list-radiographer-objection-called-%E2%80%94-reg">Circulation of Tentative Seniority list of Radiographer Objection Called for — Reg. </a>   </div>
+<span class="date-display-single" content="2020-11-20T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">20/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1963,8 +1972,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/ut-puducherry-neet-ug-2020-merit-list">U.T. OF PUDUCHERRY NEET, UG - 2020 MERIT LIST</a>   </div>
-<span class="date-display-single" content="2020-11-07T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">07/11/2020</span>
+<div class="newitem"><a href="/iggghpgi-pnducherry-supply-12v-180aii-battery-500-kva-diesel-generator-quotations">IGGGH&amp;PGI, Pnducherry -Supply  12V 180AII Battery for 500 KVA Diesel Generator - Quotations </a>   </div>
+<span class="date-display-single" content="2020-11-16T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">16/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1975,8 +1984,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/submission-immovable-property-returns-group-b-officers-reg"> Submission of Immovable property returns of Group `A' &amp; `B' Officers -Reg</a>   </div>
-<span class="date-display-single" content="2020-11-04T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">04/11/2020</span>
+<div class="newitem"><a href="/ut-puducherry-neet-ug-2020-merit-list">U.T. OF PUDUCHERRY NEET, UG - 2020 MERIT LIST</a>   </div>
+<span class="date-display-single" content="2020-11-07T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">07/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1993,8 +2002,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/guidelines-delivery-mental-healthcare-services-during-covid19">Guidelines for Delivery of Mental Healthcare Services during the COVID19</a>   </div>
-<span class="date-display-single" content="2020-11-02T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">02/11/2020</span>
+<div class="newitem"><a href="/submission-immovable-property-returns-group-b-officers-reg"> Submission of Immovable property returns of Group `A' &amp; `B' Officers -Reg</a>   </div>
+<span class="date-display-single" content="2020-11-04T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">04/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2005,8 +2014,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-and-posting-refrigeration-mechanic-orders-issued">Transfer and posting of Refrigeration Mechanic - Orders - Issued</a>   </div>
-<span class="date-display-single" content="2020-10-23T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">23/10/2020</span>
+<div class="newitem"><a href="/guidelines-delivery-mental-healthcare-services-during-covid19">Guidelines for Delivery of Mental Healthcare Services during the COVID19</a>   </div>
+<span class="date-display-single" content="2020-11-02T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">02/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2023,8 +2032,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/iggghpgi-quotation-injection">IGGGH&amp;PGI-Quotation-Injection</a>   </div>
-<span class="date-display-single" content="2020-10-20T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">20/10/2020</span>
+<div class="newitem"><a href="/transfer-and-posting-refrigeration-mechanic-orders-issued">Transfer and posting of Refrigeration Mechanic - Orders - Issued</a>   </div>
+<span class="date-display-single" content="2020-10-23T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">23/10/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2035,8 +2044,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-posting-health-assistant">Transfer &amp; Posting of Health Assistant</a>   </div>
-<span class="date-display-single" content="2020-10-14T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">14/10/2020</span>
+<div class="newitem"><a href="/iggghpgi-quotation-injection">IGGGH&amp;PGI-Quotation-Injection</a>   </div>
+<span class="date-display-single" content="2020-10-20T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">20/10/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2120,7 +2129,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-2f43dbf1f83b6001ba121ba029a20d84">
+<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-092a9c1f0129cc6c53cdfe9cf7a21397">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -2142,7 +2151,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/circulation-tentative-seniority-list-radiographer-objection-called-%E2%80%94-reg">Circulation of Tentative Seniority list of Radiographer Objection Called for — Reg. </a> </div>
+<div class="newitem"><a href="/sop-preventive-measures-markets-contain-spread-covid-19">SOP on preventive measures in markets to contain spread of COVID-19</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2159,7 +2168,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/ut-puducherry-neet-ug-2020-merit-list">U.T. OF PUDUCHERRY NEET, UG - 2020 MERIT LIST</a> </div>
+<div class="newitem"><a href="/circulation-tentative-seniority-list-radiographer-objection-called-%E2%80%94-reg">Circulation of Tentative Seniority list of Radiographer Objection Called for — Reg. </a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2176,7 +2185,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/submission-immovable-property-returns-group-b-officers-reg"> Submission of Immovable property returns of Group `A' &amp; `B' Officers -Reg</a> </div>
+<div class="newitem"><a href="/ut-puducherry-neet-ug-2020-merit-list">U.T. OF PUDUCHERRY NEET, UG - 2020 MERIT LIST</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2193,7 +2202,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/guidelines-delivery-mental-healthcare-services-during-covid19">Guidelines for Delivery of Mental Healthcare Services during the COVID19</a> </div>
+<div class="newitem"><a href="/submission-immovable-property-returns-group-b-officers-reg"> Submission of Immovable property returns of Group `A' &amp; `B' Officers -Reg</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2210,7 +2219,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-and-posting-refrigeration-mechanic-orders-issued">Transfer and posting of Refrigeration Mechanic - Orders - Issued</a> </div>
+<div class="newitem"><a href="/guidelines-delivery-mental-healthcare-services-during-covid19">Guidelines for Delivery of Mental Healthcare Services during the COVID19</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2227,7 +2236,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-posting-health-assistant">Transfer &amp; Posting of Health Assistant</a> </div>
+<div class="newitem"><a href="/transfer-and-posting-refrigeration-mechanic-orders-issued">Transfer and posting of Refrigeration Mechanic - Orders - Issued</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2244,7 +2253,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/guidelines-management-co-infection-covid-19-other-seasonal-epidemic-prone-diseases">Guidelines for management of co-infection of COVID-19 with other seasonal epidemic prone diseases</a> </div>
+<div class="newitem"><a href="/transfer-posting-health-assistant">Transfer &amp; Posting of Health Assistant</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2261,7 +2270,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/final-seniority-anmmaternity-assistant">Final Seniority of ANM/Maternity Assistant</a> </div>
+<div class="newitem"><a href="/guidelines-management-co-infection-covid-19-other-seasonal-epidemic-prone-diseases">Guidelines for management of co-infection of COVID-19 with other seasonal epidemic prone diseases</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2278,7 +2287,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/covid-19-30-11-2020-1000-press">COVID-19 30-11-2020 @ 10.00 PRESS </a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/final-seniority-anmmaternity-assistant">Final Seniority of ANM/Maternity Assistant</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2295,7 +2304,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bulletine-8-10-2020covid-19">Bulletine 8-10-2020(Covid-19)</a> </div>
+<div class="newitem"><a href="/covid-19-30-11-2020-1000-press">COVID-19 30-11-2020 @ 10.00 PRESS </a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2312,7 +2321,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/iggghpgi-covid-19-30-11-2020">IGGGH&amp;PGI  COVID-19 30-11-2020</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/bulletine-8-10-2020covid-19">Bulletine 8-10-2020(Covid-19)</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2329,7 +2338,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/covid-19-bulletin-09-10-2020-12oo-noon">COVID-19 BULLETIN 09-10-2020-@ 12.OO NOON</a> </div>
+<div class="newitem"><a href="/iggghpgi-covid-19-30-11-2020">IGGGH&amp;PGI  COVID-19 30-11-2020</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2346,7 +2355,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/final-seniority-list-slt">Final Seniority list of SLT</a> </div>
+<div class="newitem"><a href="/covid-19-bulletin-09-10-2020-12oo-noon">COVID-19 BULLETIN 09-10-2020-@ 12.OO NOON</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2363,7 +2372,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/covid-19-bulletin-08-10-2020-12oo-noon">COVID-19 BULLETIN 08-10-2020-@ 12.OO NOON</a> </div>
+<div class="newitem"><a href="/final-seniority-list-slt">Final Seniority list of SLT</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2380,7 +2389,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bulletin-08-10-2020-press-0">Bulletin-08-10-2020-Press</a> </div>
+<div class="newitem"><a href="/covid-19-bulletin-08-10-2020-12oo-noon">COVID-19 BULLETIN 08-10-2020-@ 12.OO NOON</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2397,7 +2406,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/dieticians">Dieticians</a> </div>
+<div class="newitem"><a href="/bulletin-08-10-2020-press-0">Bulletin-08-10-2020-Press</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2414,7 +2423,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/plumber">Plumber</a> </div>
+<div class="newitem"><a href="/dieticians">Dieticians</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2431,7 +2440,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/sop-preventive-measures-contain-spread-ofcovid19-during-festivities">SOP-on preventive measures to contain spread ofCOVID19 during festivities</a> </div>
+<div class="newitem"><a href="/plumber">Plumber</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2448,7 +2457,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/iggghpgi-07-10-2020">IGGGH&amp;PGI  07-10-2020</a> </div>
+<div class="newitem"><a href="/sop-preventive-measures-contain-spread-ofcovid19-during-festivities">SOP-on preventive measures to contain spread ofCOVID19 during festivities</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2465,7 +2474,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/expenditure-statement-upto-september-2020">Expenditure Statement upto September 2020</a> </div>
+<div class="newitem"><a href="/iggghpgi-07-10-2020">IGGGH&amp;PGI  07-10-2020</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2546,7 +2555,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-e83d7315694c31768da11d5dc67854ce">
+<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-6b487b7b5e9dc20ead62ce51977f6aed">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2611,7 +2620,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-e63bd63ec2b6f27d80b38a6ff5f80e58">
+<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-1872526bea24d787c10a69728d91ec3a">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2772,7 +2781,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-government view-id-government view-display-id-block view-dom-id-bd32d7f63c09cfe6bfeb2c47b04252c0">
+<div class="view view-government view-id-government view-display-id-block view-dom-id-d49adc5b5c6dfa3b6d6aecf4442a07d9">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2850,7 +2859,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-documents view-id-documents view-display-id-block view-dom-id-26f1c04623106ce6cb376c67b15a8e64">
+<div class="view view-documents view-id-documents view-display-id-block view-dom-id-e0c9de1851f6f36208b8d86d20f7292d">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2921,7 +2930,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-ac8e7535dde572d92819687a09e1833f">
+<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-c1ccfb7ee89d9848815e6971daa77262">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2992,7 +3001,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-8abc511639a88b058ec50f95e0305e12">
+<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-85897de993b8937f389816688ed6d5bf">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -3077,7 +3086,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-4f0546e4ffbcee9fd9b8d49762b37166">
+<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-456de56a2cc305d2706a63e66ab4e88c">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -3265,7 +3274,7 @@ $(document).scroll(function() {
 <div class="container">
 <div class="row footer02">
 <div class="col-md-12 lstupd" tabindex="0">		
-Page last updated date : 30-Nov-2020 5:00 pm</div>
+Page last updated date : 01-Dec-2020 10:05 am</div>
 <div class="col-sm-12 hindisen">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('region') -->
@@ -3333,7 +3342,7 @@ Page last updated date : 30-Nov-2020 5:00 pm</div>
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-569e6641f0ee99c5e83f1508c39e6955">
+<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-31c29639a5c7a3e7afcab1a5e36833e1">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -3366,7 +3375,7 @@ For any query regarding this website, please contact the Web Information Manager
 <!-- BEGIN OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
 <div class="block block-visitors" id="block-visitors-0">
 <div class="content">
-<div class="item-list"><ul><li class="first last">Site Visitors: 30828</li>
+<div class="item-list"><ul><li class="first last">Site Visitors: 30833</li>
 </ul></div> </div>
 </div>
 <!-- END OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
