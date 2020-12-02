@@ -304,14 +304,14 @@ setInterval(GetClock,1000);
 </ul>
 </li>
 <li>
-<a href="https://www.wbhealth.gov.in/pages/security_order">
-<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
-    		    		Hospital Security Orders</a>
-</li>
-<li>
 <a href="https://www.wbhealth.gov.in/pages/gov_order">
 <img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
     		    		Government Order</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/security_order">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		Hospital Security Orders</a>
 </li>
 <li>
 <a href="https://www.wbhealth.gov.in/pages/notice">
@@ -388,6 +388,11 @@ setInterval(GetClock,1000);
 <a href="https://www.wbhealth.gov.in/pages/links">
 <img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
     		    		Links</a>
+</li>
+<li>
+<a href="https://www.wbhealth.gov.in/pages/eodb_set">
+<img src="https://www.wbhealth.gov.in/images/m2.png" style="border:none;"/> 
+    		    		EoDB</a>
 </li>
 </ul>
 </div>
