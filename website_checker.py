@@ -68,17 +68,17 @@ if __name__ == "__main__":
 	'''
 	
         # assuming now contains a timezone aware datetime
-        tz = pytz.timezone('Asia/Kolkata')
-        now = datetime.now()
-        your_now = now.astimezone(tz)
+	tz = pytz.timezone('Asia/Kolkata')
+	now = datetime.now()
+	your_now = now.astimezone(tz)
 
         # For KL
-        today_1 = str(your_now.strftime('%Y/%m/%d/%d-%m-%Y'))
-        print(today_1)
+	today_1 = str(your_now.strftime('%Y/%m/%d/%d-%m-%Y'))
+	print(today_1)
 
-        # For PY
-        today_2 = str(your_now.strftime('%d-%m-%Y'))
-        print(today_2)
+	# For PY
+	today_2 = str(your_now.strftime('%d-%m-%Y'))
+	print(today_2)
 
 	# Setup URLS
 	urls = [
