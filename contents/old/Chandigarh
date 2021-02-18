@@ -317,49 +317,49 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">21264</div>
+<div class="card-body">21322</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">20789</div>
+<div class="card-body">20832</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">346</div>
+<div class="card-body">348</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Total Sampled</div>
-<div class="card-body">235303</div>
+<div class="card-body">238048</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Positive Cases</div>
-<div class="card-body">21264</div>
+<div class="card-body">21322</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Negative Cases</div>
-<div class="card-body">213096</div>
+<div class="card-body">215781</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Rejected Samples</div>
-<div class="card-body">943</div>
+<div class="card-body">945</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Result Awaited</div>
-<div class="card-body">102</div>
+<div class="card-body">142</div>
 </div>
 </div>
 <div class="col-12 pt-10 text-center">* Statistics sourced from Department of Health, Chandigarh</div>
@@ -367,7 +367,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="row">
 <div class="col-md-12 form-group pt-10 mb-0">
 <div class="card bg-success text-white mb-10 plr-10">
-<div class="card-body ptb-10 text-center">Home Quarantined :  53026</div>
+<div class="card-body ptb-10 text-center">Home Quarantined :  53096</div>
 </div>
 <div class="col-12 text-center">* Statistics sourced from Municipal Corporation, Chandigarh</div>
 </div>
@@ -380,19 +380,19 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-4">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">7945975</div>
+<div class="card-body">0</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">7198877</div>
+<div class="card-body">0</div>
 </div>
 </div>
 <div class="col-md-4">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">119538</div>
+<div class="card-body">0</div>
 </div>
 </div>
 </div>
@@ -418,7 +418,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <hr/>
 <div class="field-items">
 <div class="even field-item">
-<h5 class="mb-0 pb-10">COVID19 STATEWISE STATUS (*including foreign nationals, as on 2021-02-16 08:00:00)</h5>
+<h5 class="mb-0 pb-10">COVID19 STATEWISE STATUS (*including foreign nationals, as on 1970-01-01 05:30:00)</h5>
 <p> * Statistics sourced from The Ministry of Health and Family Welfare :-</p>
 <div class="table-responsive">
 <table border="1" cellpadding="1" cellspacing="1" class="table table-dark table-striped">
@@ -432,220 +432,10 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 </tr>
 </thead>
 <tbody><tr>
-<td>1</td>
-<td>Andaman and Nicobar Islands</td>
-<td>5009</td>
-<td>4938</td>
-<td>62</td>
-</tr><tr>
-<td>2</td>
-<td>Andhra Pradesh</td>
-<td>888899</td>
-<td>881041</td>
-<td>7163</td>
-</tr><tr>
-<td>3</td>
-<td>Arunachal Pradesh</td>
-<td>16833</td>
-<td>16774</td>
-<td>56</td>
-</tr><tr>
-<td>4</td>
-<td>Assam</td>
-<td>217304</td>
-<td>214601</td>
-<td>1089</td>
-</tr><tr>
-<td>5</td>
-<td>Bihar</td>
-<td>261785</td>
-<td>259670</td>
-<td>1527</td>
-</tr><tr>
-<td>6</td>
-<td>Chandigarh</td>
-<td>21264</td>
-<td>20789</td>
-<td>346</td>
-</tr><tr>
-<td>7</td>
-<td>Chhattisgarh</td>
-<td>309373</td>
-<td>302557</td>
-<td>3777</td>
-</tr><tr>
-<td>8</td>
-<td>Dadra and Nagar Haveli and Daman and Diu</td>
-<td>3400</td>
-<td>3396</td>
-<td>2</td>
-</tr><tr>
-<td>9</td>
-<td>Delhi</td>
-<td>637087</td>
-<td>625158</td>
-<td>10893</td>
-</tr><tr>
-<td>10</td>
-<td>Goa</td>
-<td>54275</td>
-<td>52969</td>
-<td>781</td>
-</tr><tr>
-<td>11</td>
-<td>Gujarat</td>
-<td>265493</td>
-<td>259384</td>
-<td>4401</td>
-</tr><tr>
-<td>12</td>
-<td>Haryana</td>
-<td>269154</td>
-<td>265212</td>
-<td>3039</td>
-</tr><tr>
-<td>13</td>
-<td>Himachal Pradesh</td>
-<td>58243</td>
-<td>56851</td>
-<td>994</td>
-</tr><tr>
-<td>14</td>
-<td>Jammu and Kashmir</td>
-<td>125405</td>
-<td>122837</td>
-<td>1951</td>
-</tr><tr>
-<td>15</td>
-<td>Jharkhand</td>
-<td>119354</td>
-<td>117806</td>
-<td>1084</td>
-</tr><tr>
-<td>16</td>
-<td>Karnataka</td>
-<td>945638</td>
-<td>927580</td>
-<td>12267</td>
-</tr><tr>
-<td>17</td>
-<td>Kerala</td>
-<td>1007019</td>
-<td>941471</td>
-<td>3998</td>
-</tr><tr>
-<td>18</td>
-<td>Ladakh</td>
-<td>9773</td>
-<td>9595</td>
-<td>130</td>
-</tr><tr>
-<td>19</td>
-<td>Lakshadweep</td>
-<td>234</td>
-<td>143</td>
-<td>0</td>
-</tr><tr>
-<td>20</td>
-<td>Madhya Pradesh</td>
-<td>257849</td>
-<td>252164</td>
-<td>3838</td>
-</tr><tr>
-<td>21</td>
-<td>Maharashtra</td>
-<td>2067643</td>
-<td>1978708</td>
-<td>51552</td>
-</tr><tr>
-<td>22</td>
-<td>Manipur</td>
-<td>29204</td>
-<td>28755</td>
-<td>373</td>
-</tr><tr>
-<td>23</td>
-<td>Meghalaya</td>
-<td>13942</td>
-<td>13666</td>
-<td>148</td>
-</tr><tr>
-<td>24</td>
-<td>Mizoram</td>
-<td>4395</td>
-<td>4367</td>
-<td>10</td>
-</tr><tr>
-<td>25</td>
-<td>Nagaland</td>
-<td>12189</td>
-<td>12043</td>
-<td>88</td>
-</tr><tr>
-<td>26</td>
-<td>Odisha</td>
-<td>336262</td>
-<td>333637</td>
-<td>1911</td>
-</tr><tr>
-<td>27</td>
-<td>Puducherry</td>
-<td>39468</td>
-<td>38574</td>
-<td>658</td>
-</tr><tr>
-<td>28</td>
-<td>Punjab</td>
-<td>176520</td>
-<td>168456</td>
-<td>5707</td>
-</tr><tr>
-<td>29</td>
-<td>Rajasthan</td>
-<td>319005</td>
-<td>314859</td>
-<td>2781</td>
-</tr><tr>
-<td>30</td>
-<td>Sikkim</td>
-<td>6118</td>
-<td>5929</td>
-<td>135</td>
-</tr><tr>
-<td>31</td>
-<td>Tamil Nadu</td>
-<td>845575</td>
-<td>828918</td>
-<td>12425</td>
-</tr><tr>
-<td>32</td>
-<td>Telengana</td>
-<td>296802</td>
-<td>293540</td>
-<td>1619</td>
-</tr><tr>
-<td>33</td>
-<td>Tripura</td>
-<td>33353</td>
-<td>32960</td>
-<td>391</td>
-</tr><tr>
-<td>35</td>
-<td>Uttar Pradesh</td>
-<td>602248</td>
-<td>590570</td>
-<td>8704</td>
-</tr><tr>
-<td>36</td>
-<td>West Bengal</td>
-<td>572728</td>
-<td>558535</td>
-<td>10233</td>
-</tr><tr>
 <td colspan="2">Total number of confirmed cases in India</td>
-<td>7945975</td>
-<td>7198877</td>
-<td>119538</td>
+<td></td>
+<td></td>
+<td></td>
 </tr></tbody>
 </table>
 </div>
@@ -1155,7 +945,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-02-18T11:30:20.226Z
+    [lastRefreshed] =&gt; 2021-02-18T12:04:20.368Z
     [lastOriginUpdate] =&gt; 2021-02-18T02:30:00.000Z
 )
 
