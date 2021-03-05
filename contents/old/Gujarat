@@ -1,0 +1,1118 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>COVID-19 Tracker | Gujarat</title>
+<meta content="" name="description"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" rel="stylesheet">
+<link href="/assets/css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+<link href="/assets/css/datatables.min.css" rel="stylesheet"/>
+<link href="/assets/css/owl.carousel.min.css" rel="stylesheet"/>
+<link href="/assets/css/owl.theme.default.min.css" rel="stylesheet"/>
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<link href="/assets/css/custom.css" rel="stylesheet"/>
+<link crossorigin="" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" rel="stylesheet">
+<style>
+        .highcharts-credits {
+            display: none;
+        }
+    </style>
+<script src="/assets/js/jquery-3.5.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="/assets/js/moment.min.js"></script>
+<script src="/assets/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/assets/js/datatables.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $('.myDatatable').DataTable({
+                initComplete: function () {
+                    $(this.api().table().container()).find('input').parent().wrap('<form>').parent().attr('autocomplete', 'off');
+                },
+
+            });
+            var url = window.location.pathname;
+            if (url != "/Dashboard.aspx") {
+                $('li').removeClass("active");
+                $('a[href="' + url + '"]').parent().addClass("active");
+                $('a[href="' + url + '"]').addClass("active");
+                $('a[href="' + url + '"]').parent().parents("li.nav-item").addClass("active");
+            }
+        });
+
+
+        function CallSuccessMsg(title, text) {
+            swal(title, text, "success");
+        }
+        function CallErrorMsg(title, text) {
+            swal(title, text, "error");
+        }
+        function CallWarningMsg(title, text) {
+            swal(title, text, "warning");
+        }
+        var objDel = { status: false, ele: null };
+        function functionConfirmSubmit(me, title, ConfirmButtonText) {
+
+            if (objDel.status) return true;
+            swal({
+                title: title,
+                text: "",
+                icon: "warning",
+                buttons: {
+                    cancel: {
+                        text: "No, cancel!",
+                        value: null,
+                        visible: true,
+                        className: "",
+                        closeModal: true,
+                    },
+                    confirm: {
+                        text: "Yes, delete it!",
+                        value: true,
+                        visible: true,
+                        className: "",
+                        closeModal: false
+                    }
+                }
+            })
+                .then((isConfirm) => {
+                    if (isConfirm) {
+                        objDel.status = true;
+                        objDel.ele.click();
+                    }
+                    else {
+                        objDel.status = false;
+                    }
+                });
+            objDel.ele = me;
+            return false;
+        }
+
+    </script>
+</link></link></head>
+<body class="no-skin" id="ctl00_MasterBody">
+<header>
+<nav class="navbar navbar-expand-lg navbar-light c-navbar py-0" id="navbar" style="background-color: #f8f9fa">
+<a class="navbar-brand c-logo" href="#">
+<img alt="site-logo" height="60" src="/assets/images/emblem.png"/>
+<h4 class="d-inline pl-1 f-600">Government of Gujarat</h4>
+</a>
+<div class="navbar-nav ml-auto mt-3 mt-lg-0">
+<h4>COVID-19 Dashboard - Gujarat</h4>
+</div>
+</nav>
+</header>
+<form action="./DrillDownCharts.aspx" class="form-wrapper" id="aspnetForm" method="post" name="aspnetForm">
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="OD8yi6ulAK/RdWnJJsABIVsjMvuOGOiQPyqBzO/HIIlbAWjrIKPN0c45aZPyjjU1stv07paEGKNZQKlwshwzjqTTmxyUjM51rQqz0stGClivnxBvK8nzatvAmIcXipINiGHlWfCfi1ioZHe1Rmx36/+NXa2Oy7Mo2Is0X1+sOy4j6syRlcR4JCmqjzu9/YGFCCz9i1SwAWKZDdOm/IQ+7VM9F+XgSpSMLEeN1U8rmsL5UWUuAriZlGc6U3IIY6YwFR6272KcEOvuJx07abDspSlV4yCvAXP8x5f9Vfd6md5kCvVqzxRD5PZjdK09axyfAjKLii0KbvSE3Hpg6W34uNaa2pNrwGNAVOmRoeABVaVQLjOlrlFojB6gHIy3ohMr0CPuvV02PExrEaC9e6Vj7vi+P444aYn4RutHYRFMvFL8ba7+HzlxtDp+HVb1XuDFvsITLOWEOUGM0SRCbziExys5BYWOmHQF/EXUYvvnC5mN8zdCjinD3sj1DOi25xA6PC2ZwKOo2SGMw4ZJHq7LQSEhDPEkj79GnjNQPZCQwQui17I9cQYT22Qev+ZOSP2jvMvxKX0AYbxz9OztVUHj/FrhXqVYUg2hNm2O/IQ5HJGTVuR2Jsjc7QKcD9knbsvrNtU63ensZlrfVHtcminNTgG4QYceACxgC4EGh3WWjkX307J22sYanW0ql0BMBPhKVO8VW81wQ0AEOT4WxJxIsNqvYBxBte4XpwhAVACVnTP3056ymUq7oJTAV0Jt5sQx6tWZt68myLr1CjGoAmirIC9+xMhL5oeV9OxuwT+1/advAk/TGa54VAxK3sJtPIBz6uz1nkdwsELWfETt0Jrf9NZQx0qKJ8pNYTrwyznmoAi6IkWDv2TGihUBgcqqjTK7QWxWm3txFHuJ9ewiQQmrUXScFYZKTDVMLDLVZGQZZp5gFbJwRtq+G/6PngMNY/fyfBPcLgnHzfsqXGqsOQXoEZAvn1fDUHto5NT66ve74NlMVvmoqMSVsFL3676zBJ2L6pqFehdORFAxNrMAc0PQIJ6+8J25EAnUiU/b51u+f2LKqZGQLgZ75rQ/uECAuEalW6EEb2wsntYlFRWuDmOoetZ+UlHj1a4iIHlRlsZd8iTA7wxB1pq/Y5g28JmrpaatPaXEv+FOpS9GvNXEa8e6Qvv8eUnu1X7gB/hytLNTgBdbpZ+gEIDlZ8aZ0Q2/RjHYB3hWFjMcHqpqREqI/l68UGV0qUdD0+YDWor+5zEErBwSRcyYDWicnDbonUEqjzJSCUOtm3idZ6M2MmX/NkRHHigSAKVd9O2n6LC0ppI97XL+Q7mXGGDeCfLu45eYGa0RJ4tfFUlG4Q1bADQ0tTG2zS5L27yhYSrqFh7VcTJ5FVTLEuWCsq5Dxyn2Ml2VcThrelO7IivQjqcaFsDqiY0hQfwVosQouw9uiel67WYghufr8L6Oj2lImgQW//8J7kDPRfJ0VgpErAZo6HbNPZvO9ApmRPzv0mX+XXqTRkhBWV9b83Yw95178Gkb42Io5s2HBI+eW7txaYMPabzBIgQ8wFPP3m24FykfSeOFP5crE0TVRxwPp5Z9toQRnxAnHXHL9aOlMJzMn0ckdbISpdZ5Om+XjM2CAqQg9cLatI0vhlc3mg8N0P3kooZV+fYQGwkGOLL8BTjct0MHJmKXgZ1ox0ABR72oJ61Chu3Wjo0m72pOx13uIxAcBVukbjb+AS9rFbyMzt1MSHlDPiyJ79k8VkwOGxARSfAagk86w9UL2+vFsS1REGcckMdm+F/cBnU3bRhbwZ0Z82bMChen++kCxha8yGFbWna0Fm0I+jqCyT/G5FyDQijy8CoD5SCiLUUsl6w9JXiCYXSoEjm8061+PaWBAa6S7y6gvc1AhayJUvO465JAR7GtOdST2XHXWmBOWk0su4vwohuwDh+rXxuDxGLq0ggWQRka6ALCkhzAeaM8d4/4gVVdkMUDYz4B9Fp0YFPcA288mTSha+PoFWaOWuk2nQsWUIMHaVscPoEjr9UfVnf4npbpgAL9lyYOh1bwfwb3NnOwOK+7HAEtFqVXShdaV856fkiSX3kYmUyvK6sLOoyGtg7H3VdSIlZ2IhRjnoQEoAJHKL7c8HZrTDQlb0it2Bp1oOPzn8yl2z4BR54jeGm4R+dhboOvIW/Ks0BE8fq4yTe8MfIBJ7ZmJPpcMtHpouZ07t6pspGTXbZ4qZu3Z1IYP25R6tgOZ2NgggM7QZNde7QnvM6Y1dSSdkuXgHWoDaFWxCof5Q96YSIey1dmE69jQcQF+zYKlLHuybRTH3eAhgHi91IUrlA0GjXqjepFIMrOVkXd0gk+XWxdTULPEd11e7DRTJTFhPx3+63ayx58Xl1R1R6QIuq0vCJofIbDhvZcxWwaHwtQyfUzeKx2zKYmeHvhTnE2oqCAoaVWJvohjikejfgD9WdVymmhjZakkH0JxfcLC76E7PBifYkqYscvqS+3N6+cEJTMfi0d6atz+CINfOt/fTwpbpDQd0Ir0LE5jzc8dfk5FQJmU+e29BgbOWjVQ3kzRDPA5j4KTyqhp2IWNcNHMyhhnRWfLpAhMUKAvUmKPTchhRfI62TlXhPmXVI18BFKufu5061qB5bEX/AVI+fEPi7urbfxbtRCObVVuYx2+ZMPQ57pWs4cItvJbtdWAbdJ/F+9S4BO0vyKdTBg6eQaiQ/IPFo4d+wKYG4QWDRJT7x5RSddfMiGhtfIUI5r3QhfdynG7ufRFXaOx21J6o5YOkLpyKKS8Iw6vyY8L+GslgOIgTxQCxa3JgDHiuFHXXTNCWqWqDNNw9Dg84+DBTfU81SHSPU7LO0UTwgid4YzuuU6otF6LS9xkIT1BzpAH8r4F0r2BCSV7ucppAMcHy7KdxlmfT4eDAAnOwvBqjeriXJfuFQ+oUUcVMhsBMcsod6JprdKzDhSGuD3P7MZB/qFZ/jd2irIUIjq/XvSReITKvyPcfcjhGLwxrSEQ1qk8QFrxMsU5M9cGCj7Q3icWu334lzY3676a3DQghgbedc6TbFfG9kxnE6v2fuckPGvddqeHiCQKzz9hljG36Q8qybpsiJ+X80pbXHXRGWO4FgfPnnnH0MC1BFI1YryCVPDOw+JrAqPBzOAFxuQNR6iTA0PM5txvDjXx3D1ozFDbrT3zlmRKIP9quPIXNd/9elO8ImCZ+xQD30K7FuOXmSvEYD6yDfo2qtmrNptEm7+5AOeFtMRHL63KVvnV40gNdMDWhJOhI1SvToxlvnT/CaylhP9NlhRAAxP6Vv1YBmkhG4Js1VK+3or2TUsY6RuhVsnR5qkj6T89hoVDrndAXrhiOaEK18Ywc77HKnAsdiiBcrKwMDg5Nmn2zVih537CHqusQUZT15KBrBj6G19B2XQJ/SOZYUazQSJjVszetT2jVv9hgl+5Jm5T7NJSLtTydHhEBB4R7+GtBRRSQahVf07J/twfRks3zdKBz1dIYw29pESAGivcZYeqChj0fAwTBZ5VHynk1a8PFF1AfIuHujj9oTN7fdiRyVdrfgTlWf5LpNYA/pxhQEgnbHQ7nImd/z/G7TbH/9v7OkYRnsDZMO+q/AjAeNxIP3CRLBZWvfqqklsJGwvtS+HK3yTCznQoGvAmUUiOW9Y3CK5AL+7abS+kTe5uO49elAZSHpi8/txwCqN/2guY+E/COcUDxAaxceCpN2ksf+AFghUX355k0drKfOg0AEy6PxoW4MPNkigVZPp7lpUVY3LOlvmm7hcXTef6DXKPC+qCrsJIXd+sCXsflM7jJV3XeXWNUIYlvl8BjMv9AvBb/WBSe70bklsG5qbq40Eqf7xoZmXBuo53EvS9P1ofcsjSFSghNQUrH1rMDFBvD7XjPWeMgaglHJPZxVgVmZgOkUAyMVRTTlzxYzPVqMaN3rw2SKHUZh5IKwO6h715Eh2h+xY0g6nRZMfRdx/7mEDCNGBMZwPh3988jzYym5KZzZqejJI5juJLJHio9sBCAd2JBFFnFV4OCRmt5JqRK6t0UHqYkVxLqsKs499wMYf0aPweGW+GMG/fuYfyybzzR9Q8tRKT00Alo0j/LxolILBFsKsO+lLjcRDBOK8uj/B4JtLLIgJFTNbYR3EhepN1YGQ2ZJbGZyM+QGNXMr/sYs+eHF91YMrBJyXBSKWXDrI92tff758KWFfBVZX26S4F0K6oV9ywqZugC21GWOfmPiBTS+xXGWnx/zJRC0EARMOzG7DnH0Pv8fDE/jLpl/LdR3XFwRBybT4BrTkR5o/isSgm+Y8fwPu/Loi/dMbt6p5sbcrhvHEp5sSU21hrYS1tDmgPauFvvu3sjQAqHO5ZcmGEcrTdtakfp8P42O+C+nMEmcv5V/10pcIZO+DM77jh6+YTiaLtPtDX7gbR9476Cbh9oAE3Q0oU/vhPWrxnlltfWqJyScNgnzN7hz5LXQWm/RFL3+pBbIzIs8ijjgga9qR9HX4z9vmBwqTsKpae783ujrTPUvs+U/BthVg8eMM1R7zU0LCj6p2POM4GBf+7XUVAGNM9uPGBRYgg+iaplPz/rYjUVQTHjylPGlduI3OMUUNVB+Y76Cg6BsaQ7hK7eWICUGAJWJ5f9pXFLASriHoL48/F2T8HwatuNwkkvxjI0uKAjq3YbHJjfgPdDuLHYYCJr6OIut590lusd2UkCQ4eRas2fDstIpzZ1d/8aDtFn60vAgLzaA7ZjFegY+VrW8jiRvC1dPkJ7jAu3s5+BMdMyKxRbY67APs1ojoUjGqS9WvEzD0OYjuH0Ireg5QBhHx00+Gp2TP5Qr86EDLe3NMtEfRKOjbtrwA4yddV91fVFysRcDfn5MJ3TlQogK+eX2oorbvulrFM9DgzMJ2JeDk1cANRfOX84/Tggog+eVVltxF1bsODK493nVphjJxVC2o4hemNc9US4BISzfZKXnvtZ4seknS/VR/ae5u6d0Tqsm2OkOOKRKz9f/9kjQUFjPCM1jMhVp1QpCDCLXXgZ3pXTq/8C+Dr7RxgWrcYp/Jz/txGIhshGxhfZCqqcFFtPlmFaTxgnCQ8ElciMg6XIyid0fRyT0H0J9XkgRyYcFahJfpcxWp0rX/NXMga7Y8uDWUkJE9YzHXyGKziMGt5s7UKV0QCfnZbVpfZalRgIdh9vcRhgE066FCE/C9GJL7NErjrxvGIptfBHV46oBKzmkHFv1nC8n8ezFI+tahF9/MfiO0wMsdWZGRqYbgKl6pRMV8pxP63OB1I2OgAMhL1CvhxYNKsacBKYaEAU6sf/OMO4L/4W6dlw0V+i04Gq6jCr0X+uOxalTDgMaLUErDcZZFdF3knCIp3Jy1ctSoE8Ehdkn4j5bKOqmZ1QbzFU6MxE9H+LieDr0kuIFurSFEV/jvGgTsp+4riGZMZg8QOOTIOTIggFkomZdjv2h/v1aiPnKlhLfaTtBL2bYEbWhJ+9TUQuPCVf+BhDuxN2TKlERl+LWvO9UWndBNDXBSkt15AUb4NTmofFvjtScdm0Va6uW5NHfGY/vAyU/+akCfM+LwC+BUTa/WAQOgD3Eb6tFnk+eK0Cf2VWmaXXytAqMg5SoD3fRWIpp/nD8niN80f5M5+jw3UjKrl7u5yHPzdXs0RcMnK83p2VbK2PQy29i5FjflytbDNK2H45EPT087QvQRLFCR13M27Dc="/>
+<input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="4501150A"/>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="ia9hgP25l8Kr/HW8Xrx+jWNIOnqajUFQoQxWA7p2v3vL9ebwG+obsoxM16/JujDyuKuG4rYbLRqHwp27VVD7cSISCeUREpOtFA6KjklR+iyP4tfFfyjJlwx4dm1WTDVr"/>
+<div class="main-wrapper">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header card-head-bg">
+<div class="clearfix">
+<h5 class="card-title float-left"><span class="fa fa-signal mr-2"></span>District wise Corona Virus Disease (COVID-19) Pandemic</h5>
+</div>
+</div>
+<div class="card-body">
+<div id="divUpcomingEventChart" style="width: 100%; min-height: 280px; margin: 0 auto">
+<div id="chart2_container"></div><script type="text/javascript">
+var chart2;
+$(document).ready(function() {
+	chart2 = new Highcharts.Chart({
+		chart: { renderTo:'chart2_container', margin: [75], options3d: { alpha: 0, beta: 0, depth: 50, enabled: true, viewDistance: 30 }, type: 'column' }, 
+		legend: { align: 'center', backgroundColor: '#FFFFFF', layout: 'horizontal', verticalAlign: 'top', x: 0 }, 
+		plotOptions: { column: { borderWidth: 0, pointPadding: 0.2 } }, 
+		subtitle: { text: '' }, 
+		title: { text: '' }, 
+		xAxis: { categories: ['Ahmedabad', 'Amreli', 'Anand', 'Aravalli', 'Banaskantha', 'Bharuch', 'Bhavnagar', 'Botad', 'Chhota Udaipur', 'Dahod', 'Dang', 'Devbhoomi Dwarka', 'Gandhinagar', 'Gir Somnath', 'Jamnagar', 'Junagadh', 'Kutch', 'Kheda', 'Mahisagar', 'Mehsana', 'Morbi', 'Narmada', 'Navsari', 'Panchmahal', 'Patan', 'Porbandar', 'Rajkot', 'Sabarkantha', 'Surat', 'Surendranagar', 'Tapi', 'Vadodara', 'Valsad'], title: { style: { color: '#999', fontWeight: 'bold' }, text: 'District' } }, 
+		yAxis: { allowDecimals: false, title: { style: { color: '#999', fontWeight: 'bold' }, text: 'Patient Count' } }, 
+		series: [{ data: [[63329], [3973], [2700], [1226], [4722], [4219], [6197], [1062], [951], [3366], [190], [1156], [8854], [2632], [10722], [5500], [4637], [3363], [2124], [7088], [3360], [2166], [1662], [4376], [4255], [734], [23663], [3133], [54280], [3548], [1086], [30373], [1431]], name: 'Confirmed Positive Cases' }, { data: [[2705589], [232188], [188889], [133199], [227196], [174061], [430869], [111151], [100560], [239186], [36167], [86576], [323568], [137308], [338609], [223928], [310918], [238390], [134129], [239512], [169924], [83571], [140705], [174635], [179043], [110887], [788818], [193703], [2210942], [226580], [102096], [775290], [169517]], name: 'Cases Tested for COVID19' }, { data: [[60323], [3915], [2642], [1188], [4678], [4158], [6089], [1034], [927], [3343], [182], [1125], [8701], [2572], [10599], [5421], [4494], [3314], [2065], [7006], [3324], [2150], [1639], [4297], [4198], [729], [23209], [3076], [52734], [3528], [1075], [29669], [1406]], name: 'Patients Recovered' }, { data: [[416], [3064], [610], [11], [13], [51], [1209], [23], [17], [79], [0], [0], [698], [1806], [235], [73], [709], [408], [58], [112], [49], [19], [586], [987], [30], [380], [3200], [374], [5737], [157], [166], [768], [113]], name: 'People Under Quarantine' }, { data: [[2316], [33], [17], [26], [39], [18], [68], [14], [3], [7], [1], [5], [107], [24], [35], [33], [33], [17], [10], [38], [19], [1], [8], [23], [53], [4], [200], [13], [976], [13], [7], [240], [9]], name: 'Total Deaths' }]
+	});
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_DivDepart">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary">
+<h5 class="card-title">
+<i class="fa fa-chart-pie"></i>  Department Wise Chart
+                    </h5>
+</div>
+<div class="card-body">
+<div id="container"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div1">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary" style="background: #f56954 !important">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  Confirmed Positive Cases
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div2">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  Cases Tested for COVID19
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht1"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div3">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary" style="background: #28a745!important">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  Patients Recovered
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht2"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div4">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary" style="background: #0073b7 !important">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  People Under Quarantine
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht3"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div5">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary" style="background: black !important">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  Death Trends
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht4"></div>
+</div>
+</div>
+</div>
+<div class="col-md-6" id="ctl00_body_Div6">
+<div class="card">
+<div class="card-header card-head-bg bg-secondary" style="background: #f56954 !important">
+<h5 class="card-title">
+<i class="fa fa-chart-line"></i>  District Wise Confirmed Positive Cases
+                    </h5>
+</div>
+<div class="card-body">
+<div id="linecht5"></div>
+</div>
+</div>
+</div>
+<div class="card">
+<div class="card-header bg-primary text-white">
+<div class="clearfix">
+<h5 class="card-title float-left">
+<span class="fa fa-list mr-2"></span>Districtwise COVID-19 Statistics
+                    </h5>
+<div class="float-right d-lg-block d-none">
+<a class="btn btn-success btn-sm py-1 px-1 d-lg-block d-none" href="javascript:__doPostBack('ctl00$body$aDownloadExcel','')" id="ctl00_body_aDownloadExcel">
+<i class="fa fa-file-excel mr-1"></i>
+<span id="ctl00_body_Label1">Export</span></a>
+</div>
+</div>
+</div>
+<div class="card-body p-1">
+<div class="table-responsive">
+<table class="table table-striped table-bordered table-hover table-sm text-center mb-0" id="tbl">
+<thead>
+<tr>
+<th class="text-center">District </th>
+<th class="text-center">Confirmed Positive Cases</th>
+<th class="text-center">Cases Tested for COVID19</th>
+<th class="text-center">Patients Recovered</th>
+<th class="text-center">People Under Quarantine</th>
+<th class="text-center">Total Deaths</th>
+</tr>
+</thead>
+<tr>
+<td class="text-left">Ahmedabad</td>
+<td class="text-right">63329</td>
+<td class="text-right">2705589</td>
+<td class="text-right">60323</td>
+<td class="text-right">416</td>
+<td class="text-right">2316</td>
+</tr>
+<tr>
+<td class="text-left">Amreli</td>
+<td class="text-right">3973</td>
+<td class="text-right">232188</td>
+<td class="text-right">3915</td>
+<td class="text-right">3064</td>
+<td class="text-right">33</td>
+</tr>
+<tr>
+<td class="text-left">Anand</td>
+<td class="text-right">2700</td>
+<td class="text-right">188889</td>
+<td class="text-right">2642</td>
+<td class="text-right">610</td>
+<td class="text-right">17</td>
+</tr>
+<tr>
+<td class="text-left">Aravalli</td>
+<td class="text-right">1226</td>
+<td class="text-right">133199</td>
+<td class="text-right">1188</td>
+<td class="text-right">11</td>
+<td class="text-right">26</td>
+</tr>
+<tr>
+<td class="text-left">Banaskantha</td>
+<td class="text-right">4722</td>
+<td class="text-right">227196</td>
+<td class="text-right">4678</td>
+<td class="text-right">13</td>
+<td class="text-right">39</td>
+</tr>
+<tr>
+<td class="text-left">Bharuch</td>
+<td class="text-right">4219</td>
+<td class="text-right">174061</td>
+<td class="text-right">4158</td>
+<td class="text-right">51</td>
+<td class="text-right">18</td>
+</tr>
+<tr>
+<td class="text-left">Bhavnagar</td>
+<td class="text-right">6197</td>
+<td class="text-right">430869</td>
+<td class="text-right">6089</td>
+<td class="text-right">1209</td>
+<td class="text-right">68</td>
+</tr>
+<tr>
+<td class="text-left">Botad</td>
+<td class="text-right">1062</td>
+<td class="text-right">111151</td>
+<td class="text-right">1034</td>
+<td class="text-right">23</td>
+<td class="text-right">14</td>
+</tr>
+<tr>
+<td class="text-left">Chhota Udaipur</td>
+<td class="text-right">951</td>
+<td class="text-right">100560</td>
+<td class="text-right">927</td>
+<td class="text-right">17</td>
+<td class="text-right">3</td>
+</tr>
+<tr>
+<td class="text-left">Dahod</td>
+<td class="text-right">3366</td>
+<td class="text-right">239186</td>
+<td class="text-right">3343</td>
+<td class="text-right">79</td>
+<td class="text-right">7</td>
+</tr>
+<tr>
+<td class="text-left">Dang</td>
+<td class="text-right">190</td>
+<td class="text-right">36167</td>
+<td class="text-right">182</td>
+<td class="text-right">0</td>
+<td class="text-right">1</td>
+</tr>
+<tr>
+<td class="text-left">Devbhoomi Dwarka</td>
+<td class="text-right">1156</td>
+<td class="text-right">86576</td>
+<td class="text-right">1125</td>
+<td class="text-right">0</td>
+<td class="text-right">5</td>
+</tr>
+<tr>
+<td class="text-left">Gandhinagar</td>
+<td class="text-right">8854</td>
+<td class="text-right">323568</td>
+<td class="text-right">8701</td>
+<td class="text-right">698</td>
+<td class="text-right">107</td>
+</tr>
+<tr>
+<td class="text-left">Gir Somnath</td>
+<td class="text-right">2632</td>
+<td class="text-right">137308</td>
+<td class="text-right">2572</td>
+<td class="text-right">1806</td>
+<td class="text-right">24</td>
+</tr>
+<tr>
+<td class="text-left">Jamnagar</td>
+<td class="text-right">10722</td>
+<td class="text-right">338609</td>
+<td class="text-right">10599</td>
+<td class="text-right">235</td>
+<td class="text-right">35</td>
+</tr>
+<tr>
+<td class="text-left">Junagadh</td>
+<td class="text-right">5500</td>
+<td class="text-right">223928</td>
+<td class="text-right">5421</td>
+<td class="text-right">73</td>
+<td class="text-right">33</td>
+</tr>
+<tr>
+<td class="text-left">Kutch</td>
+<td class="text-right">4637</td>
+<td class="text-right">310918</td>
+<td class="text-right">4494</td>
+<td class="text-right">709</td>
+<td class="text-right">33</td>
+</tr>
+<tr>
+<td class="text-left">Kheda</td>
+<td class="text-right">3363</td>
+<td class="text-right">238390</td>
+<td class="text-right">3314</td>
+<td class="text-right">408</td>
+<td class="text-right">17</td>
+</tr>
+<tr>
+<td class="text-left">Mahisagar</td>
+<td class="text-right">2124</td>
+<td class="text-right">134129</td>
+<td class="text-right">2065</td>
+<td class="text-right">58</td>
+<td class="text-right">10</td>
+</tr>
+<tr>
+<td class="text-left">Mehsana</td>
+<td class="text-right">7088</td>
+<td class="text-right">239512</td>
+<td class="text-right">7006</td>
+<td class="text-right">112</td>
+<td class="text-right">38</td>
+</tr>
+<tr>
+<td class="text-left">Morbi</td>
+<td class="text-right">3360</td>
+<td class="text-right">169924</td>
+<td class="text-right">3324</td>
+<td class="text-right">49</td>
+<td class="text-right">19</td>
+</tr>
+<tr>
+<td class="text-left">Narmada</td>
+<td class="text-right">2166</td>
+<td class="text-right">83571</td>
+<td class="text-right">2150</td>
+<td class="text-right">19</td>
+<td class="text-right">1</td>
+</tr>
+<tr>
+<td class="text-left">Navsari</td>
+<td class="text-right">1662</td>
+<td class="text-right">140705</td>
+<td class="text-right">1639</td>
+<td class="text-right">586</td>
+<td class="text-right">8</td>
+</tr>
+<tr>
+<td class="text-left">Panchmahal</td>
+<td class="text-right">4376</td>
+<td class="text-right">174635</td>
+<td class="text-right">4297</td>
+<td class="text-right">987</td>
+<td class="text-right">23</td>
+</tr>
+<tr>
+<td class="text-left">Patan</td>
+<td class="text-right">4255</td>
+<td class="text-right">179043</td>
+<td class="text-right">4198</td>
+<td class="text-right">30</td>
+<td class="text-right">53</td>
+</tr>
+<tr>
+<td class="text-left">Porbandar</td>
+<td class="text-right">734</td>
+<td class="text-right">110887</td>
+<td class="text-right">729</td>
+<td class="text-right">380</td>
+<td class="text-right">4</td>
+</tr>
+<tr>
+<td class="text-left">Rajkot</td>
+<td class="text-right">23663</td>
+<td class="text-right">788818</td>
+<td class="text-right">23209</td>
+<td class="text-right">3200</td>
+<td class="text-right">200</td>
+</tr>
+<tr>
+<td class="text-left">Sabarkantha</td>
+<td class="text-right">3133</td>
+<td class="text-right">193703</td>
+<td class="text-right">3076</td>
+<td class="text-right">374</td>
+<td class="text-right">13</td>
+</tr>
+<tr>
+<td class="text-left">Surat</td>
+<td class="text-right">54280</td>
+<td class="text-right">2210942</td>
+<td class="text-right">52734</td>
+<td class="text-right">5737</td>
+<td class="text-right">976</td>
+</tr>
+<tr>
+<td class="text-left">Surendranagar</td>
+<td class="text-right">3548</td>
+<td class="text-right">226580</td>
+<td class="text-right">3528</td>
+<td class="text-right">157</td>
+<td class="text-right">13</td>
+</tr>
+<tr>
+<td class="text-left">Tapi</td>
+<td class="text-right">1086</td>
+<td class="text-right">102096</td>
+<td class="text-right">1075</td>
+<td class="text-right">166</td>
+<td class="text-right">7</td>
+</tr>
+<tr>
+<td class="text-left">Vadodara</td>
+<td class="text-right">30373</td>
+<td class="text-right">775290</td>
+<td class="text-right">29669</td>
+<td class="text-right">768</td>
+<td class="text-right">240</td>
+</tr>
+<tr>
+<td class="text-left">Valsad</td>
+<td class="text-right">1431</td>
+<td class="text-right">169517</td>
+<td class="text-right">1406</td>
+<td class="text-right">113</td>
+<td class="text-right">9</td>
+</tr>
+<tr class="font-weight-bold text-right">
+<td class="text-right f-600">Total</td>
+<td class="f-600">
+<span id="ctl00_body_rptDistDetails_ctl34_lblConfirmedCount">0</span>
+</td>
+<td class="f-600">
+<span id="ctl00_body_rptDistDetails_ctl34_lblPatientTestedCount">0</span>
+</td>
+<td class="f-600">
+<span id="ctl00_body_rptDistDetails_ctl34_lblPatientCuredCount">0</span>
+</td>
+<td class="f-600">
+<span id="ctl00_body_rptDistDetails_ctl34_lblPeopleQuarantineCount">0</span>
+</td>
+<td class="f-600">
+<span id="ctl00_body_rptDistDetails_ctl34_lblTotalDath">0</span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+<script src="https://raw.githubusercontent.com/furf/jquery-ui-touch-punch/master/jquery.ui.touch-punch.js" type="text/javascript"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20130526/json2.min.js" type="text/javascript"></script>
+<script crossorigin="" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            LoadDepartmentWise();
+            LoadLineChart();
+            LoadLineChart1();
+            LoadLineChart2();
+            LoadLineChart3();
+            LoadLineChart4();
+            LoadLineChart5();
+        });
+        function Data() {
+            debugger;
+            var ctx2 = $("#DonutDepart");
+
+        }
+
+        function LoadDepartmentWise() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DistrictName;
+                        data[i] = newData[i].ConfirmedCount;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('container', {
+                        chart: {
+                            type: 'pie',
+                            height: 650,
+                            options3d: {
+                                enabled: true,
+                                alpha: 45
+                            }
+                        },
+                        title: {
+                            text: 'Contents of Highsoft\'s weekly fruit delivery'
+                        },
+                        subtitle: {
+                            text: '3D donut in Highcharts'
+                        },
+                        plotOptions: {
+                            pie: {
+                                innerSize: 100,
+                                depth: 45
+                            }
+                        },
+                        series: [{
+                            name: 'Confirmed Count',
+                            data: dataArrayFinal,
+                            showInLegend: true,
+                            dataLabels: {
+                                allowOverlap: true,
+                                enabled: true,
+                                padding: 0,
+                                overflow: "none"
+                            }
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].ConfirmedCount;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('linecht', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'Confirmed Positive Cases'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: [{
+                            name: 'Date Wise',
+                            data: data
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart1() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].PatientTestedCount;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('linecht1', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'Cases Tested for COVID19'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: [{
+                            name: 'Date Wise',
+                            data: data
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart2() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].PatientCuredCount;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('linecht2', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'Patients Recovered'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            allowDecimals: false,
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: [{
+                            name: 'Date Wise',
+                            data: data
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart3() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].PeopleQuarantineCount;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('linecht3', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'People Under Quarantine'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: [{
+                            name: 'Date Wise',
+                            data: data
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart4() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovid",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dataArrayFinal = Array();
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].TotalDath;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(name[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    Highcharts.chart('linecht4', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'Total Deaths'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: [{
+                            name: 'Date Wise',
+                            data: data
+                        }]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+
+        function LoadLineChart5() {
+            $.ajax({
+                type: "POST",
+                url: "DrillDownCharts.aspx/GetDistDataForLineCovidDisrtict",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+
+                success: function (response) {
+                    var Data = response.d;
+                    var newData = JSON.parse(response.d)
+                    // var labels = [];
+                    //var data = [];
+                    //var JSData=[];
+                    var name = Array();
+                    var data = Array();
+                    var dist = Array();
+                    var Distdata = [];
+                    var dataArrayFinal = Array();
+                    $.each(newData, function (index, value) {
+                        Distdata.push([value["DistrictName"].toString()]);
+                        // data.push([value["ConfirmedCount"].toString()]);
+                    });
+
+                    for (i = 0; i < newData.length; i++) {
+                        name[i] = newData[i].DisplayDate;
+                        data[i] = newData[i].ConfirmedCount;
+                        dist[i] = newData[i].DistrictName;
+                    }
+
+                    for (j = 0; j < name.length; j++) {
+                        var temp = new Array(dist[j], data[j]);
+                        dataArrayFinal[j] = temp;
+                    }
+                    var x2 = [];              // Will hold the de-duped result
+                    dist.forEach(function (elem) { if (x2.indexOf(elem) === -1) x2.push(elem); });
+                    x2;
+
+                    var x1 = [];              // Will hold the de-duped result
+                    name.forEach(function (elem) { if (x1.indexOf(elem) === -1) x1.push(elem); });
+                    x1;
+                    var testarrrray = Array();
+                    for (m = 0; m < x1.length; m++) {
+                        for (p = 0; p < x2.length; p++) {
+                            for (k = 0; k < newData.length; k++) {
+                                if (x1[m] == newData[k].DisplayDate && x2[p] == newData[k].DistrictName)
+                                    data[k] = newData[k].ConfirmedCount;
+                                var temp = new Array(x2[p], data[k]);
+                                testarrrray[p] = temp;
+                            }
+                        }
+
+                    }
+                    series = [];
+                    series = generateData(data, name, dist);
+                    function generateData(cats, names, points) {
+                        var ret = {},
+                            ps = [],
+                            series = [],
+                            len = cats.length;
+
+                        //concat to get points
+                        for (var i = 0; i < len; i++) {
+                            ps[i] = {
+                                x: cats[i],
+                                y: points[i],
+                                n: names[i]
+                            };
+                        }
+                        names = [];
+                        //generate series and split points
+                        for (i = 0; i < len; i++) {
+                            var p = ps[i],
+                                sIndex = $.inArray(p.n, names);
+
+                            if (sIndex < 0) {
+                                sIndex = names.push(p.n) - 1;
+                                series.push({
+                                    name: p.n,
+                                    data: []
+                                });
+                            }
+                            series[sIndex].data.push(p);
+                        }
+                        return series;
+                    }
+
+
+                    //console.log(series);
+                    Highcharts.chart('linecht5', {
+                        chart: {
+                            type: 'line'
+                        },
+                        title: {
+                            text: 'Confirmed Case Count'
+                        },
+                        xAxis: {
+                            categories: name
+                        },
+                        yAxis: {
+                            title: {
+                                text: ''
+                            }
+                        },
+                        plotOptions: {
+                            line: {
+                                dataLabels: {
+                                    enabled: true
+                                },
+                                enableMouseTracking: false
+                            }
+                        },
+                        series: series
+                        //series: [{
+                        //    // name: x2,
+                        //    data: series
+                        //}]
+                    });
+                },
+                failure: function (response) {
+                    alert(response.d);
+                }
+            });
+        }
+        // Activate the sliders
+        $('#R0').on('change', function () {
+
+            chart2.options.chart.options3d.alpha = this.value;
+            showValues();
+            chart2.redraw(false);
+
+        });
+        $('#R1').on('change', function () {
+
+            chart2.options.chart.options3d.beta = this.value;
+            showValues();
+            chart2.redraw(false);
+        });
+
+        function showValues() {
+            $('#R0-value').html(chart2.options.chart.options3d.alpha);
+            $('#R1-value').html(chart2.options.chart.options3d.beta);
+
+        }
+        showValues();
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+</div>
+</div>
+<footer class="footer-content">
+<div class="row">
+<div class="col-md-12">
+<div class="row">
+<div class="col-md-2 d-md-block d-none text-md-left">
+<a href="https://dst.gujarat.gov.in/" target="_blank">
+<img alt="dst-logo" class="img-fluid mr-1" src="assets/images/dst-logo.jpg" width="85"/>
+</a>
+</div>
+<div class="col-md-8 align-self-center text-center">
+<p>Copyright © 2020 <a href="https://dst.gujarat.gov.in/" target="_blank">Department of Science &amp; Technology, Government of Gujarat</a></p>
+<p>
+<strong>Designed &amp; Developed By:</strong> <a href="http://gipl.in/" target="_blank">Guj. Info Petro
+                                Ltd.
+                                </a>
+</p>
+<p><strong>Last Updated On:</strong>
+<span id="ctl00_lblDatemst"></span></p>
+</div>
+<div class="col-md-2 text-center my-2 my-md-0 text-md-right">
+<a href="https://dst.gujarat.gov.in/" target="_blank">
+<img alt="dst-logo" class="img-fluid mr-1 d-md-none" src="/assets/images/dst-logo.jpg" width="85"/>
+</a>
+<a href="https://gil.gujarat.gov.in/" target="_balank">
+<img alt="gil-logo" class="img-fluid" src="/assets/images/gil-logo.jpg" width="85"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</form>
+</body>
+</html>
