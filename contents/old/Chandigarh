@@ -558,11 +558,11 @@ stdClass Object
         (
             [summary] =&gt; stdClass Object
                 (
-                    [total] =&gt; 11210799
-                    [confirmedCasesIndian] =&gt; 11210751
+                    [total] =&gt; 11229398
+                    [confirmedCasesIndian] =&gt; 11229350
                     [confirmedCasesForeign] =&gt; 48
-                    [discharged] =&gt; 10868520
-                    [deaths] =&gt; 157756
+                    [discharged] =&gt; 10882798
+                    [deaths] =&gt; 157853
                     [confirmedButLocationUnidentified] =&gt; 0
                 )
 
@@ -594,11 +594,11 @@ stdClass Object
                     [1] =&gt; stdClass Object
                         (
                             [loc] =&gt; Andhra Pradesh
-                            [confirmedCasesIndian] =&gt; 890556
+                            [confirmedCasesIndian] =&gt; 890692
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 882462
-                            [deaths] =&gt; 7173
-                            [totalConfirmed] =&gt; 890556
+                            [discharged] =&gt; 882520
+                            [deaths] =&gt; 7174
+                            [totalConfirmed] =&gt; 890692
                         )
 
                     [2] =&gt; stdClass Object
@@ -614,201 +614,201 @@ stdClass Object
                     [3] =&gt; stdClass Object
                         (
                             [loc] =&gt; Assam
-                            [confirmedCasesIndian] =&gt; 217649
+                            [confirmedCasesIndian] =&gt; 217668
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 214930
+                            [discharged] =&gt; 214947
                             [deaths] =&gt; 1094
-                            [totalConfirmed] =&gt; 217649
+                            [totalConfirmed] =&gt; 217668
                         )
 
                     [4] =&gt; stdClass Object
                         (
                             [loc] =&gt; Bihar
-                            [confirmedCasesIndian] =&gt; 262728
+                            [confirmedCasesIndian] =&gt; 262758
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 260849
-                            [deaths] =&gt; 1545
-                            [totalConfirmed] =&gt; 262728
+                            [discharged] =&gt; 260899
+                            [deaths] =&gt; 1546
+                            [totalConfirmed] =&gt; 262758
                         )
 
                     [5] =&gt; stdClass Object
                         (
                             [loc] =&gt; Chandigarh
-                            [confirmedCasesIndian] =&gt; 22238
+                            [confirmedCasesIndian] =&gt; 22318
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 21208
+                            [discharged] =&gt; 21253
                             [deaths] =&gt; 355
-                            [totalConfirmed] =&gt; 22238
+                            [totalConfirmed] =&gt; 22318
                         )
 
                     [6] =&gt; stdClass Object
                         (
                             [loc] =&gt; Chhattisgarh
-                            [confirmedCasesIndian] =&gt; 314098
+                            [confirmedCasesIndian] =&gt; 314320
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 307522
-                            [deaths] =&gt; 3855
-                            [totalConfirmed] =&gt; 314098
+                            [discharged] =&gt; 307642
+                            [deaths] =&gt; 3858
+                            [totalConfirmed] =&gt; 314320
                         )
 
                     [7] =&gt; stdClass Object
                         (
                             [loc] =&gt; Dadra and Nagar Haveli and Daman and Diu
-                            [confirmedCasesIndian] =&gt; 3409
+                            [confirmedCasesIndian] =&gt; 3416
                             [confirmedCasesForeign] =&gt; 0
                             [discharged] =&gt; 3402
                             [deaths] =&gt; 2
-                            [totalConfirmed] =&gt; 3409
+                            [totalConfirmed] =&gt; 3416
                         )
 
                     [8] =&gt; stdClass Object
                         (
                             [loc] =&gt; Delhi
-                            [confirmedCasesIndian] =&gt; 640814
+                            [confirmedCasesIndian] =&gt; 641100
                             [confirmedCasesForeign] =&gt; 1
-                            [discharged] =&gt; 628117
-                            [deaths] =&gt; 10919
-                            [totalConfirmed] =&gt; 640815
+                            [discharged] =&gt; 628377
+                            [deaths] =&gt; 10921
+                            [totalConfirmed] =&gt; 641101
                         )
 
                     [9] =&gt; stdClass Object
                         (
                             [loc] =&gt; Goa
-                            [confirmedCasesIndian] =&gt; 55360
+                            [confirmedCasesIndian] =&gt; 55408
                             [confirmedCasesForeign] =&gt; 1
-                            [discharged] =&gt; 53862
+                            [discharged] =&gt; 53922
                             [deaths] =&gt; 799
-                            [totalConfirmed] =&gt; 55361
+                            [totalConfirmed] =&gt; 55409
                         )
 
                     [10] =&gt; stdClass Object
                         (
                             [loc] =&gt; Gujarat
-                            [confirmedCasesIndian] =&gt; 272810
+                            [confirmedCasesIndian] =&gt; 273385
                             [confirmedCasesForeign] =&gt; 1
-                            [discharged] =&gt; 265372
-                            [deaths] =&gt; 4414
-                            [totalConfirmed] =&gt; 272811
+                            [discharged] =&gt; 265831
+                            [deaths] =&gt; 4415
+                            [totalConfirmed] =&gt; 273386
                         )
 
                     [11] =&gt; stdClass Object
                         (
                             [loc] =&gt; Haryana
-                            [confirmedCasesIndian] =&gt; 272201
+                            [confirmedCasesIndian] =&gt; 272506
                             [confirmedCasesForeign] =&gt; 14
-                            [discharged] =&gt; 267261
+                            [discharged] =&gt; 267433
                             [deaths] =&gt; 3056
-                            [totalConfirmed] =&gt; 272215
+                            [totalConfirmed] =&gt; 272520
                         )
 
                     [12] =&gt; stdClass Object
                         (
                             [loc] =&gt; Himachal Pradesh
-                            [confirmedCasesIndian] =&gt; 59059
+                            [confirmedCasesIndian] =&gt; 59118
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 57473
+                            [discharged] =&gt; 57507
                             [deaths] =&gt; 997
-                            [totalConfirmed] =&gt; 59059
+                            [totalConfirmed] =&gt; 59118
                         )
 
                     [13] =&gt; stdClass Object
                         (
                             [loc] =&gt; Jammu and Kashmir
-                            [confirmedCasesIndian] =&gt; 126932
+                            [confirmedCasesIndian] =&gt; 127044
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 124089
-                            [deaths] =&gt; 1961
-                            [totalConfirmed] =&gt; 126932
+                            [discharged] =&gt; 124190
+                            [deaths] =&gt; 1962
+                            [totalConfirmed] =&gt; 127044
                         )
 
                     [14] =&gt; stdClass Object
                         (
                             [loc] =&gt; Jharkhand
-                            [confirmedCasesIndian] =&gt; 120217
+                            [confirmedCasesIndian] =&gt; 120259
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 118665
-                            [deaths] =&gt; 1091
-                            [totalConfirmed] =&gt; 120217
+                            [discharged] =&gt; 118703
+                            [deaths] =&gt; 1093
+                            [totalConfirmed] =&gt; 120259
                         )
 
                     [15] =&gt; stdClass Object
                         (
                             [loc] =&gt; Karnataka
-                            [confirmedCasesIndian] =&gt; 954393
+                            [confirmedCasesIndian] =&gt; 955015
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 935421
-                            [deaths] =&gt; 12359
-                            [totalConfirmed] =&gt; 954393
+                            [discharged] =&gt; 935772
+                            [deaths] =&gt; 12362
+                            [totalConfirmed] =&gt; 955015
                         )
 
                     [16] =&gt; stdClass Object
                         (
                             [loc] =&gt; Kerala
-                            [confirmedCasesIndian] =&gt; 1075219
+                            [confirmedCasesIndian] =&gt; 1077319
                             [confirmedCasesForeign] =&gt; 8
-                            [discharged] =&gt; 1027826
-                            [deaths] =&gt; 4287
-                            [totalConfirmed] =&gt; 1075227
+                            [discharged] =&gt; 1031865
+                            [deaths] =&gt; 4300
+                            [totalConfirmed] =&gt; 1077327
                         )
 
                     [17] =&gt; stdClass Object
                         (
                             [loc] =&gt; Ladakh
-                            [confirmedCasesIndian] =&gt; 9830
+                            [confirmedCasesIndian] =&gt; 9831
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 9656
+                            [discharged] =&gt; 9657
                             [deaths] =&gt; 130
-                            [totalConfirmed] =&gt; 9830
+                            [totalConfirmed] =&gt; 9831
                         )
 
                     [18] =&gt; stdClass Object
                         (
                             [loc] =&gt; Lakshadweep
-                            [confirmedCasesIndian] =&gt; 473
+                            [confirmedCasesIndian] =&gt; 486
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 313
+                            [discharged] =&gt; 327
                             [deaths] =&gt; 1
-                            [totalConfirmed] =&gt; 473
+                            [totalConfirmed] =&gt; 486
                         )
 
                     [19] =&gt; stdClass Object
                         (
                             [loc] =&gt; Madhya Pradesh
-                            [confirmedCasesIndian] =&gt; 264214
+                            [confirmedCasesIndian] =&gt; 264643
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 256819
-                            [deaths] =&gt; 3868
-                            [totalConfirmed] =&gt; 264214
+                            [discharged] =&gt; 257166
+                            [deaths] =&gt; 3871
+                            [totalConfirmed] =&gt; 264643
                         )
 
                     [20] =&gt; stdClass Object
                         (
                             [loc] =&gt; Maharashtra
-                            [confirmedCasesIndian] =&gt; 2208583
+                            [confirmedCasesIndian] =&gt; 2219724
                             [confirmedCasesForeign] =&gt; 3
-                            [discharged] =&gt; 2062031
-                            [deaths] =&gt; 52440
-                            [totalConfirmed] =&gt; 2208586
+                            [discharged] =&gt; 2068044
+                            [deaths] =&gt; 52478
+                            [totalConfirmed] =&gt; 2219727
                         )
 
                     [21] =&gt; stdClass Object
                         (
                             [loc] =&gt; Manipur
-                            [confirmedCasesIndian] =&gt; 29288
+                            [confirmedCasesIndian] =&gt; 29291
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 28884
+                            [discharged] =&gt; 28890
                             [deaths] =&gt; 373
-                            [totalConfirmed] =&gt; 29288
+                            [totalConfirmed] =&gt; 29291
                         )
 
                     [22] =&gt; stdClass Object
                         (
                             [loc] =&gt; Meghalaya
-                            [confirmedCasesIndian] =&gt; 13970
+                            [confirmedCasesIndian] =&gt; 13972
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 13810
+                            [discharged] =&gt; 13811
                             [deaths] =&gt; 148
-                            [totalConfirmed] =&gt; 13970
+                            [totalConfirmed] =&gt; 13972
                         )
 
                     [23] =&gt; stdClass Object
@@ -816,7 +816,7 @@ stdClass Object
                             [loc] =&gt; Mizoram
                             [confirmedCasesIndian] =&gt; 4428
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 4409
+                            [discharged] =&gt; 4410
                             [deaths] =&gt; 10
                             [totalConfirmed] =&gt; 4428
                         )
@@ -824,81 +824,81 @@ stdClass Object
                     [24] =&gt; stdClass Object
                         (
                             [loc] =&gt; Nagaland
-                            [confirmedCasesIndian] =&gt; 12211
+                            [confirmedCasesIndian] =&gt; 12217
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 12105
+                            [discharged] =&gt; 12106
                             [deaths] =&gt; 91
-                            [totalConfirmed] =&gt; 12211
+                            [totalConfirmed] =&gt; 12217
                         )
 
                     [25] =&gt; stdClass Object
                         (
                             [loc] =&gt; Odisha
-                            [confirmedCasesIndian] =&gt; 337674
+                            [confirmedCasesIndian] =&gt; 337744
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 334990
+                            [discharged] =&gt; 335080
                             [deaths] =&gt; 1917
-                            [totalConfirmed] =&gt; 337674
+                            [totalConfirmed] =&gt; 337744
                         )
 
                     [26] =&gt; stdClass Object
                         (
                             [loc] =&gt; Puducherry
-                            [confirmedCasesIndian] =&gt; 39843
+                            [confirmedCasesIndian] =&gt; 39868
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 39000
+                            [discharged] =&gt; 39022
                             [deaths] =&gt; 670
-                            [totalConfirmed] =&gt; 39843
+                            [totalConfirmed] =&gt; 39868
                         )
 
                     [27] =&gt; stdClass Object
                         (
                             [loc] =&gt; Punjab
-                            [confirmedCasesIndian] =&gt; 187348
+                            [confirmedCasesIndian] =&gt; 188391
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 174274
-                            [deaths] =&gt; 5910
-                            [totalConfirmed] =&gt; 187348
+                            [discharged] =&gt; 174967
+                            [deaths] =&gt; 5927
+                            [totalConfirmed] =&gt; 188391
                         )
 
                     [28] =&gt; stdClass Object
                         (
                             [loc] =&gt; Rajasthan
-                            [confirmedCasesIndian] =&gt; 321354
+                            [confirmedCasesIndian] =&gt; 321530
                             [confirmedCasesForeign] =&gt; 2
-                            [discharged] =&gt; 316864
+                            [discharged] =&gt; 316988
                             [deaths] =&gt; 2789
-                            [totalConfirmed] =&gt; 321356
+                            [totalConfirmed] =&gt; 321532
                         )
 
                     [29] =&gt; stdClass Object
                         (
                             [loc] =&gt; Sikkim
-                            [confirmedCasesIndian] =&gt; 6167
+                            [confirmedCasesIndian] =&gt; 6174
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 5988
+                            [discharged] =&gt; 5989
                             [deaths] =&gt; 135
-                            [totalConfirmed] =&gt; 6167
+                            [totalConfirmed] =&gt; 6174
                         )
 
                     [30] =&gt; stdClass Object
                         (
                             [loc] =&gt; Tamil Nadu
-                            [confirmedCasesIndian] =&gt; 854548
+                            [confirmedCasesIndian] =&gt; 855115
                             [confirmedCasesForeign] =&gt; 6
-                            [discharged] =&gt; 838085
-                            [deaths] =&gt; 12517
-                            [totalConfirmed] =&gt; 854554
+                            [discharged] =&gt; 838606
+                            [deaths] =&gt; 12518
+                            [totalConfirmed] =&gt; 855121
                         )
 
                     [31] =&gt; stdClass Object
                         (
                             [loc] =&gt; Telengana
-                            [confirmedCasesIndian] =&gt; 299890
+                            [confirmedCasesIndian] =&gt; 300001
                             [confirmedCasesForeign] =&gt; 10
-                            [discharged] =&gt; 296373
-                            [deaths] =&gt; 1641
-                            [totalConfirmed] =&gt; 299900
+                            [discharged] =&gt; 296562
+                            [deaths] =&gt; 1642
+                            [totalConfirmed] =&gt; 300011
                         )
 
                     [32] =&gt; stdClass Object
@@ -914,39 +914,39 @@ stdClass Object
                     [33] =&gt; stdClass Object
                         (
                             [loc] =&gt; Uttarakhand
-                            [confirmedCasesIndian] =&gt; 97362
+                            [confirmedCasesIndian] =&gt; 97421
                             [confirmedCasesForeign] =&gt; 1
-                            [discharged] =&gt; 95073
-                            [deaths] =&gt; 1694
-                            [totalConfirmed] =&gt; 97363
+                            [discharged] =&gt; 95095
+                            [deaths] =&gt; 1695
+                            [totalConfirmed] =&gt; 97422
                         )
 
                     [34] =&gt; stdClass Object
                         (
                             [loc] =&gt; Uttar Pradesh
-                            [confirmedCasesIndian] =&gt; 604163
+                            [confirmedCasesIndian] =&gt; 604278
                             [confirmedCasesForeign] =&gt; 1
-                            [discharged] =&gt; 593704
-                            [deaths] =&gt; 8729
-                            [totalConfirmed] =&gt; 604164
+                            [discharged] =&gt; 593895
+                            [deaths] =&gt; 8737
+                            [totalConfirmed] =&gt; 604279
                         )
 
                     [35] =&gt; stdClass Object
                         (
                             [loc] =&gt; West Bengal
-                            [confirmedCasesIndian] =&gt; 576435
+                            [confirmedCasesIndian] =&gt; 576623
                             [confirmedCasesForeign] =&gt; 0
-                            [discharged] =&gt; 562945
-                            [deaths] =&gt; 10277
-                            [totalConfirmed] =&gt; 576435
+                            [discharged] =&gt; 563182
+                            [deaths] =&gt; 10278
+                            [totalConfirmed] =&gt; 576623
                         )
 
                 )
 
         )
 
-    [lastRefreshed] =&gt; 2021-03-08T03:47:21.945Z
-    [lastOriginUpdate] =&gt; 2021-03-07T02:30:00.000Z
+    [lastRefreshed] =&gt; 2021-03-08T04:04:23.036Z
+    [lastOriginUpdate] =&gt; 2021-03-08T02:30:00.000Z
 )
 
  
@@ -1249,7 +1249,7 @@ var cdata = $.parseJSON('[{"label":"Mar 18","y":1},{"label":"Mar 19","y":4},{"la
 var adata= $.parseJSON('[{"label":"Mar 18","y":1},{"label":"Mar 19","y":5},{"label":"Mar 20","y":5},{"label":"Mar 21","y":6},{"label":"Mar 22","y":7},{"label":"Mar 23","y":7},{"label":"Mar 24","y":7},{"label":"Mar 25","y":7},{"label":"Mar 26","y":8},{"label":"Mar 27","y":8},{"label":"Mar 28","y":8},{"label":"Mar 29","y":8},{"label":"Mar 30","y":15},{"label":"Mar 31","y":16},{"label":"Apr 1","y":16},{"label":"Apr 2","y":18},{"label":"Apr 3","y":17},{"label":"Apr 4","y":15},{"label":"Apr 5","y":13},{"label":"Apr 6","y":13},{"label":"Apr 7","y":11},{"label":"Apr 8","y":11},{"label":"Apr 9","y":11},{"label":"Apr 10","y":12},{"label":"Apr 11","y":12},{"label":"Apr 12","y":14},{"label":"Apr 13","y":14},{"label":"Apr 14","y":12},{"label":"Apr 15","y":12},{"label":"Apr 16","y":12},{"label":"Apr 17","y":0},{"label":"Apr 18","y":0},{"label":"Apr 19","y":0},{"label":"Apr 20","y":0},{"label":"Apr 21","y":0},{"label":"Apr 22","y":0},{"label":"Apr 23","y":0},{"label":"Apr 24","y":0},{"label":"Apr 25","y":0},{"label":"Apr 26","y":0},{"label":"Apr 27","y":0},{"label":"Apr 28","y":0},{"label":"Apr 29","y":0},{"label":"Apr 30","y":0},{"label":"May 1","y":0},{"label":"May 2","y":0},{"label":"May 3","y":0},{"label":"May 4","y":0},{"label":"May 5","y":0},{"label":"May 6","y":0},{"label":"May 7","y":0},{"label":"May 8","y":0},{"label":"May 9","y":0},{"label":"May 10","y":0},{"label":"May 11","y":0},{"label":"May 12","y":0},{"label":"May 13","y":0},{"label":"May 14","y":0},{"label":"May 15","y":0},{"label":"May 16","y":0},{"label":"May 17","y":0},{"label":"May 18","y":0},{"label":"May 19","y":0},{"label":"May 20","y":0},{"label":"May 21","y":0},{"label":"May 22","y":0},{"label":"May 23","y":0},{"label":"May 24","y":0},{"label":"May 25","y":0},{"label":"May 26","y":0},{"label":"May 27","y":0},{"label":"May 28","y":0},{"label":"May 29","y":0},{"label":"May 30","y":0},{"label":"May 31","y":0},{"label":"Jun 1","y":0},{"label":"Jun 2","y":0},{"label":"Jun 3","y":0},{"label":"Jun 4","y":0},{"label":"Jun 5","y":0},{"label":"Jun 6","y":0},{"label":"Jun 7","y":0},{"label":"Jun 8","y":0},{"label":"Jun 9","y":0},{"label":"Jun 10","y":0},{"label":"Jun 11","y":0},{"label":"Jun 12","y":0},{"label":"Jun 13","y":0},{"label":"Jun 14","y":0},{"label":"Jun 15","y":0},{"label":"Jun 16","y":0},{"label":"Jun 17","y":0},{"label":"Jun 18","y":0},{"label":"Jun 19","y":0},{"label":"Jun 20","y":0},{"label":"Jun 21","y":0},{"label":"Jun 22","y":0},{"label":"Jun 23","y":0},{"label":"Jun 24","y":0},{"label":"Jun 25","y":0},{"label":"Jun 26","y":0},{"label":"Jun 27","y":0},{"label":"Jun 28","y":0},{"label":"Jun 29","y":0},{"label":"Jun 30","y":0},{"label":"Jul 1","y":0},{"label":"Jul 2","y":0},{"label":"Jul 3","y":0},{"label":"Jul 4","y":0},{"label":"Jul 5","y":0},{"label":"Jul 6","y":0},{"label":"Jul 7","y":0},{"label":"Jul 8","y":0},{"label":"Jul 9","y":0},{"label":"Jul 10","y":0},{"label":"Jul 11","y":0},{"label":"Jul 12","y":0},{"label":"Jul 13","y":0},{"label":"Jul 14","y":0},{"label":"Jul 15","y":0},{"label":"Jul 16","y":0},{"label":"Jul 17","y":0},{"label":"Jul 18","y":0},{"label":"Jul 19","y":0},{"label":"Jul 20","y":0},{"label":"Jul 21","y":0},{"label":"Jul 22","y":0},{"label":"Jul 23","y":0},{"label":"Jul 24","y":0},{"label":"Jul 25","y":0},{"label":"Jul 26","y":0},{"label":"Jul 27","y":0},{"label":"Jul 28","y":0},{"label":"Jul 29","y":0},{"label":"Jul 30","y":0},{"label":"Jul 31","y":0},{"label":"Aug 1","y":0},{"label":"Aug 2","y":0},{"label":"Aug 3","y":0},{"label":"Aug 4","y":0},{"label":"Aug 5","y":0},{"label":"Aug 6","y":0},{"label":"Aug 7","y":0},{"label":"Aug 8","y":0},{"label":"Aug 9","y":0},{"label":"Aug 10","y":0},{"label":"Aug 11","y":0},{"label":"Aug 12","y":0},{"label":"Aug 13","y":0},{"label":"Aug 14","y":0},{"label":"Aug 15","y":0},{"label":"Aug 16","y":0},{"label":"Aug 17","y":0},{"label":"Aug 18","y":0},{"label":"Aug 19","y":0},{"label":"Aug 20","y":0},{"label":"Aug 21","y":0},{"label":"Aug 22","y":0},{"label":"Aug 23","y":0},{"label":"Aug 24","y":0},{"label":"Aug 25","y":0},{"label":"Aug 26","y":0},{"label":"Aug 27","y":0},{"label":"Aug 28","y":0},{"label":"Aug 29","y":0},{"label":"Aug 30","y":0},{"label":"Aug 31","y":0},{"label":"Sep 1","y":0},{"label":"Sep 2","y":0},{"label":"Sep 3","y":0},{"label":"Sep 4","y":0},{"label":"Sep 5","y":0},{"label":"Sep 6","y":0},{"label":"Sep 7","y":0},{"label":"Sep 8","y":0},{"label":"Sep 9","y":0},{"label":"Sep 10","y":0},{"label":"Sep 11","y":0},{"label":"Sep 12","y":0},{"label":"Sep 13","y":0},{"label":"Sep 14","y":0},{"label":"Sep 15","y":0},{"label":"Sep 16","y":0},{"label":"Sep 17","y":0},{"label":"Sep 18","y":0},{"label":"Sep 19","y":0},{"label":"Sep 20","y":0},{"label":"Sep 21","y":0},{"label":"Sep 22","y":0},{"label":"Sep 23","y":0},{"label":"Sep 24","y":0},{"label":"Sep 25","y":0},{"label":"Sep 26","y":0},{"label":"Sep 27","y":0},{"label":"Sep 28","y":0},{"label":"Sep 29","y":0},{"label":"Sep 30","y":0},{"label":"Oct 1","y":0},{"label":"Oct 2","y":0},{"label":"Oct 3","y":0},{"label":"Oct 4","y":0},{"label":"Oct 5","y":0},{"label":"Oct 6","y":0},{"label":"Oct 7","y":0},{"label":"Oct 8","y":0},{"label":"Oct 9","y":0},{"label":"Oct 10","y":0},{"label":"Oct 11","y":0},{"label":"Oct 12","y":0},{"label":"Oct 13","y":0},{"label":"Oct 14","y":0},{"label":"Oct 15","y":0},{"label":"Oct 16","y":0},{"label":"Oct 17","y":0},{"label":"Oct 18","y":0},{"label":"Oct 19","y":0},{"label":"Oct 20","y":0},{"label":"Oct 21","y":0},{"label":"Oct 22","y":0},{"label":"Oct 23","y":0},{"label":"Oct 24","y":0},{"label":"Oct 25","y":0},{"label":"Oct 26","y":0},{"label":"Oct 27","y":0},{"label":"Oct 28","y":0},{"label":"Oct 29","y":0},{"label":"Oct 30","y":0},{"label":"Oct 31","y":0},{"label":"Nov 1","y":0},{"label":"Nov 2","y":0},{"label":"Nov 3","y":0},{"label":"Nov 4","y":0},{"label":"Nov 5","y":0},{"label":"Nov 6","y":0},{"label":"Nov 7","y":0},{"label":"Nov 8","y":0},{"label":"Nov 9","y":0},{"label":"Nov 10","y":0},{"label":"Nov 11","y":0},{"label":"Nov 12","y":0},{"label":"Nov 13","y":0},{"label":"Nov 15","y":0},{"label":"Nov 16","y":0},{"label":"Nov 17","y":0},{"label":"Nov 18","y":0},{"label":"Nov 19","y":0},{"label":"Nov 21","y":0},{"label":"Nov 22","y":0},{"label":"Nov 23","y":0},{"label":"Nov 24","y":0},{"label":"Nov 26","y":0},{"label":"Nov 27","y":0},{"label":"Nov 28","y":0},{"label":"Nov 29","y":0},{"label":"Nov 30","y":0},{"label":"Dec 1","y":0},{"label":"Dec 2","y":0},{"label":"Dec 4","y":0},{"label":"Dec 6","y":0},{"label":"Dec 7","y":0},{"label":"Dec 8","y":0},{"label":"Dec 9","y":0},{"label":"Dec 10","y":0},{"label":"Dec 11","y":0},{"label":"Dec 12","y":0},{"label":"Dec 13","y":0},{"label":"Dec 14","y":0},{"label":"Dec 15","y":0},{"label":"Dec 16","y":0},{"label":"Dec 17","y":0},{"label":"Dec 18","y":0},{"label":"Dec 20","y":0},{"label":"Dec 21","y":0},{"label":"Dec 22","y":0},{"label":"Dec 23","y":0},{"label":"Dec 24","y":0},{"label":"Dec 24","y":0},{"label":"Dec 25","y":0},{"label":"Dec 26","y":0},{"label":"Dec 28","y":0},{"label":"Dec 29","y":0},{"label":"Dec 30","y":0},{"label":"Dec 31","y":0},{"label":"Jan 1","y":0},{"label":"Jan 2","y":0},{"label":"Jan 3","y":0},{"label":"Jan 4","y":0},{"label":"Jan 5","y":0},{"label":"Jan 7","y":0},{"label":"Jan 8","y":0},{"label":"Jan 9","y":0},{"label":"Jan 10","y":0},{"label":"Jan 12","y":0},{"label":"Jan 12","y":0},{"label":"Jan 13","y":0},{"label":"Jan 14","y":0},{"label":"Jan 15","y":0},{"label":"Jan 17","y":0},{"label":"Jan 18","y":0},{"label":"Jan 19","y":0},{"label":"Jan 20","y":0},{"label":"Jan 22","y":0},{"label":"Jan 24","y":0},{"label":"Jan 23","y":0},{"label":"Jan 25","y":0},{"label":"Jan 27","y":0},{"label":"Jan 28","y":0},{"label":"Jan 29","y":0},{"label":"Jan 30","y":0},{"label":"Feb 1","y":0},{"label":"Feb 2","y":0},{"label":"Feb 3","y":0},{"label":"Feb 4","y":0},{"label":"Feb 5","y":0},{"label":"Feb 6","y":0},{"label":"Feb 7","y":0},{"label":"Feb 8","y":0},{"label":"Feb 9","y":0},{"label":"Feb 10","y":0},{"label":"Feb 11","y":0},{"label":"Feb 12","y":0},{"label":"Feb 13","y":0},{"label":"Feb 14","y":0},{"label":"Feb 15","y":0},{"label":"Feb 16","y":0},{"label":"Feb 17","y":0},{"label":"Feb 18","y":0},{"label":"Feb 19","y":0},{"label":"Feb 20","y":0},{"label":"Feb 21","y":0},{"label":"Feb 22","y":0},{"label":"Feb 23","y":0},{"label":"Feb 24","y":0},{"label":"Feb 25","y":0},{"label":"Feb 26","y":0},{"label":"Feb 27","y":0},{"label":"Feb 28","y":0},{"label":"Mar 1","y":0},{"label":"Mar 2","y":0},{"label":"Mar 3","y":0},{"label":"Mar 4","y":0},{"label":"Mar 5","y":0},{"label":"Mar 6","y":0}]');
 var rdata= $.parseJSON('[{"label":"Mar 18","y":0},{"label":"Mar 19","y":0},{"label":"Mar 20","y":0},{"label":"Mar 21","y":0},{"label":"Mar 22","y":0},{"label":"Mar 23","y":0},{"label":"Mar 24","y":0},{"label":"Mar 25","y":0},{"label":"Mar 26","y":0},{"label":"Mar 27","y":0},{"label":"Mar 28","y":0},{"label":"Mar 29","y":0},{"label":"Mar 30","y":0},{"label":"Mar 31","y":0},{"label":"Apr 1","y":0},{"label":"Apr 2","y":0},{"label":"Apr 3","y":1},{"label":"Apr 4","y":2},{"label":"Apr 5","y":2},{"label":"Apr 6","y":0},{"label":"Apr 7","y":2},{"label":"Apr 8","y":0},{"label":"Apr 9","y":0},{"label":"Apr 10","y":0},{"label":"Apr 11","y":0},{"label":"Apr 12","y":0},{"label":"Apr 13","y":0},{"label":"Apr 14","y":2},{"label":"Apr 15","y":0},{"label":"Apr 16","y":0},{"label":"Apr 17","y":1},{"label":"Apr 18","y":1},{"label":"Apr 19","y":2},{"label":"Apr 20","y":1},{"label":"Apr 21","y":0},{"label":"Apr 22","y":0},{"label":"Apr 23","y":0},{"label":"Apr 24","y":1},{"label":"Apr 25","y":0},{"label":"Apr 26","y":2},{"label":"Apr 27","y":0},{"label":"Apr 28","y":0},{"label":"Apr 29","y":1},{"label":"Apr 30","y":0},{"label":"May 1","y":0},{"label":"May 2","y":1},{"label":"May 3","y":0},{"label":"May 4","y":2},{"label":"May 5","y":0},{"label":"May 6","y":0},{"label":"May 7","y":0},{"label":"May 8","y":0},{"label":"May 9","y":3},{"label":"May 10","y":0},{"label":"May 11","y":4},{"label":"May 12","y":2},{"label":"May 13","y":2},{"label":"May 14","y":5},{"label":"May 15","y":3},{"label":"May 16","y":11},{"label":"May 17","y":0},{"label":"May 18","y":3},{"label":"May 19","y":3},{"label":"May 20","y":79},{"label":"May 21","y":29},{"label":"May 22","y":13},{"label":"May 23","y":1},{"label":"May 24","y":7},{"label":"May 25","y":1},{"label":"May 26","y":0},{"label":"May 27","y":0},{"label":"May 28","y":2},{"label":"May 29","y":0},{"label":"May 30","y":10},{"label":"May 31","y":0},{"label":"Jun 1","y":1},{"label":"Jun 2","y":14},{"label":"Jun 3","y":0},{"label":"Jun 4","y":8},{"label":"Jun 5","y":51},{"label":"Jun 6","y":0},{"label":"Jun 7","y":1},{"label":"Jun 8","y":0},{"label":"Jun 9","y":11},{"label":"Jun 10","y":4},{"label":"Jun 11","y":4},{"label":"Jun 12","y":2},{"label":"Jun 13","y":0},{"label":"Jun 14","y":0},{"label":"Jun 15","y":6},{"label":"Jun 16","y":1},{"label":"Jun 17","y":4},{"label":"Jun 18","y":0},{"label":"Jun 19","y":1},{"label":"Jun 20","y":9},{"label":"Jun 21","y":0},{"label":"Jun 22","y":6},{"label":"Jun 23","y":0},{"label":"Jun 24","y":0},{"label":"Jun 25","y":7},{"label":"Jun 26","y":6},{"label":"Jun 27","y":0},{"label":"Jun 28","y":1},{"label":"Jun 29","y":13},{"label":"Jun 30","y":15},{"label":"Jul 1","y":3},{"label":"Jul 2","y":21},{"label":"Jul 3","y":5},{"label":"Jul 4","y":2},{"label":"Jul 5","y":0},{"label":"Jul 6","y":6},{"label":"Jul 7","y":0},{"label":"Jul 8","y":1},{"label":"Jul 9","y":1},{"label":"Jul 10","y":5},{"label":"Jul 11","y":5},{"label":"Jul 12","y":4},{"label":"Jul 13","y":6},{"label":"Jul 14","y":23},{"label":"Jul 15","y":13},{"label":"Jul 16","y":17},{"label":"Jul 17","y":4},{"label":"Jul 18","y":5},{"label":"Jul 19","y":3},{"label":"Jul 20","y":30},{"label":"Jul 21","y":0},{"label":"Jul 22","y":8},{"label":"Jul 23","y":5},{"label":"Jul 24","y":4},{"label":"Jul 25","y":20},{"label":"Jul 26","y":17},{"label":"Jul 27","y":3},{"label":"Jul 28","y":24},{"label":"Jul 29","y":12},{"label":"Jul 30","y":36},{"label":"Jul 31","y":20},{"label":"Aug 1","y":16},{"label":"Aug 2","y":15},{"label":"Aug 3","y":8},{"label":"Aug 4","y":9},{"label":"Aug 5","y":0},{"label":"Aug 6","y":62},{"label":"Aug 7","y":43},{"label":"Aug 8","y":52},{"label":"Aug 9","y":32},{"label":"Aug 10","y":100},{"label":"Aug 11","y":11},{"label":"Aug 12","y":8},{"label":"Aug 13","y":53},{"label":"Aug 14","y":15},{"label":"Aug 15","y":27},{"label":"Aug 16","y":19},{"label":"Aug 17","y":46},{"label":"Aug 18","y":60},{"label":"Aug 19","y":108},{"label":"Aug 20","y":39},{"label":"Aug 21","y":36},{"label":"Aug 22","y":45},{"label":"Aug 23","y":21},{"label":"Aug 24","y":154},{"label":"Aug 25","y":67},{"label":"Aug 26","y":83},{"label":"Aug 27","y":181},{"label":"Aug 28","y":130},{"label":"Aug 29","y":141},{"label":"Aug 30","y":48},{"label":"Aug 31","y":135},{"label":"Sep 1","y":120},{"label":"Sep 2","y":119},{"label":"Sep 3","y":213},{"label":"Sep 4","y":222},{"label":"Sep 5","y":185},{"label":"Sep 6","y":149},{"label":"Sep 7","y":295},{"label":"Sep 8","y":226},{"label":"Sep 9","y":180},{"label":"Sep 10","y":191},{"label":"Sep 11","y":269},{"label":"Sep 12","y":264},{"label":"Sep 13","y":306},{"label":"Sep 14","y":130},{"label":"Sep 15","y":202},{"label":"Sep 16","y":181},{"label":"Sep 17","y":379},{"label":"Sep 18","y":353},{"label":"Sep 19","y":351},{"label":"Sep 20","y":372},{"label":"Sep 21","y":273},{"label":"Sep 22","y":383},{"label":"Sep 23","y":255},{"label":"Sep 24","y":293},{"label":"Sep 25","y":335},{"label":"Sep 26","y":260},{"label":"Sep 27","y":166},{"label":"Sep 28","y":222},{"label":"Sep 29","y":273},{"label":"Sep 30","y":215},{"label":"Oct 1","y":196},{"label":"Oct 2","y":153},{"label":"Oct 3","y":234},{"label":"Oct 4","y":202},{"label":"Oct 5","y":199},{"label":"Oct 6","y":238},{"label":"Oct 7","y":155},{"label":"Oct 8","y":154},{"label":"Oct 9","y":161},{"label":"Oct 10","y":157},{"label":"Oct 11","y":125},{"label":"Oct 12","y":111},{"label":"Oct 13","y":109},{"label":"Oct 14","y":112},{"label":"Oct 15","y":113},{"label":"Oct 16","y":120},{"label":"Oct 17","y":108},{"label":"Oct 18","y":94},{"label":"Oct 19","y":63},{"label":"Oct 20","y":107},{"label":"Oct 21","y":118},{"label":"Oct 22","y":82},{"label":"Oct 23","y":85},{"label":"Oct 24","y":78},{"label":"Oct 25","y":80},{"label":"Oct 26","y":63},{"label":"Oct 27","y":49},{"label":"Oct 28","y":80},{"label":"Oct 29","y":43},{"label":"Oct 30","y":67},{"label":"Oct 31","y":82},{"label":"Nov 1","y":81},{"label":"Nov 2","y":76},{"label":"Nov 3","y":43},{"label":"Nov 4","y":51},{"label":"Nov 5","y":60},{"label":"Nov 6","y":63},{"label":"Nov 7","y":53},{"label":"Nov 8","y":46},{"label":"Nov 9","y":86},{"label":"Nov 10","y":66},{"label":"Nov 11","y":57},{"label":"Nov 12","y":64},{"label":"Nov 13","y":84},{"label":"Nov 15","y":87},{"label":"Nov 16","y":29},{"label":"Nov 17","y":160},{"label":"Nov 18","y":89},{"label":"Nov 19","y":130},{"label":"Nov 21","y":235},{"label":"Nov 22","y":119},{"label":"Nov 23","y":72},{"label":"Nov 24","y":66},{"label":"Nov 26","y":157},{"label":"Nov 27","y":85},{"label":"Nov 28","y":160},{"label":"Nov 29","y":69},{"label":"Nov 30","y":144},{"label":"Dec 1","y":103},{"label":"Dec 2","y":106},{"label":"Dec 4","y":334},{"label":"Dec 6","y":201},{"label":"Dec 7","y":85},{"label":"Dec 8","y":82},{"label":"Dec 9","y":147},{"label":"Dec 10","y":103},{"label":"Dec 11","y":134},{"label":"Dec 12","y":92},{"label":"Dec 13","y":114},{"label":"Dec 14","y":127},{"label":"Dec 15","y":139},{"label":"Dec 16","y":75},{"label":"Dec 17","y":105},{"label":"Dec 18","y":122},{"label":"Dec 20","y":189},{"label":"Dec 21","y":101},{"label":"Dec 22","y":79},{"label":"Dec 23","y":76},{"label":"Dec 24","y":50},{"label":"Dec 24","y":50},{"label":"Dec 25","y":2},{"label":"Dec 26","y":68},{"label":"Dec 28","y":82},{"label":"Dec 29","y":101},{"label":"Dec 30","y":30},{"label":"Dec 31","y":78},{"label":"Jan 1","y":64},{"label":"Jan 2","y":117},{"label":"Jan 3","y":54},{"label":"Jan 4","y":68},{"label":"Jan 5","y":116},{"label":"Jan 7","y":118},{"label":"Jan 8","y":55},{"label":"Jan 9","y":59},{"label":"Jan 10","y":31},{"label":"Jan 12","y":53},{"label":"Jan 12","y":53},{"label":"Jan 13","y":33},{"label":"Jan 14","y":31},{"label":"Jan 15","y":29},{"label":"Jan 17","y":52},{"label":"Jan 18","y":53},{"label":"Jan 19","y":49},{"label":"Jan 20","y":42},{"label":"Jan 22","y":73},{"label":"Jan 24","y":20},{"label":"Jan 23","y":33},{"label":"Jan 25","y":25},{"label":"Jan 27","y":66},{"label":"Jan 28","y":24},{"label":"Jan 29","y":26},{"label":"Jan 30","y":25},{"label":"Feb 1","y":33},{"label":"Feb 2","y":15},{"label":"Feb 3","y":31},{"label":"Feb 4","y":19},{"label":"Feb 5","y":12},{"label":"Feb 6","y":41},{"label":"Feb 7","y":30},{"label":"Feb 8","y":28},{"label":"Feb 9","y":21},{"label":"Feb 10","y":25},{"label":"Feb 11","y":31},{"label":"Feb 12","y":17},{"label":"Feb 13","y":35},{"label":"Feb 14","y":13},{"label":"Feb 15","y":24},{"label":"Feb 16","y":24},{"label":"Feb 17","y":19},{"label":"Feb 18","y":20},{"label":"Feb 19","y":17},{"label":"Feb 20","y":10},{"label":"Feb 21","y":11},{"label":"Feb 22","y":18},{"label":"Feb 23","y":15},{"label":"Feb 24","y":17},{"label":"Feb 25","y":20},{"label":"Feb 26","y":26},{"label":"Feb 27","y":25},{"label":"Feb 28","y":26},{"label":"Mar 1","y":19},{"label":"Mar 2","y":24},{"label":"Mar 3","y":24},{"label":"Mar 4","y":36},{"label":"Mar 5","y":34},{"label":"Mar 6","y":34}]');
 var ddata= $.parseJSON('[{"label":"Mar 18","y":0},{"label":"Mar 19","y":0},{"label":"Mar 20","y":0},{"label":"Mar 21","y":0},{"label":"Mar 22","y":0},{"label":"Mar 23","y":0},{"label":"Mar 24","y":0},{"label":"Mar 25","y":0},{"label":"Mar 26","y":0},{"label":"Mar 27","y":0},{"label":"Mar 28","y":0},{"label":"Mar 29","y":0},{"label":"Mar 30","y":0},{"label":"Mar 31","y":0},{"label":"Apr 1","y":0},{"label":"Apr 2","y":0},{"label":"Apr 3","y":0},{"label":"Apr 4","y":0},{"label":"Apr 5","y":0},{"label":"Apr 6","y":0},{"label":"Apr 7","y":0},{"label":"Apr 8","y":0},{"label":"Apr 9","y":0},{"label":"Apr 10","y":0},{"label":"Apr 11","y":0},{"label":"Apr 12","y":0},{"label":"Apr 13","y":0},{"label":"Apr 14","y":0},{"label":"Apr 15","y":0},{"label":"Apr 16","y":0},{"label":"Apr 17","y":0},{"label":"Apr 18","y":0},{"label":"Apr 19","y":0},{"label":"Apr 20","y":0},{"label":"Apr 21","y":0},{"label":"Apr 22","y":0},{"label":"Apr 23","y":0},{"label":"Apr 24","y":0},{"label":"Apr 25","y":0},{"label":"Apr 26","y":0},{"label":"Apr 27","y":0},{"label":"Apr 28","y":0},{"label":"Apr 29","y":0},{"label":"Apr 30","y":0},{"label":"May 1","y":0},{"label":"May 2","y":0},{"label":"May 3","y":1},{"label":"May 4","y":0},{"label":"May 5","y":0},{"label":"May 6","y":0},{"label":"May 7","y":0},{"label":"May 8","y":0},{"label":"May 9","y":1},{"label":"May 10","y":1},{"label":"May 11","y":0},{"label":"May 12","y":0},{"label":"May 13","y":0},{"label":"May 14","y":0},{"label":"May 15","y":0},{"label":"May 16","y":0},{"label":"May 17","y":0},{"label":"May 18","y":0},{"label":"May 19","y":0},{"label":"May 20","y":0},{"label":"May 21","y":0},{"label":"May 22","y":0},{"label":"May 23","y":0},{"label":"May 24","y":0},{"label":"May 25","y":1},{"label":"May 26","y":0},{"label":"May 27","y":0},{"label":"May 28","y":0},{"label":"May 29","y":0},{"label":"May 30","y":0},{"label":"May 31","y":0},{"label":"Jun 1","y":0},{"label":"Jun 2","y":1},{"label":"Jun 3","y":0},{"label":"Jun 4","y":0},{"label":"Jun 5","y":0},{"label":"Jun 6","y":0},{"label":"Jun 7","y":0},{"label":"Jun 8","y":0},{"label":"Jun 9","y":0},{"label":"Jun 10","y":0},{"label":"Jun 11","y":0},{"label":"Jun 12","y":0},{"label":"Jun 13","y":0},{"label":"Jun 14","y":0},{"label":"Jun 15","y":1},{"label":"Jun 16","y":0},{"label":"Jun 17","y":0},{"label":"Jun 18","y":0},{"label":"Jun 19","y":0},{"label":"Jun 20","y":0},{"label":"Jun 21","y":0},{"label":"Jun 22","y":0},{"label":"Jun 23","y":0},{"label":"Jun 24","y":0},{"label":"Jun 25","y":0},{"label":"Jun 26","y":0},{"label":"Jun 27","y":0},{"label":"Jun 28","y":0},{"label":"Jun 29","y":0},{"label":"Jun 30","y":0},{"label":"Jul 1","y":0},{"label":"Jul 2","y":0},{"label":"Jul 3","y":0},{"label":"Jul 4","y":0},{"label":"Jul 5","y":0},{"label":"Jul 6","y":0},{"label":"Jul 7","y":1},{"label":"Jul 8","y":0},{"label":"Jul 9","y":0},{"label":"Jul 10","y":0},{"label":"Jul 11","y":1},{"label":"Jul 12","y":0},{"label":"Jul 13","y":0},{"label":"Jul 14","y":2},{"label":"Jul 15","y":1},{"label":"Jul 16","y":0},{"label":"Jul 17","y":0},{"label":"Jul 18","y":1},{"label":"Jul 19","y":0},{"label":"Jul 20","y":0},{"label":"Jul 21","y":0},{"label":"Jul 22","y":1},{"label":"Jul 23","y":0},{"label":"Jul 24","y":0},{"label":"Jul 25","y":0},{"label":"Jul 26","y":0},{"label":"Jul 27","y":1},{"label":"Jul 28","y":0},{"label":"Jul 29","y":0},{"label":"Jul 30","y":0},{"label":"Jul 31","y":1},{"label":"Aug 1","y":3},{"label":"Aug 2","y":1},{"label":"Aug 3","y":0},{"label":"Aug 4","y":1},{"label":"Aug 5","y":0},{"label":"Aug 6","y":0},{"label":"Aug 7","y":3},{"label":"Aug 8","y":1},{"label":"Aug 9","y":1},{"label":"Aug 10","y":0},{"label":"Aug 11","y":1},{"label":"Aug 12","y":0},{"label":"Aug 13","y":1},{"label":"Aug 14","y":1},{"label":"Aug 15","y":0},{"label":"Aug 16","y":1},{"label":"Aug 17","y":1},{"label":"Aug 18","y":0},{"label":"Aug 19","y":1},{"label":"Aug 20","y":0},{"label":"Aug 21","y":2},{"label":"Aug 22","y":0},{"label":"Aug 23","y":4},{"label":"Aug 24","y":0},{"label":"Aug 25","y":3},{"label":"Aug 26","y":1},{"label":"Aug 27","y":2},{"label":"Aug 28","y":2},{"label":"Aug 29","y":0},{"label":"Aug 30","y":7},{"label":"Aug 31","y":4},{"label":"Sep 1","y":1},{"label":"Sep 2","y":2},{"label":"Sep 3","y":4},{"label":"Sep 4","y":5},{"label":"Sep 5","y":1},{"label":"Sep 6","y":2},{"label":"Sep 7","y":3},{"label":"Sep 8","y":1},{"label":"Sep 9","y":2},{"label":"Sep 10","y":3},{"label":"Sep 11","y":3},{"label":"Sep 12","y":6},{"label":"Sep 13","y":1},{"label":"Sep 14","y":5},{"label":"Sep 15","y":1},{"label":"Sep 16","y":5},{"label":"Sep 17","y":5},{"label":"Sep 18","y":4},{"label":"Sep 19","y":6},{"label":"Sep 20","y":4},{"label":"Sep 21","y":3},{"label":"Sep 22","y":4},{"label":"Sep 23","y":10},{"label":"Sep 24","y":7},{"label":"Sep 25","y":1},{"label":"Sep 26","y":0},{"label":"Sep 27","y":2},{"label":"Sep 28","y":6},{"label":"Sep 29","y":5},{"label":"Sep 30","y":4},{"label":"Oct 1","y":2},{"label":"Oct 2","y":5},{"label":"Oct 3","y":3},{"label":"Oct 4","y":2},{"label":"Oct 5","y":3},{"label":"Oct 6","y":3},{"label":"Oct 7","y":2},{"label":"Oct 8","y":4},{"label":"Oct 9","y":2},{"label":"Oct 10","y":2},{"label":"Oct 11","y":1},{"label":"Oct 12","y":1},{"label":"Oct 13","y":5},{"label":"Oct 14","y":2},{"label":"Oct 15","y":2},{"label":"Oct 16","y":5},{"label":"Oct 17","y":1},{"label":"Oct 18","y":1},{"label":"Oct 19","y":0},{"label":"Oct 20","y":1},{"label":"Oct 21","y":0},{"label":"Oct 22","y":3},{"label":"Oct 23","y":2},{"label":"Oct 24","y":2},{"label":"Oct 25","y":2},{"label":"Oct 26","y":4},{"label":"Oct 27","y":1},{"label":"Oct 28","y":1},{"label":"Oct 29","y":1},{"label":"Oct 30","y":0},{"label":"Oct 31","y":1},{"label":"Nov 1","y":0},{"label":"Nov 2","y":1},{"label":"Nov 3","y":1},{"label":"Nov 4","y":1},{"label":"Nov 5","y":0},{"label":"Nov 6","y":1},{"label":"Nov 7","y":2},{"label":"Nov 8","y":2},{"label":"Nov 9","y":3},{"label":"Nov 10","y":4},{"label":"Nov 11","y":2},{"label":"Nov 12","y":1},{"label":"Nov 13","y":2},{"label":"Nov 15","y":2},{"label":"Nov 16","y":2},{"label":"Nov 17","y":2},{"label":"Nov 18","y":1},{"label":"Nov 19","y":1},{"label":"Nov 21","y":2},{"label":"Nov 22","y":2},{"label":"Nov 23","y":3},{"label":"Nov 24","y":2},{"label":"Nov 26","y":5},{"label":"Nov 27","y":0},{"label":"Nov 28","y":4},{"label":"Nov 29","y":2},{"label":"Nov 30","y":1},{"label":"Dec 1","y":1},{"label":"Dec 2","y":3},{"label":"Dec 4","y":6},{"label":"Dec 6","y":4},{"label":"Dec 7","y":2},{"label":"Dec 8","y":3},{"label":"Dec 9","y":1},{"label":"Dec 10","y":1},{"label":"Dec 11","y":1},{"label":"Dec 12","y":1},{"label":"Dec 13","y":1},{"label":"Dec 14","y":1},{"label":"Dec 15","y":2},{"label":"Dec 16","y":0},{"label":"Dec 17","y":0},{"label":"Dec 18","y":1},{"label":"Dec 20","y":3},{"label":"Dec 21","y":2},{"label":"Dec 22","y":12},{"label":"Dec 23","y":1},{"label":"Dec 24","y":1},{"label":"Dec 24","y":1},{"label":"Dec 25","y":0},{"label":"Dec 26","y":1},{"label":"Dec 28","y":1},{"label":"Dec 29","y":0},{"label":"Dec 30","y":0},{"label":"Dec 31","y":1},{"label":"Jan 1","y":1},{"label":"Jan 2","y":1},{"label":"Jan 3","y":1},{"label":"Jan 4","y":1},{"label":"Jan 5","y":1},{"label":"Jan 7","y":2},{"label":"Jan 8","y":1},{"label":"Jan 9","y":1},{"label":"Jan 10","y":0},{"label":"Jan 12","y":1},{"label":"Jan 12","y":1},{"label":"Jan 13","y":1},{"label":"Jan 14","y":1},{"label":"Jan 15","y":0},{"label":"Jan 17","y":0},{"label":"Jan 18","y":0},{"label":"Jan 19","y":0},{"label":"Jan 20","y":0},{"label":"Jan 22","y":2},{"label":"Jan 24","y":1},{"label":"Jan 23","y":1},{"label":"Jan 25","y":0},{"label":"Jan 27","y":0},{"label":"Jan 28","y":0},{"label":"Jan 29","y":0},{"label":"Jan 30","y":0},{"label":"Feb 1","y":0},{"label":"Feb 2","y":1},{"label":"Feb 3","y":1},{"label":"Feb 4","y":1},{"label":"Feb 5","y":1},{"label":"Feb 6","y":1},{"label":"Feb 7","y":1},{"label":"Feb 8","y":1},{"label":"Feb 9","y":1},{"label":"Feb 10","y":1},{"label":"Feb 11","y":1},{"label":"Feb 12","y":0},{"label":"Feb 13","y":1},{"label":"Feb 14","y":1},{"label":"Feb 15","y":0},{"label":"Feb 16","y":1},{"label":"Feb 17","y":1},{"label":"Feb 18","y":0},{"label":"Feb 19","y":0},{"label":"Feb 20","y":1},{"label":"Feb 21","y":0},{"label":"Feb 22","y":1},{"label":"Feb 23","y":0},{"label":"Feb 24","y":1},{"label":"Feb 25","y":0},{"label":"Feb 26","y":0},{"label":"Feb 27","y":0},{"label":"Feb 28","y":1},{"label":"Mar 1","y":1},{"label":"Mar 2","y":1},{"label":"Mar 3","y":1},{"label":"Mar 4","y":0},{"label":"Mar 5","y":0},{"label":"Mar 6","y":0}]');
-var stateData = $.parseJSON('[{"y":5024,"label":"Andaman and Nicobar Islands"},{"y":890556,"label":"Andhra Pradesh"},{"y":16839,"label":"Arunachal Pradesh"},{"y":217649,"label":"Assam"},{"y":262728,"label":"Bihar"},{"y":22238,"label":"Chandigarh"},{"y":314098,"label":"Chhattisgarh"},{"y":3409,"label":"Dadra and Nagar Haveli and Daman and Diu"},{"y":640815,"label":"Delhi"},{"y":55361,"label":"Goa"},{"y":272811,"label":"Gujarat"},{"y":272215,"label":"Haryana"},{"y":59059,"label":"Himachal Pradesh"},{"y":126932,"label":"Jammu and Kashmir"},{"y":120217,"label":"Jharkhand"},{"y":954393,"label":"Karnataka"},{"y":1075227,"label":"Kerala"},{"y":9830,"label":"Ladakh"},{"y":473,"label":"Lakshadweep"},{"y":264214,"label":"Madhya Pradesh"},{"y":2208586,"label":"Maharashtra"},{"y":29288,"label":"Manipur"},{"y":13970,"label":"Meghalaya"},{"y":4428,"label":"Mizoram"},{"y":12211,"label":"Nagaland"},{"y":337674,"label":"Odisha"},{"y":39843,"label":"Puducherry"},{"y":187348,"label":"Punjab"},{"y":321356,"label":"Rajasthan"},{"y":6167,"label":"Sikkim"},{"y":854554,"label":"Tamil Nadu"},{"y":299900,"label":"Telengana"},{"y":33424,"label":"Tripura"},{"y":97363,"label":"Uttarakhand"},{"y":604164,"label":"Uttar Pradesh"},{"y":576435,"label":"West Bengal"}]');
+var stateData = $.parseJSON('[{"y":5024,"label":"Andaman and Nicobar Islands"},{"y":890692,"label":"Andhra Pradesh"},{"y":16839,"label":"Arunachal Pradesh"},{"y":217668,"label":"Assam"},{"y":262758,"label":"Bihar"},{"y":22318,"label":"Chandigarh"},{"y":314320,"label":"Chhattisgarh"},{"y":3416,"label":"Dadra and Nagar Haveli and Daman and Diu"},{"y":641101,"label":"Delhi"},{"y":55409,"label":"Goa"},{"y":273386,"label":"Gujarat"},{"y":272520,"label":"Haryana"},{"y":59118,"label":"Himachal Pradesh"},{"y":127044,"label":"Jammu and Kashmir"},{"y":120259,"label":"Jharkhand"},{"y":955015,"label":"Karnataka"},{"y":1077327,"label":"Kerala"},{"y":9831,"label":"Ladakh"},{"y":486,"label":"Lakshadweep"},{"y":264643,"label":"Madhya Pradesh"},{"y":2219727,"label":"Maharashtra"},{"y":29291,"label":"Manipur"},{"y":13972,"label":"Meghalaya"},{"y":4428,"label":"Mizoram"},{"y":12217,"label":"Nagaland"},{"y":337744,"label":"Odisha"},{"y":39868,"label":"Puducherry"},{"y":188391,"label":"Punjab"},{"y":321532,"label":"Rajasthan"},{"y":6174,"label":"Sikkim"},{"y":855121,"label":"Tamil Nadu"},{"y":300011,"label":"Telengana"},{"y":33424,"label":"Tripura"},{"y":97422,"label":"Uttarakhand"},{"y":604279,"label":"Uttar Pradesh"},{"y":576623,"label":"West Bengal"}]');
 var chart = new CanvasJS.Chart("chartContainer3", {
 	title:{
 		text: "Chandigarh COVID-19 cases"
