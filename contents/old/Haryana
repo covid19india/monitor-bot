@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+</title></head>
+<body class="four-zero-four">
+<div class="four-zero-four-container">
+<div class="error-code">500</div>
+<div class="error-message">This page doesn't exist</div>
+<div class="button-place">
+<a class="btn btn-default btn-lg waves-effect" href="index.aspx">GO TO HOMEPAGE</a>
+</div>
+</div>
+<!-- Jquery Core Js -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core Js -->
+<script src="plugins/bootstrap/js/bootstrap.js"></script>
+<!-- Waves Effect Plugin Js -->
+<script src="plugins/node-waves/waves.js"></script>
+</body>
+</html>
