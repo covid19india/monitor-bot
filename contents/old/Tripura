@@ -17,7 +17,7 @@
 <link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/></head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="u7af0RU1kH7q0x0fMQqTM1YhwiSiovQWGUL2H77npqFNU+/sf48aDXUgmajywxh7kltBxHkukdVa4LwR8jzUJs3vBG+Dun0QJ17koCG7FBItFReD2GSJs1A1EImgT0DswY1UMpo2B8deudRLfnAChw3FVaImpku/K6TZvZeXWigxs/GvRbmF+n1e+NKzLKYIStDuJTlS77OdJobYuOqV8w7gULkFyMJCBe8IboC5cfY/2VQ+PQbAD1d+hJMemIe1"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="sLpmh79ozBI0BRQiO65yG9K+arrISNqXzdSKVU1zhfqdmkiA+aPbxT2ke21JFzppji8MWzaeCCrkY04DoLikGf1noXrgtgxGlG+9qFwecjodY9lyI6Z9x1BmJ4HDSTIupNE9i19vJrJfwZv41OnvrYTBNRGZud9SLSa3XnyvcWlws5zOSWXhrpRl9mEDlyT8/VIHfN97I9IMoNsB8JNPoVno7Srp3EpiKS4bk3+KkC23GOxe828EMiTCbhsZkDh5"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
 <nav class="navbar bg-dark">
@@ -110,14 +110,14 @@
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-file-medical text-danger"></i>
-<span class="Count" id="lblActiceCases">60</span>
+<span class="Count" id="lblActiceCases">59</span>
 <p>Active COVID-19 Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-heartbeat text-danger"></i>
-<span class="Count" id="lblCuredCases">33042</span>
+<span class="Count" id="lblCuredCases">33047</span>
 <p>Cured Cases</p>
 </div>
 </div>
@@ -324,10 +324,10 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <div class="col-lg-12 mt-4 text-danger">
 <span>Stats are as on Date: </span>
 <strong>
-<span id="lblStatsAsPerDate">31 Mar 2021</span></strong><br/>
+<span id="lblStatsAsPerDate">01 Apr 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">546306</span></strong>
+<span id="lblVisitorNumber">546334</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
