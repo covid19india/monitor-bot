@@ -416,31 +416,6 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 </div>
 <!-- <div id="chartContainer" style="height: 300px; width: 100%;"></div> -->
 <hr/>
-<div class="field-items">
-<div class="even field-item">
-<h5 class="mb-0 pb-10">COVID19 STATEWISE STATUS (*including foreign nationals, as on 1970-01-01 05:30:00)</h5>
-<p> * Statistics sourced from The Ministry of Health and Family Welfare :-</p>
-<div class="table-responsive">
-<table border="1" cellpadding="1" cellspacing="1" class="table table-dark table-striped">
-<thead>
-<tr>
-<th>S.No.</th>
-<th>Name of State / UT</th>
-<th>Total Confirmed cases *</th>
-<th>Cured/Discharged/Migrated</th>
-<th>Death</th>
-</tr>
-</thead>
-<tbody><tr>
-<td colspan="2">Total number of confirmed cases in India</td>
-<td></td>
-<td></td>
-<td></td>
-</tr></tbody>
-</table>
-</div>
-</div>
-</div>
 </div>
 <!--  <div class="col-lg-3 col-md-6 form-group">
             
@@ -945,7 +920,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-04-12T09:47:20.518Z
+    [lastRefreshed] =&gt; 2021-04-12T10:21:20.569Z
     [lastOriginUpdate] =&gt; 2021-04-12T02:30:00.000Z
 )
 
