@@ -17,7 +17,7 @@
 <link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/></head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="Y9RTc+MJfKhxEtW9eBomiMyWQbEoCZi/AF/YL0apbbcv8ciIikXGLkTjqKmDUaI2LvSTOs1Pp2fW9aHUmdcyUKdjNfp/WiTy5aH8HlifhHO9FlTAgAMI/ufXtVsee7d/NrBtdLtr3QzeUyDKP/wXlBlJl9podvb0D2MXO9pmvEr1U2Cwt1fjOHxp2vIRzvUVbXR6JjcuNOXSydz4WISyweq81cSu839g0aZn6O5yL6soKPPkXFTcAb32thVoOK75"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="hoz4LJxockmiDi466hBLSUOgIAY9n7cFZpEWxBtpLCeCG2nj2WKbaPgDSS2DLm7BWmCIGMtFRhsiy3avKXcZHwZaapt9WIyIag8csR6fuZQ8iG2K1ar30JJ7iVzQk/ufLc798qhRWkl9QDgZo/IUTmjYu88FkiSUKp4f943tm5B1Dza8IjbRFPk/gaAFh5scTvjZTUwz1Er8aHLjVN7lw5nVSnFj/L4uXAvwSwhRHw+Edn7I30smqHNs8n2wGTpQ"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
 <nav class="navbar bg-dark">
@@ -88,10 +88,10 @@
                     </a>
 </div>
 <h1 class="text-warning">#TripuraFightsCorona</h1>
-<h2>Helpline Numbers for COVID-19 Control Room<br/>
-                    0381-231-5879 / 241-2424 / 241-3434 / 241-0111 / 241-1622<br/>
-<i class="fab fa-whatsapp"></i>  +91-8414969592 (Call / Whatsapp)<br/>
-<i class="fa fa-envelope"></i>  state-control[@]tripura[.]gov[.]in<br/>
+<h2>Helpline Number for Resident of Tripura (Toll Free): 112<br/>
+                    Helpline Number for Resident of Tripura staying Outside the State: 0381-2350046/ 0381-2350116<br/>
+<!-- <i class="fab fa-whatsapp "></i>&nbsp; +91-8414969592 (Call / Whatsapp)<br />
+                    <i class="fa fa-envelope "></i>&nbsp; state-control[@]tripura[.]gov[.]in<br />-->
 </h2>
 <a class="btn btn-sm btn-warning btn-round" href="Visitor/HelpLineDetails.aspx">District Wise Helpline Details</a>
 </div>
@@ -331,7 +331,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <span id="lblStatsAsPerDate">19 May 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">604081</span></strong>
+<span id="lblVisitorNumber">604112</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
