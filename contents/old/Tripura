@@ -17,7 +17,7 @@
 <link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/></head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="WXaybP+4V3Xv2+b4vSo04o/FLbZaU1G4hpr9Dnry/Aq7AXminu5BU9V/fdA84hK2pptfY32AfrWrzns6qlj8rgWo1mbR8PwRcZEUTajgUlvTA+QJnnpw7t/4i2dMMV79Pq4dASidc1HdnD9f52FX2y086FtMEhPUKeCWMTkWEd6Jx5Sf8BWOj7VWnghAmkGpHiwz+ma0KW2cPAJHMlVQ2vweYuzDGeKFD3JPpcCzOpVTPg3y9Hwladv2hALXiwMQ"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="aOIhr0VyBGGGDXHbE/j1E1FA5hKR2eWhEezRY0hIFBdkwsOhyCkOlSfzeDtIeC9+Tevc8/zsVdC1L4mM9/bME/A1uLLuQbIcZoavRRJ8OD7/xMjBxU4Sahg/nLYOZrce/TpyhNLpE0zYUfQdYG+uqLt4pj9yS2bmE6qARl0XVcYNQguW9kXWciBnJlbgS+z6vCnc6Ic4KSSn4ADSZ2LIUEuZxajbegzeIbh7AiVOZwz+TTWJ9lxDRIeOVWhr+wlE"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
 <nav class="navbar bg-dark">
@@ -110,21 +110,21 @@
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-file-medical text-danger"></i>
-<span class="Count" id="lblActiceCases">5924</span>
+<span class="Count" id="lblActiceCases">6325</span>
 <p>Active COVID-19 Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-heartbeat text-danger"></i>
-<span class="Count" id="lblCuredCases">36342</span>
+<span class="Count" id="lblCuredCases">36658</span>
 <p>Cured Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-frown text-danger"></i>
-<span class="Count" id="lblDeathCases">447</span>
+<span class="Count" id="lblDeathCases">450</span>
 <p>Death Cases</p>
 </div>
 </div>
@@ -324,10 +324,10 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <div class="col-lg-12 mt-4 text-danger">
 <span>Stats are as on Date: </span>
 <strong>
-<span id="lblStatsAsPerDate">18 May 2021</span></strong><br/>
+<span id="lblStatsAsPerDate">19 May 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">603350</span></strong>
+<span id="lblVisitorNumber">603400</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
