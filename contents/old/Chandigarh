@@ -35,6 +35,20 @@
       top: 0px !important; 
     }
   </style> -->
+<style>
+        .reportbtn {
+            position: fixed;
+            top: 57px;
+            left: -2px;
+            z-index: 1;
+            border-radius: 0px 30px 30px 0px;
+            border: 1px solid #1a18a0;
+            background: #0062cc;
+        }
+        .reportbtn:focus {
+            color: #fff;
+        }
+  </style>
 </link></link></link></head>
 <style type="text/css">.section-header h3.uline { margin: 10px 0 30px;
 } </style>
@@ -88,6 +102,7 @@
 <header id="header">
 <div class="container">
 <div class="row">
+<a class="btn btn-danger reportbtn" href="http://chdcovid19.in/chdcovidbed19" target="_blank">Check Beds Availability <i class="fa fa-arrow-right"></i></a>
 <div class="col-md-2 d-none d-md-block d-lg-block">
 <div class="logo pull-right">
 <a href="http://chdcovid19.in/"><img alt="" class="img-fluid" src="http://chdcovid19.in/assets/img/Chandigarh-Administration.png"/>
@@ -920,7 +935,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-05-24T08:04:20.120Z
+    [lastRefreshed] =&gt; 2021-05-24T08:30:21.961Z
     [lastOriginUpdate] =&gt; 2021-05-24T02:30:00.000Z
 )
 
