@@ -17,7 +17,7 @@
 <link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/></head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="lAYtZqtpAXXhoFiccPdP7XdCrlznoPEjJ5JRBFAfiHqUzOj75aMfps8Nlsa/71q5aENrOUPKLy6Ye9LMkdY/ckK+P4GRuOnqpVREZw6KBQsz8rTfOOAsiCWXDiPUZcZS6uIaQ2NJF8dLkLne7nDtX4JtdoTc+2sqhuluDzmq8SdcNayIWEsBiPzdp4ZdNOzEhlZn1M2RMALeL+JG7d/ExTfam1fYC1oI8gxaw4IeLIzhyoB23r1/NHFqUQDh4rDx"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="TgzmjOvbmTbkEMkXSddT9vS4L6JDIhSnDNHXEFfjZvDDauXxbrkuF8vGKh97TEmbfv7cAKrWZY9/T/xxIL8RCvmCToCRAyURjGHMxDZireAqOKLT4mvsyW5mddpNxEc/3tjA0M9sCH8L5cg3Z31B7jvkwDMrCu5oA1afPCGIS6N2YHwzrZnYZwSwZlKUTQqe5J/984PwjY/2xegLEbQkzTh2W3gTQb43rQnFiwIvFyERDNU7jyQCWwUVjN3E6QRP"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <header class="bg-light-black">
 <nav class="navbar bg-dark">
@@ -78,14 +78,14 @@
 <a class="btn btn-sm btn-success btn-round m-1" href="Bed_Availability_Status.html">Bed Availability for Covid-19                    
                     </a>
 <br/>
-<a class="btn btn-sm btn-danger btn-round m-1" href="Visitor/StrandedOutside.aspx">Are you Stranded outside Tripura?                    
+<!--   <a href="Visitor/StrandedOutside.aspx" class="btn btn-sm btn-danger btn-round m-1">Are you Stranded outside Tripura?                    
                     </a>
-<a class="btn btn-sm btn-primary btn-round m-1" href="Visitor/StrandedInside.aspx">Are you Stranded inside Tripura?                    
-                    </a>
+                    <a href="Visitor/StrandedInside.aspx" class="btn btn-sm btn-primary btn-round m-1">Are you Stranded inside Tripura?                    
+                    </a>-->
 <br/>
-<!--  <img src="Images/new_arrow.gif" />-->
-<a class="btn btn-sm btn-success btn-round m-1" href="Visitor/ViewRequestStatus.aspx">Check Status of Assistance Request                    
-                    </a>
+<!--  <img src="Images/new_arrow.gif" />
+                    <a href="Visitor/ViewRequestStatus.aspx" class="btn btn-sm btn-success btn-round m-1">Check Status of Assistance Request                    
+                    </a>-->
 </div>
 <h1 class="text-warning">#TripuraFightsCorona</h1>
 <h2>Helpline Number for Resident of Tripura (Toll Free): 112<br/>
@@ -331,7 +331,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <span id="lblStatsAsPerDate">24 May 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">610463</span></strong>
+<span id="lblVisitorNumber">610500</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
