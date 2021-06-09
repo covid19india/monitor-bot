@@ -332,49 +332,49 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">60659</div>
+<div class="card-body">60778</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">59054</div>
+<div class="card-body">59314</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">772</div>
+<div class="card-body">779</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Total Sampled</div>
-<div class="card-body">523880</div>
+<div class="card-body">528002</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Positive Cases</div>
-<div class="card-body">60659</div>
+<div class="card-body">60778</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Negative Cases</div>
-<div class="card-body">461989</div>
+<div class="card-body">465989</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Rejected Samples</div>
-<div class="card-body">1232</div>
+<div class="card-body">1235</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Result Awaited</div>
-<div class="card-body">30</div>
+<div class="card-body">21</div>
 </div>
 </div>
 <div class="col-12 pt-10 text-center">* Statistics sourced from Department of Health, Chandigarh</div>
@@ -382,7 +382,7 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="row">
 <div class="col-md-12 form-group pt-10 mb-0">
 <div class="card bg-success text-white mb-10 plr-10">
-<div class="card-body ptb-10 text-center">Home Quarantined :  123632</div>
+<div class="card-body ptb-10 text-center">Home Quarantined :  123716</div>
 </div>
 <div class="col-12 text-center">* Statistics sourced from Municipal Corporation, Chandigarh</div>
 </div>
@@ -935,7 +935,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-06-09T04:30:20.120Z
+    [lastRefreshed] =&gt; 2021-06-09T05:21:22.606Z
     [lastOriginUpdate] =&gt; 2021-06-09T02:30:00.000Z
 )
 
