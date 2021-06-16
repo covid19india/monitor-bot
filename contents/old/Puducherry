@@ -115,7 +115,7 @@ var text_resize_scope = "main";
 <script src="https://health.py.gov.in/sites/all/themes/chh/js/jquery.pause.js" type="text/javascript"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"wh72GGQHBWUOvRzz55pbGzcnvpcJD8bYqEkl5SVKkvI","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"BkIYjdfOlkQyAQ375b9xIl8G7d3yFU3hJBD-32Q8afk","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/themes\/chh\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/chh\/js\/slide.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/dynamic_banner\/js\/banner.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/themes\/chh\/js\/file-size.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.js":1,"sites\/all\/themes\/chh\/js\/valid.js":1,"sites\/all\/themes\/chh\/js\/bootstrap.min.js":1,"sites\/all\/themes\/chh\/js\/superfish.js":1,"sites\/all\/themes\/chh\/js\/mobilemenu.js":1,"sites\/all\/themes\/chh\/js\/custom.js":1,"sites\/all\/themes\/chh\/js\/jquery.marquee.min.js":1,"sites\/all\/themes\/chh\/js\/jquery.pause.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/dynamic_banner\/css\/banner.css":1,"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.4.0\/css\/font-awesome.min.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/styleswitcher\/styleswitcher.overlay.css":1,"sites\/all\/themes\/chh\/css\/bootstrap.min.css":1,"sites\/all\/themes\/chh\/style.css":1,"public:\/\/css_injector\/css_injector_2.css":1,"public:\/\/css_injector\/css_injector_3.css":1,"public:\/\/css_injector\/css_injector_12.css":1,"public:\/\/css_injector\/css_injector_14.css":1,"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"slidshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"news_slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"what_s_new-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"photo_gallery-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"footer_external_logos-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slidshow-block_1":{"top":{"type":"viewsSlideshowControlsText"}},"news_slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"what_s_new-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}},"footer_external_logos-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slidshow-block_1":{"num_divs":4,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slidshow-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_news_slider-block_1":{"num_divs":20,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"news_slider-block_1","effect":"scrollLeft","transition_advanced":1,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_what_s_new-block_1":{"num_divs":8,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"what_s_new-block_1","effect":"scrollUp","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":2,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_photo_gallery-block_1":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"photo_gallery-block_1","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_footer_external_logos-block_1":{"num_divs":10,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"footer_external_logos-block_1","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":4,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"styleSwitcher":{"styles":{"custom\/newsite":{"label":"A","name":"custom\/newsite","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_15.css","weight":"-1","status":true,"is_default":false,"_i":0,"theme":"nexus"},"custom\/newstyle":{"label":"A","name":"custom\/newstyle","path":"https:\/\/health.py.gov.in\/styleswitcher\/css\/nexus","weight":"0","status":true,"is_default":true,"_i":1,"theme":"nexus"},"custom\/g":{"label":"A","name":"custom\/g","path":"https:\/\/health.py.gov.in\/sites\/default\/files\/css_injector\/css_injector_16.css","weight":"1","status":true,"is_default":false,"_i":2,"theme":"nexus"}},"default":"custom\/newstyle","enableOverlay":1,"cookieExpire":31536000,"theme":"nexus"},"urlIsAjaxTrusted":{"\/":true}});
 //--><!]]>
 </script>
 <!--[if lt IE 9]><script src="/sites/all/themes/chh/js/html5.js"></script><![endif]-->
@@ -516,7 +516,7 @@ $(document).scroll(function() {
 <label class="element-invisible" for="edit-search-block-form--2">Search </label>
 <input class="form-text" id="edit-search-block-form--2" maxlength="128" name="search_block_form" size="15" title="Enter the terms you wish to search for." type="text" value=""/>
 </div>
-<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-xHLm8WmTTz77UztnxEoZix0mONaf58qruGgCSCAM0Q0"/>
+<div class="form-actions form-wrapper" id="edit-actions"><input class="form-submit" id="edit-submit" name="op" type="submit" value="Search"/></div><input name="form_build_id" type="hidden" value="form-YKJRJy3d6t8wXhvFw2bJumXEGDOdryY3uHweXxZLfW0"/>
 <input name="form_id" type="hidden" value="search_block_form"/>
 </div>
 <!-- END OUTPUT from 'modules/search/search-block-form.tpl.php' -->
@@ -1468,7 +1468,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-db140dc12df94776be997aae899eb180">
+<div class="view view-slidshow view-id-slidshow view-display-id-block view-dom-id-66e1c021359fb1ae533372aa6c0aa08c">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1518,7 +1518,7 @@ $(document).scroll(function() {
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 <span class="views-field views-field-field-slideshowimage"> <span class="field-content"><span class="slideshow-text-wrapper" tabindex="0">
-<img alt="image of Rajiv Gandhi Government Women and Children Hospital" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b1.jpg" title="Rajiv Gandhi Government Women and Children Hospital" typeof="foaf:Image" width="1536"/>
+<img alt="Image of Pledge at DHFWS" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b2.jpg" title="Pledge at DHFWS" typeof="foaf:Image" width="1536"/>
 </span></span> </span>
 <div class="views-field views-field-field-image-caption"> <div class="field-content"></div> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
@@ -1538,7 +1538,7 @@ $(document).scroll(function() {
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 <span class="views-field views-field-field-slideshowimage"> <span class="field-content"><span class="slideshow-text-wrapper" tabindex="0">
-<img alt="Image of Pledge at DHFWS" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b2.jpg" title="Pledge at DHFWS" typeof="foaf:Image" width="1536"/>
+<img alt="Image of Road Safety Function" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b4-8-122.jpg" title="Road Safety Function" typeof="foaf:Image" width="1536"/>
 </span></span> </span>
 <div class="views-field views-field-field-image-caption"> <div class="field-content"></div> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
@@ -1558,7 +1558,7 @@ $(document).scroll(function() {
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 <span class="views-field views-field-field-slideshowimage"> <span class="field-content"><span class="slideshow-text-wrapper" tabindex="0">
-<img alt="Image of Road Safety Function" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b4-8-122.jpg" title="Road Safety Function" typeof="foaf:Image" width="1536"/>
+<img alt="image of Rajiv Gandhi Government Women and Children Hospital" height="536" src="https://health.py.gov.in/sites/default/files/styles/mainbanner/public/b1.jpg" title="Rajiv Gandhi Government Women and Children Hospital" typeof="foaf:Image" width="1536"/>
 </span></span> </span>
 <div class="views-field views-field-field-image-caption"> <div class="field-content"></div> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
@@ -1625,7 +1625,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-1b78c64bf2cb0991f02c56302e69ea6a">
+<div class="view view-what-s-new view-id-what_s_new view-display-id-block view-dom-id-5c1e0c69098804ae6989a52bfed40a62">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1647,7 +1647,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/guidelines-operationalization-covid-care-services-children-adolescent">Guidelines on Operationalization of COVID Care Services  for Children &amp; Adolescent</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/dhfws-sponsoring-inservice-candidates-health-department-undergo-various-courses-mtpgrihs-puducherry">DHFWS- sponsoring of inservice candidates of Health Department to undergo various courses at MTPG&amp;RIHS, Puducherry for the academic year 2021-22-willingness called for</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <span class="date-display-single" content="2021-06-16T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">16/06/2021</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
@@ -1659,8 +1659,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-01012020-31122020">RGGW&amp;CH 01.01.2020 to 31.12.2020</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
-<span class="date-display-single" content="2021-06-15T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">15/06/2021</span>
+<div class="newitem"><a href="/guidelines-operationalization-covid-care-services-children-adolescent">Guidelines on Operationalization of COVID Care Services  for Children &amp; Adolescent</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<span class="date-display-single" content="2021-06-16T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">16/06/2021</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1677,8 +1677,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-annual-report-2018">Bio-Medical Waste - RGGW&amp;CH Annual Report 2018</a>   </div>
-<span class="date-display-single" content="2019-06-18T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">18/06/2019</span>
+<div class="newitem"><a href="/rggwch-01012020-31122020">RGGW&amp;CH 01.01.2020 to 31.12.2020</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<span class="date-display-single" content="2021-06-15T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">15/06/2021</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1689,8 +1689,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-july-2020">Bio-Medical Waste - RGGW&amp;CH-July 2020</a>   </div>
-<span class="date-display-single" content="2020-08-06T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">06/08/2020</span>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-annual-report-2018">Bio-Medical Waste - RGGW&amp;CH Annual Report 2018</a>   </div>
+<span class="date-display-single" content="2019-06-18T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">18/06/2019</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1707,8 +1707,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/biomedical-waste-annual-report-rggwch-2019-0">Biomedical waste annual report of RGGWCH - 2019</a>   </div>
-<span class="date-display-single" content="2020-03-26T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">26/03/2020</span>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-july-2020">Bio-Medical Waste - RGGW&amp;CH-July 2020</a>   </div>
+<span class="date-display-single" content="2020-08-06T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">06/08/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1719,8 +1719,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-august-2020">Bio Medical Waste -  RGGW&amp;CH-August 2020 </a>   </div>
-<span class="date-display-single" content="2020-11-12T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">12/11/2020</span>
+<div class="newitem"><a href="/biomedical-waste-annual-report-rggwch-2019-0">Biomedical waste annual report of RGGWCH - 2019</a>   </div>
+<span class="date-display-single" content="2020-03-26T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">26/03/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1737,8 +1737,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-november-2020">RGGW&amp;CH NOVEMBER 2020</a>   </div>
-<span class="date-display-single" content="2020-12-19T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">19/12/2020</span>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-august-2020">Bio Medical Waste -  RGGW&amp;CH-August 2020 </a>   </div>
+<span class="date-display-single" content="2020-11-12T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">12/11/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1749,8 +1749,8 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-may-2021">RGGW&amp;CH MAY 2021</a>  <img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
-<span class="date-display-single" content="2021-06-12T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">12/06/2021</span>
+<div class="newitem"><a href="/rggwch-november-2020">RGGW&amp;CH NOVEMBER 2020</a>   </div>
+<span class="date-display-single" content="2020-12-19T00:00:00+05:30" datatype="xsd:dateTime" property="dc:date">19/12/2020</span>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1834,7 +1834,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-598c9438c255aab1e798192e46b2d12d">
+<div class="view view-news-slider view-id-news_slider view-display-id-block view-dom-id-1e3f941b9fce643d1cd36d829e9c7cee">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -1856,7 +1856,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/guidelines-operationalization-covid-care-services-children-adolescent">Guidelines on Operationalization of COVID Care Services  for Children &amp; Adolescent</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/dhfws-sponsoring-inservice-candidates-health-department-undergo-various-courses-mtpgrihs-puducherry">DHFWS- sponsoring of inservice candidates of Health Department to undergo various courses at MTPG&amp;RIHS, Puducherry for the academic year...</a> <a class="views-more-link" href="/dhfws-sponsoring-inservice-candidates-health-department-undergo-various-courses-mtpgrihs-puducherry">Read More</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1873,7 +1873,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-01012020-31122020">RGGW&amp;CH 01.01.2020 to 31.12.2020</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/guidelines-operationalization-covid-care-services-children-adolescent">Guidelines on Operationalization of COVID Care Services  for Children &amp; Adolescent</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1890,7 +1890,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-annual-report-2018">Bio-Medical Waste - RGGW&amp;CH Annual Report 2018</a> </div>
+<div class="newitem"><a href="/rggwch-01012020-31122020">RGGW&amp;CH 01.01.2020 to 31.12.2020</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1907,7 +1907,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-july-2020">Bio-Medical Waste - RGGW&amp;CH-July 2020</a> </div>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-annual-report-2018">Bio-Medical Waste - RGGW&amp;CH Annual Report 2018</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1924,7 +1924,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/biomedical-waste-annual-report-rggwch-2019-0">Biomedical waste annual report of RGGWCH - 2019</a> </div>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-july-2020">Bio-Medical Waste - RGGW&amp;CH-July 2020</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1941,7 +1941,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/bio-medical-waste-rggwch-august-2020">Bio Medical Waste -  RGGW&amp;CH-August 2020 </a> </div>
+<div class="newitem"><a href="/biomedical-waste-annual-report-rggwch-2019-0">Biomedical waste annual report of RGGWCH - 2019</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1958,7 +1958,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-november-2020">RGGW&amp;CH NOVEMBER 2020</a> </div>
+<div class="newitem"><a href="/bio-medical-waste-rggwch-august-2020">Bio Medical Waste -  RGGW&amp;CH-August 2020 </a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1975,7 +1975,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-may-2021">RGGW&amp;CH MAY 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/rggwch-november-2020">RGGW&amp;CH NOVEMBER 2020</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -1992,7 +1992,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-april-2021">RGGW&amp;CH APRIL 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/rggwch-may-2021">RGGW&amp;CH MAY 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2009,7 +2009,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-march-2021">RGGW&amp;CH MARCH 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/rggwch-april-2021">RGGW&amp;CH APRIL 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2026,7 +2026,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/rggwch-feb-2021">RGGW&amp;CH FEB 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/rggwch-march-2021">RGGW&amp;CH MARCH 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2043,7 +2043,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/administration-second-dose-covishield-vaccine-prior-prescribed-time-interval-after-28-days-84-days">Administration of Second Dose of Covishield Vaccine Prior to Prescribed Time Interval (after 28 days but before 84 days) to persons intendin...</a> <a class="views-more-link" href="/administration-second-dose-covishield-vaccine-prior-prescribed-time-interval-after-28-days-84-days">Read More</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/rggwch-feb-2021">RGGW&amp;CH FEB 2021</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2060,7 +2060,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/revised-guidelines-implementation-covid-vaccination-program">Revised Guidelines for implementation   COVID Vaccination Program</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/administration-second-dose-covishield-vaccine-prior-prescribed-time-interval-after-28-days-84-days">Administration of Second Dose of Covishield Vaccine Prior to Prescribed Time Interval (after 28 days but before 84 days) to persons intendin...</a> <a class="views-more-link" href="/administration-second-dose-covishield-vaccine-prior-prescribed-time-interval-after-28-days-84-days">Read More</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2077,7 +2077,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-posting-medical-officers">Transfer &amp; Posting of Medical Officers</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/revised-guidelines-implementation-covid-vaccination-program">Revised Guidelines for implementation   COVID Vaccination Program</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2094,7 +2094,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-and-postings-nursing-officers">Transfer and Postings of Nursing Officers</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/transfer-posting-medical-officers">Transfer &amp; Posting of Medical Officers</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2111,7 +2111,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/revised-guidelines-implementation-national-covid-vaccination-program">Revised Guidelines for implementation of National  COVID Vaccination Program</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
+<div class="newitem"><a href="/transfer-and-postings-nursing-officers">Transfer and Postings of Nursing Officers</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2128,7 +2128,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/transfer-posting-plumber">Transfer &amp; Posting of Plumber</a> </div>
+<div class="newitem"><a href="/revised-guidelines-implementation-national-covid-vaccination-program">Revised Guidelines for implementation of National  COVID Vaccination Program</a><img alt="new item" src="https://health.py.gov.in/sites/default/files/new.gif"/></div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2145,7 +2145,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/inviting-proposal-payment-ex-gratia-compensation-family-capfspolling-personnel-event-death-due-covid">Inviting Proposal for Payment of Ex-gratia compensation to the family of CAPFs/Polling Personnel- In the event of Death due to COVID-19</a> </div>
+<div class="newitem"><a href="/transfer-posting-plumber">Transfer &amp; Posting of Plumber</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2162,7 +2162,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/final-seniority-slt">Final Seniority of SLT</a> </div>
+<div class="newitem"><a href="/inviting-proposal-payment-ex-gratia-compensation-family-capfspolling-personnel-event-death-due-covid">Inviting Proposal for Payment of Ex-gratia compensation to the family of CAPFs/Polling Personnel- In the event of Death due to COVID-19</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2179,7 +2179,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_fields') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
-<div class="newitem"><a href="/circulation-tentative-seniority-list-radiographer">Circulation of Tentative Seniority list of Radiographer</a> </div>
+<div class="newitem"><a href="/final-seniority-slt">Final Seniority of SLT</a> </div>
 <!-- END OUTPUT from 'sites/all/modules/views/theme/views-view-fields.tpl.php' -->
 </div>
 <!-- END OUTPUT from 'sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/theme/views-slideshow-cycle-main-frame-row-item.tpl.php' -->
@@ -2260,7 +2260,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-b43c0b313982cd1265b54557aa2ee984">
+<div class="view view-it-initiatives view-id-it_initiatives view-display-id-block_1 view-dom-id-98df6926cbe0581e565a08448398690d">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2325,7 +2325,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-77bce3ed7357d693f472ff761037e4d2">
+<div class="view view-activities view-id-activities view-display-id-block_2 view-dom-id-14148e40104a676f96fa57193abf5375">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2507,7 +2507,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-government view-id-government view-display-id-block view-dom-id-7caf4509672c88b927bc032281a5a468">
+<div class="view view-government view-id-government view-display-id-block view-dom-id-7755125977dc875c41d2d9a59c336e1f">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2585,7 +2585,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-documents view-id-documents view-display-id-block view-dom-id-f1cd578a6ccb0c393cbc669a770d2f31">
+<div class="view view-documents view-id-documents view-display-id-block view-dom-id-31129acaededec6ec9581778605c848b">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2656,7 +2656,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-e60d2d2016a59a1a31956dba67051142">
+<div class="view view-online-services view-id-online_services view-display-id-block view-dom-id-0e70ed40fc80740ac805e102c4d5bb18">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2727,7 +2727,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-1174304c38328855b94c77686627a575">
+<div class="view view-downloads view-id-downloads view-display-id-block view-dom-id-84b41158b4e3a5f47f4dcaf0ef74ed62">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -2812,7 +2812,7 @@ $(document).scroll(function() {
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-74f007510b542dece71fb4452f65ccf1">
+<div class="view view-footer-external-logos view-id-footer_external_logos view-display-id-block view-dom-id-73eea9af5e809daa1ff585cc6c05beb1">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_slideshow') -->
@@ -3000,7 +3000,7 @@ $(document).scroll(function() {
 <div class="container">
 <div class="row footer02">
 <div class="col-md-12 lstupd" tabindex="0">		
-Page last updated date : 16-Jun-2021 9:17 am</div>
+Page last updated date : 16-Jun-2021 11:06 am</div>
 <div class="col-sm-12 hindisen">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('region') -->
@@ -3067,7 +3067,7 @@ Page last updated date : 16-Jun-2021 9:17 am</div>
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view') -->
 <!-- BEGIN OUTPUT from 'sites/all/modules/views/theme/views-view.tpl.php' -->
-<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-e98e64cc7cc91dae73a90b784e06c84f">
+<div class="view view-copyrights view-id-copyrights view-display-id-block view-dom-id-c6bca67a4752be73ab8258ab3b6cc086">
 <div class="view-content">
 <!-- THEME DEBUG -->
 <!-- CALL: theme('views_view_list') -->
@@ -3100,7 +3100,7 @@ For any query regarding this website, please contact the Web Information Manager
 <!-- BEGIN OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
 <div class="block block-visitors" id="block-visitors-0">
 <div class="content">
-<div class="item-list"><ul><li class="first last">Site Visitors: 78344</li>
+<div class="item-list"><ul><li class="first last">Site Visitors: 78351</li>
 </ul></div> </div>
 </div>
 <!-- END OUTPUT from 'sites/all/themes/chh/templates/block.tpl.php' -->
