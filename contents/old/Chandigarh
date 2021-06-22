@@ -556,19 +556,6 @@ stdClass Object
                     [confirmedButLocationUnidentified] =&gt; 0
                 )
 
-            [unofficial-summary] =&gt; Array
-                (
-                    [0] =&gt; stdClass Object
-                        (
-                            [source] =&gt; covid19india.org
-                            [total] =&gt; 7945975
-                            [recovered] =&gt; 7198877
-                            [deaths] =&gt; 119538
-                            [active] =&gt; 626192
-                        )
-
-                )
-
             [regional] =&gt; Array
                 (
                     [0] =&gt; stdClass Object
@@ -935,7 +922,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-06-22T10:30:22.298Z
+    [lastRefreshed] =&gt; 2021-06-22T10:47:21.210Z
     [lastOriginUpdate] =&gt; 2021-06-22T02:30:00.000Z
 )
 
