@@ -36,7 +36,7 @@
     }
   </style> -->
 <style>
-        .reportbtn {
+        .reportbtnleft {
             position: fixed;
             top: 57px;
             left: -2px;
@@ -45,6 +45,16 @@
             border: 1px solid #1a18a0;
             background: #0062cc;
         }
+        
+        .reportbtnright {
+            position: fixed;
+            top: 57px;
+            right: 0px;
+            z-index: 1;
+            border-radius: 30px 0px 0px 30px;
+        }
+        
+       
         .reportbtn:focus {
             color: #fff;
         }
@@ -102,7 +112,8 @@
 <header id="header">
 <div class="container">
 <div class="row">
-<a class="btn btn-danger reportbtn" href="http://chdcovid19.in/chdcovidbed19" target="_blank">Check Beds Availability <i class="fa fa-arrow-right"></i></a>
+<a class="btn btn-danger reportbtnleft" href="http://chdcovid19.in/chdcovidbed19" target="_blank">Check Beds Availability <i class="fa fa-arrow-right"></i></a>
+<a class="btn btn-dark reportbtnright d-none" href="http://chdcovid19.in/chdcovidbed19" target="_blank">Mobile Vaccination &amp; Testing Team Schedule <i class="fa fa-arrow-right"></i></a>
 <div class="col-md-2 d-none d-md-block d-lg-block">
 <div class="logo pull-right">
 <a href="http://chdcovid19.in/"><img alt="" class="img-fluid" src="http://chdcovid19.in/assets/img/Chandigarh-Administration.png"/>
@@ -935,7 +946,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-06-25T08:30:20.106Z
+    [lastRefreshed] =&gt; 2021-06-25T09:04:19.797Z
     [lastOriginUpdate] =&gt; 2021-06-25T02:30:00.000Z
 )
 
