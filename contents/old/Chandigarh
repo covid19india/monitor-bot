@@ -343,49 +343,49 @@ Coronaviruses constitute the subfamily Orthocoronavirinae, in the family Coronav
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Confirmed</div>
-<div class="card-body">61310</div>
+<div class="card-body">61520</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Recovered</div>
-<div class="card-body">60076</div>
+<div class="card-body">60446</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Deaths</div>
-<div class="card-body">802</div>
+<div class="card-body">807</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-danger text-white text-center">
 <div class="card-header">Total Sampled</div>
-<div class="card-body">546381</div>
+<div class="card-body">555785</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-primary text-white text-center">
 <div class="card-header">Positive Cases</div>
-<div class="card-body">61310</div>
+<div class="card-body">61520</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Negative Cases</div>
-<div class="card-body">483822</div>
+<div class="card-body">493012</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-warning text-white text-center">
 <div class="card-header">Rejected Samples</div>
-<div class="card-body">1249</div>
+<div class="card-body">1253</div>
 </div>
 </div>
 <div class="col-md-3 form-group">
 <div class="card stats bg-success text-white text-center">
 <div class="card-header">Result Awaited</div>
-<div class="card-body">8</div>
+<div class="card-body">21</div>
 </div>
 </div>
 <div class="col-12 pt-10 text-center">* Statistics sourced from Department of Health, Chandigarh</div>
@@ -946,7 +946,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-06-25T11:30:20.365Z
+    [lastRefreshed] =&gt; 2021-06-25T11:47:21.558Z
     [lastOriginUpdate] =&gt; 2021-06-25T02:30:00.000Z
 )
 
