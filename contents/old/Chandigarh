@@ -946,7 +946,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2021-07-17T08:04:20.532Z
+    [lastRefreshed] =&gt; 2021-07-17T08:21:21.509Z
     [lastOriginUpdate] =&gt; 2020-12-17T02:30:00.000Z
 )
 
@@ -970,6 +970,23 @@ stdClass Object
 <div class="modal-footer">
 <a class="btn btn-danger" data-dismiss="modal" href="#" type="button">Cancel</a>
 <a class="btn btn-primary" href="http://sampark.chd.nic.in/Epayment/covid_19.apk" type="button">Yes</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal View -->
+<div class="modal fade" id="view" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<button class="close" data-dismiss="modal" type="button">×</button>
+<!-- <div class="modal-header">
+            <h4 class="modal-title">Request By <strong></strong></h4>
+          </div> -->
+<div class="modal-body">
+<h2 class="text-danger"><img src="http://chdcovid19.in/assets/img/pmgkay.jpg" width="100%"/></h2>
+</div>
+<div class="modal-footer">
+<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
 </div>
 </div>
 </div>
@@ -1019,6 +1036,8 @@ stdClass Object
 
     $( function() {  
       
+      $("#view").modal('show');
+
 	  $('.fancybox').fancybox();
                 
       $('.event-img3 .fancybox').mouseover(function() {
