@@ -1,0 +1,926 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<meta content="Official Website of Directorate of Health Services, Andaman &amp; Nicobar Administration" name="description"/><meta content="Health Services ,Health Services in Andaman &amp; Nicobar,DHS,Directorate of Health Services" name="keywords"/><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Directorate of Health Services,Andaman &amp; Nicobar Island , India</title>
+<link href="css/style.css" media="all" rel="stylesheet" type="text/css"/>
+<!--newss-->
+<style type="text/css">
+	    .lnk
+	    {
+	        text-decoration:none;
+	    }
+	    .lnk:hover
+	    {
+	        text-decoration:underline;
+	        text-shadow: 100px 100px 200px rgba(80, 80, 80, 0.6);
+	        border-color: rgba(82, 168, 236, 0.8);
+              outline: 0;
+              outline: thin dotted \9;
+              /* IE6-9 */
+            border-radius:50px;
+            -moz-box-shadow: 0 0 5px 5px #888;
+            -webkit-box-shadow: 0 0 5px 5px#888;
+            box-shadow: 0 0 5px 5px #888;
+              
+	    }
+
+</style>
+<script src="test/includes/site.js" type="text/javascript"></script>
+<!--slides-->
+<script src="js/Slides.js"></script>
+<link href="css/responsiveslides.css" rel="stylesheet"/>
+<script src="js/responsiveslides.min.js"></script>
+<!--nav-->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
+<script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+<script>
+      // You can also use "$(window).load(function() {"
+      $(function() {
+          // Slideshow 1
+          $("#slider1").responsiveSlides({
+              maxwidth: 2500,
+              speed: 600
+          });
+      });
+		  </script>
+<script src="js/jquery.marquee.js" type="text/javascript"></script>
+<style>
+.wrapper {
+	width:960px;
+	margin:150px auto;
+}
+.demof {
+border: 1px solid #ccc;
+margin: 25px 0;
+}
+.demof ul {
+padding: 0;
+list-style: none;
+}
+.demof li {
+padding: 20px;
+border-bottom: 1px dashed #ccc;
+}
+.demof li.odd {
+background: #fafafa;
+}
+.demof li:after {
+content: '';
+display: block;
+clear: both;
+}
+.demof img {
+	float: left;
+	width: 225px;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.demof a {
+font-family: Arial, sans-serif;
+font-size: 20px;
+font-weight: bold;
+color: #06f;
+}
+.demof p {
+margin: 15px 0 0;
+font-size: 14px;
+}
+.demo3 {
+font-family: Arial, sans-serif;
+border: 1px solid #C20;
+margin: 50px 0;
+font-style: italic;
+position: relative;
+padding: 0 0 0 80px;
+box-shadow: 0 2px 5px -3px #000;
+border-radius: 3px;
+}
+.demo3:before {
+content: "Health Tips";
+display: inline-block;
+font-style: normal;
+background: #C20;
+padding: 10px;
+color: #FFF;
+font-weight: bold;
+position: absolute;
+top: 0;
+left: 0;
+}
+.demo3:after {
+content: '';
+display: block;
+top: 0;
+left: 100px;
+background: linear-gradient(#FFF, rgba(255, 255, 255, 0));
+height: 20px;
+}
+.demo3 ul li {
+list-style: none;
+padding: 10px 0;
+}
+.demo5 {
+	border: 2px solid #FF3333;
+	margin-top: 10px;
+	border-radius: 10px;
+	width: 80%;
+	-webkit-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.demo5 ul {
+padding: 0;
+}
+.demo5 ul li {
+padding: 10px 10px 10px 10px;
+border-bottom: 1px solid #FF3333;
+border-radius: 10px;
+list-type: none;
+margin: 0;
+}
+.et-run {
+background-color: #0cf;
+color: white;
+border: 1px solid black;
+}
+
+               .style2
+               {
+                   width: 86px;
+                   height: 59px;
+               }
+               .style3
+               {
+                   width: 73px;
+                   height: 48px;
+               }
+               .style4
+               {
+                   width: 86px;
+                   height: 53px;
+               }
+                .style6
+                {
+                    width: 100%;
+                }
+                .style10
+                {
+                    width: 26px;
+                    height: 17px;
+                }
+                .style13
+                {
+                    width: 22px;
+                    height: 19px;
+                }
+                .style14
+                {
+                    width: 18px;
+                    height: 12px;
+                }
+                .style15
+                {
+                    width: 19px;
+                    height: 16px;
+                }
+                .style16
+                {
+                    width: 80%;
+                    height: 15%;
+                    margin: 0 auto;
+                }
+                                
+                 .style22
+                {
+                    width: 244px;
+                }
+                .style23
+                {
+                    width: 245px;
+                }
+                .style25
+                {
+                    width: 60%;
+                    float: left;
+                }
+                .style26
+                {
+                    width: 90%;
+                    height: 300Px;
+                    margin: 0 auto;
+                }
+    .img {
+    
+      border:2px solid #fff;
+      background: url(img/tiger.png) no-repeat;
+      box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+    }
+
+            </style>
+</link></head>
+<style type="text/css">
+        body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+        .modalBackground
+        {
+            background-color: Black;
+            filter: alpha(opacity=60);
+            opacity: 0.6;
+        }
+        .modalPopup
+        {
+            background-color: #FFFFFF;
+            width: 500px;
+            border: 3px solid #0DA9D0;
+            padding: 0;
+        }
+        .modalPopup .header
+        {
+            background-color: #2FBDF1;
+            height: 30px;
+            color: White;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .modalPopup .body
+        {
+            min-height: 60px;
+            line-height: 30px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+<body>
+<script>
+
+        let ini = document.querySelector('#modal-window');
+        ini.classList.add("hideModal");
+
+    </script>
+<form action="default.aspx" id="form1" method="post" name="form1">
+<input id="ToolkitScriptManager1_HiddenField" name="ToolkitScriptManager1_HiddenField" type="hidden" value=""/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="/wEPDwUJNzkzMDAzMjgyD2QWAgIBD2QWBgIFDzwrAAsBAA8WCB4IRGF0YUtleXMWAB4LXyFJdGVtQ291bnQCQx4JUGFnZUNvdW50AgEeFV8hRGF0YVNvdXJjZUl0ZW1Db3VudAJDZBYCZg9kFoYBAgEPZBYCAgEPZBYCZg8PFgQeBFRleHQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDI1LzA3LzIwMjEpHgtOYXZpZ2F0ZVVybAURTmV3RXZlbnRzLzc0Ni5wZGZkZAICD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDI0LzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83NDUucGRmZGQCAw9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgyMy8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzQ0LnBkZmRkAgQPZBYCAgEPZBYCZg8PFgQfBAXJAVJldmlzZWQgLSBTaG9ydCBsaXN0ZWQgQ2FuZGlkYXRlcyBmb3Igb25saW5lIGludGVydmlldyB0byB0aGUgcG9zdCBvZiBTcGVjaWFsaXN0IGluIGRpZmZlcmVudCBzcGVjaWFsdHkgdW5kZXIgQSAmIE4gSGVhbHRoIERlcGFydG1lbnQgLSBPbmxpbmUgSW50ZXJ2aWV3IHNjaGVkdWxlZCB0byBiZSBoZWxkIG9uIDI4LjA3LjIwMjEgdG8gMzEuMDcuMjAyMR8FBRJOZXdFdmVudHMvNzQzLmRvY3hkZAIFD2QWAgIBD2QWAmYPDxYEHwQFvwFTaG9ydCBsaXN0ZWQgQ2FuZGlkYXRlcyBmb3Igb25saW5lIGludGVydmlldyB0byB0aGUgcG9zdCBvZiBTcGVjaWFsaXN0IGluIGRpZmZlcmVudCBzcGVjaWFsdHkgdW5kZXIgQSAmIE4gSGVhbHRoIERlcGFydG1lbnQgLSBPbmxpbmUgSW50ZXJ2aWV3IHNjaGVkdWxlZCB0byBiZSBoZWxkIG9uIDI4LjA3LjIwMjEgdG8gMzEuMDcuMjAyMR8FBRJOZXdFdmVudHMvNzQyLmRvY3hkZAIGD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDIyLzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83NDEucGRmZGQCBw9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgyMS8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzQwLnBkZmRkAggPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMjAvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzczOS5wZGZkZAIJD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDE5LzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MzgucGRmZGQCCg9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxOC8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzM3LnBkZmRkAgsPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTcvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzczNi5wZGZkZAIMD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDE2LzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MzUucGRmZGQCDQ9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxNS8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzM0LnBkZmRkAg4PZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTQvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzczMy5wZGZkZAIPD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDEzLzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MzIucGRmZGQCEA9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxMi8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzMxLnBkZmRkAhEPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTEvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzczMC5wZGZkZAISD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDExLzA3LzIwMjEpHwUFDU5ld0V2ZW50cy83MjlkZAITD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDEwLzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MjgucGRmZGQCFA9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwOS8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzI3LnBkZmRkAhUPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDgvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzcyNi5wZGZkZAIWD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDA3LzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MjUucGRmZGQCFw9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwNi8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzI0LnBkZmRkAhgPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDUvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzcyMy5wZGZkZAIZD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDA0LzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MjIucGRmZGQCGg9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwMy8wNy8yMDIxKR8FBRFOZXdFdmVudHMvNzIxLnBkZmRkAhsPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDIvMDcvMjAyMSkfBQURTmV3RXZlbnRzLzcyMC5wZGZkZAIcD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDAxLzA3LzIwMjEpHwUFEU5ld0V2ZW50cy83MTkucGRmZGQCHQ9kFgICAQ9kFgJmDw8WBB8EBUBXQUxLLUlOLUlOVEVSVklFVyBGT1IgVEhFIFBPU1QgT0YgU1BFQ0lBTElTVFMgT04gQ09OVFJBQ1QgQkFTSVMuHwUFEk5ld0V2ZW50cy83MTguZG9jeGRkAh4PZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMzAvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcxNy5wZGZkZAIfD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDI5LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy83MTYucGRmZGQCIA9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgyOC8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNzE1LnBkZmRkAiEPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMjYvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcxMy5wZGZkZAIiD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDI1LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy83MTIucGRmZGQCIw9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgyNC8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNzExLnBkZmRkAiQPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMjMvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcxMC5wZGZkZAIlD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDIyLzA2LzIwMjEpHwUFEU5ld0V2ZW50cy83MDkucGRmZGQCJg9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgyMS8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNzA4LnBkZmRkAicPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMjEvMDYvMjAyMSkfBQUNTmV3RXZlbnRzLzcwN2RkAigPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMjAvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcwNi5wZGZkZAIpD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDE5LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy83MDUucGRmZGQCKg9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxOC8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNzA0LnBkZmRkAisPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTcvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcwMy5wZGZkZAIsD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDE2LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy83MDIucGRmZGQCLQ9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxNS8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNzAxLnBkZmRkAi4PZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTQvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzcwMC5wZGZkZAIvD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDEzLzA2LzIwMjEpHwUFEU5ld0V2ZW50cy82OTkucGRmZGQCMA9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgxMi8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNjk4LnBkZmRkAjEPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMTEvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzY5Ny5wZGZkZAIyD2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDEwLzA2LzIwMjEpHwUFEU5ld0V2ZW50cy82OTYucGRmZGQCMw9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwOS8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNjk1LnBkZmRkAjQPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDgvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzY5NC5wZGZkZAI1D2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDA3LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy82OTMucGRmZGQCNg9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwNi8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNjkyLnBkZmRkAjcPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDUvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzY5MS5wZGZkZAI4D2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDA0LzA2LzIwMjEpHwUFEU5ld0V2ZW50cy82OTAucGRmZGQCOQ9kFgICAQ9kFgJmDw8WBB8EBURBJk4gSVNMQU5EUyBIRUFMVEggQlVMTEVUSU4gRk9SIENPTlRBSU5NRU5UIE9GIENPVklELTE5ICgwMy8wNi8yMDIxKR8FBRFOZXdFdmVudHMvNjg5LnBkZmRkAjoPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDMvMDYvMjAyMSkfBQUNTmV3RXZlbnRzLzY4OGRkAjsPZBYCAgEPZBYCZg8PFgQfBAVEQSZOIElTTEFORFMgSEVBTFRIIEJVTExFVElOIEZPUiBDT05UQUlOTUVOVCBPRiBDT1ZJRC0xOSAoMDIvMDYvMjAyMSkfBQURTmV3RXZlbnRzLzY4Ny5wZGZkZAI8D2QWAgIBD2QWAmYPDxYEHwQFREEmTiBJU0xBTkRTIEhFQUxUSCBCVUxMRVRJTiBGT1IgQ09OVEFJTk1FTlQgT0YgQ09WSUQtMTkgKDAxLzA2LzIwMjEpHwUFEU5ld0V2ZW50cy82ODYucGRmZGQCPQ9kFgICAQ9kFgJmDw8WBB8EBUNDT1JSSUdFTkRVTSAtIE1lcml0IGxpc3QgZm9yIGNvbnRyYWN0IGFwcG9pbnRtZW50IG9mIEFOTSB1bmRlciBESFMuHwUFEU5ld0V2ZW50cy81OTcucGRmZGQCPg9kFgICAQ9kFgJmDw8WBB8EBWZNZXJpdCBMaXN0IG9mIE1UUyAoU2FmYWkgS2FyYW1jaGFyaSkgb24gY29udHJhY3QgYmFzaXMgdW5kZXIgREhTLCBXYWxrLWluLUludGVydmlldyBoZWxkIG9uIDE5LTAyLTIwMjEfBQURTmV3RXZlbnRzLzU5NC5wZGZkZAI/D2QWAgIBD2QWAmYPDxYEHwQFWk1lcml0IExpc3Qgb2YgTVRTIChBeWFoKSBvbiBjb250cmFjdCBiYXNpcyB1bmRlciBESFMsIFdhbGstaW4tSW50ZXJ2aWV3IGhlbGQgb24gMTktMDItMjAyMR8FBRFOZXdFdmVudHMvNTkzLnBkZmRkAkAPZBYCAgEPZBYCZg8PFgQfBAVkTWVyaXQgTGlzdCBvZiBNVFMgKFdhcmQgQXR0ZW5kYW50KSBvbiBjb250cmFjdCBiYXNpcyB1bmRlciBESFMsIFdhbGstaW4tSW50ZXJ2aWV3IGhlbGQgb24gMTktMDItMjAyMR8FBRFOZXdFdmVudHMvNTkyLnBkZmRkAkEPZBYCAgEPZBYCZg8PFgQfBAVfTWVyaXQgTGlzdCBvZiBOdXJzaW5nIE9mZmljZXIgb24gY29udHJhY3QgYmFzaXMgdW5kZXIgREhTLCBXYWxrLWluLUludGVydmlldyBoZWxkIG9uIDE3LTAyLTIwMjEfBQURTmV3RXZlbnRzLzU5MS5wZGZkZAJCD2QWAgIBD2QWAmYPDxYEHwQFU01lcml0IExpc3Qgb2YgQU5NIG9uIGNvbnRyYWN0IGJhc2lzIHVuZGVyIERIUywgV2Fsay1pbi1JbnRlcnZpZXcgaGVsZCBvbiAxOC0wMi0yMDIxHwUFEU5ld0V2ZW50cy81OTAucGRmZGQCQw9kFgICAQ9kFgJmDw8WBB8EBX5HVUlERUxJTkVTIEZPUiBSRUZFUlJBTCBPRiBQQVRJRU5UUyBBTkQgUkVJTUJVUlNFTUVOVCBPRiBUUkFOU1BPUlQgQ09TVCBBTkQgV0FHRSBMT1NTIENPTVBFTlNBVElPTiBVTkRFUiBBWVVTSE1BTiBCSEFSQVQtUE1KQVkfBQURTmV3RXZlbnRzLzQzMy5wZGZkZAIHDw8WAh8EBQgwMjA1NDU2OWRkAggPDxYCHwQFDDMwIEp1biwgMjAyMWRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQxJbWFnZUJ1dHRvbjG5QDQXZOa5kcsFQx8/i8td/CLs3Q=="/>
+<script src="/ScriptResource.axd?d=d8WLm5lYV7OY8NkoSsPOsTw5HZF14DW6zZlGsFEAqHLR9_dLTKqUoel78jl6ANMve4lyq--fOQ4o6z0eHKTuRn_ZBWrxCsVhAcQ07z6GIUeSJZN0Y5CjTuSNbjYjz-UmtbZ-sZaDl1jIRKwC7_R8e5XgIexadkBv1zfADxSJk1mO3xll0&amp;t=ffffffffbcb9b94a" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+<script src="/default.aspx?_TSM_HiddenField_=ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.0.30512.20315%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a2a404968-beb9-41c5-98fb-26019e941d81%3a865923e8%3a91bd373d%3a8e72a662%3a411fea1c%3aacd642d2%3a596d588c%3a77c58d20%3a14b56adc%3a269a19ae" type="text/javascript"></script>
+<input id="__EVENTVALIDATION" name="__EVENTVALIDATION" type="hidden" value="/wEWBALhs+L3BQLfo7v/DwKUt5zRDgLSwpnTCDVmJ2nN0p3mUIR+5WdOjSC57EKf"/>
+<!---start-wrap---->
+<center>
+<a href="javascript:__doPostBack('lnkDummy','')" id="lnkDummy"></a>
+<div class="modalPopup" id="pnlPopup" style="display: none">
+<div class="body">
+<img src="COVID19PRE.jpg"/>
+<br/>
+<input id="btnHide" name="btnHide" type="submit" value="Cancel"/>
+</div>
+</div>
+<!---start-header---->
+<table style="width:980px; border:solid 1px grey ; box-shadow: 3px  5px 30px 2px #565656;">
+<tr><td style="background-color:#007DAD; height:5px"> </td></tr>
+<tr>
+<td>
+<div style=" width:100%;  ">
+<div class="logo">
+<img src="images/logo.png" title="logo" width="100%"/>
+</div>
+</div>
+<div class="clear"> </div>
+<div class="navbar navbar-inverse">
+<div class="navbar-inner">
+<div class="container-fluid">
+<a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<div class="nav-collapse collapse" style="width:100%">
+<ul class="nav">
+<li class="active"><a href="Default.aspx"><i class="icon-home icon-white"></i></a></li>
+<li><a href="AboutDHS.aspx">About Us</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="Services.aspx#Ambulance">Centralized Ambulance Services</a></li>
+<li><a href="Services.aspx#opd">OPD/IPD</a></li>
+<li><a href="Services.aspx#ca">Casualty &amp; Emergy Services</a></li>
+<li><a href="Services.aspx#du">Dialysis Unit</a></li>
+<li><a href="Services.aspx#bb">Blood Bank</a></li>
+<li><a href="Services.aspx#ls">Laborartory Services</a></li>
+<li><a href="Services.aspx#HIV">HIV Testing Facilities </a></li>
+<li><a href="Services.aspx#RF">Radiological Facilities</a></li>
+<li><a href="Services.aspx#micu">Medical Intensive Care Unit</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Training Institution<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="ANM School.aspx">ANM School</a></li>
+<li><a href="GNMSchool.aspx">GNM School</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Division<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="CentralMedicalStore.aspx">Central Medical Store</a></li>
+<li><a href="FamilyWelfare.aspx">Family Welfare</a></li>
+<li><a href="State Health Bureau.aspx">State Health Burearu</a></li>
+<li><a href="TribalHealth.aspx">Tribal Health</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Documents<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="DHSRTI.aspx">RTI</a></li>
+<li><a href="Documents/Annual Budget.pdf" target="_blank">Annual Budget</a></li>
+<li><a href="DHSSchemes.aspx">Plan Scheme</a></li>
+<li><a href="Documents/Citizen Charter.pdf">Citizen Charter</a></li>
+</ul>
+</li>
+
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Hospitals<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="SouthAndamanHospitals.aspx">South Andaman</a></li>
+<li><a href="NandMHospital.aspx">North &amp; Middle Andaman</a></li>
+<li><a href="CarNicobarHospital.aspx">Car Nicobar</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">Programmes<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="NVBDCP.aspx">NVBDCP</a></li>
+<li><a href="NPCDCS.aspx">NPCDCS</a></li>
+<li><a href="NLEP.aspx">NLEP</a></li>
+<li><a href="NIDDCP.aspx">NIDDCP</a></li>
+<li><a href="NACP.aspx">NACP</a></li>
+<li><a href="NPCB.aspx">NPCB</a></li>
+<li><a href="RCH-II.aspx">RCH-II</a></li>
+<li><a href="RNTCP.aspx">RNTCP</a></li>
+<li><a href="NPPCD.aspx">NPPCD</a></li>
+<li><a href="IDSP.aspx">IDSP</a></li>
+<li><a href="Immunization .aspx">Immunization</a></li>
+</ul>
+</li>
+<li><a href="Feedback.aspx">Feedback</a></li>
+</ul>
+</div><!-- /.nav-collapse -->
+</div><!-- /.container -->
+</div><!-- /.navbar-inner -->
+</div>
+<div class="clear">
+<div class="image-slider">
+<!-- Slideshow 1 -->
+<ul class="rslides rslides1" id="slider1" style="max-width: 2500px;">
+<li class="" id="rslides1_s1" style="float: none; position: absolute; opacity: 0;display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img alt="" src="images/1.png"/>
+<div class="slider-info">
+</div>
+</li>
+<li class="rslides1_on" id="rslides1_s2" style="float: left;  opacity: 1;  display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img alt="" src="images/2.png"/>
+<div class="slider-info">
+</div>
+</li>
+<li class="rslides1_on" id="Li1" style="float: left; position: relative; opacity: 1;  display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img alt="" src="images/3.png"/>
+<div class="slider-info">
+</div>
+</li>
+
+<li class="rslides1_on" id="Li2" style="float: left; position: relative; opacity: 1;  display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img alt="" src="images/4.png"/>
+<div class="slider-info">
+</div>
+</li>
+</ul>
+<!-- Slideshow 2 -->
+</div>
+<!---End-images-slider---->
+<!----start-content----->
+<div class="content">
+<div class="content-top-grids">
+<div class="style26">
+<div class="content-top-grid">
+<div class="content-top-grid-header">
+<div class="content-top-grid-pic">
+<a href="#"><img src="images/kcmdrkonqi.png" title="image-name"/></a>
+</div>
+<div class="content-top-grid-title">
+<h4> Introduction</h4>
+</div>
+<div class="clear"> </div>
+</div>
+<p style="text-align:justify">The Directorate of Health Services primarily seeks to provide preventive, promotive, curative and rehabilitative health services to the people through primary health care approach which has been accepted as one of the main instruments of action for development of human resources, accelerating the socio-economic development and attaining improved quality of life. Primary health care is essential health care for all citizens, easily accessible and it is given to the people at free of cost. </p>
+<a class="grid-button" href="#"></a>
+</div>
+<div class="content-top-grid">
+<div class="content-top-grid-header">
+<div class="content-top-grid-pic">
+<a href="#"><img src="images/db_status.png" title="image-name"/></a>
+</div>
+<div class="content-top-grid-title">
+<h4><strong>Vision &amp; Mission</strong></h4>
+</div>
+<div class="clear"> </div>
+</div>
+<p style="text-align:justify">Our mission is to provide preventive, promotive, curative and quality health services at free of costs to the people of islands. We strive to help people improve their productivity and reduce risks of diseases and injury. The Directorate of health services also committee to provide health scheme benefits to the poor and needy people of these islands.</p>
+<p style="text-align:justify">Quality and cost-free healthcare for every citizen.</p>
+<div class="clear"> </div>
+</div>
+<div class="content-top-grid">
+<iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/QxKCDsmTu7I"></iframe>
+</div>
+<div class="clear">
+<div class="demo3" style="padding-left:120px">
+<ul>
+<li>A good night sleep can help to start a day with a fresh and clear mind</li><li>Massaging the scalp with oil can prevent dandruff, graying and hair fall, enhance mental alertness and so on. </li><li>Practicing Yoga and meditation can make your body immune to diseases</li><li>Wash your face with water many times a day to remove dirt and grime, prevent the occurrence of pimples </li><li>Don’t exercise on an empty stomach.</li><li>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</li><li>Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.</li><li>Avoid touching eyes, nose and mouth</li><li>Practice respiratory hygiene</li><li>If you have fever, cough and difficulty breathing, seek medical care early</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div>
+<center>
+<input border="0" class="img" id="ImageButton1" name="ImageButton1" src="images/COVID-19.jpg" type="image"/></center>
+<div class="style25" style="padding-LEFT:40PX;width:600px">
+<h4> Announcements </h4>
+<div style=" padding-LEFT:10PX; border:1px solid #BBBBBB; height:280px;  border-radius:10px; color:Black; width:600px">
+<table>
+<tr>
+<td>
+<marquee behavior="scroll" direction="up" onmouseout="this.start();" onmouseover="this.stop();" scrollamount="2" style="height: 250px; margin-top:10px; padding-left:20px; padding-right:20px">
+<p style="color:#FFFFCC;">
+<table border="0" cellpadding="15" cellspacing="0" id="DataGrid1" style="font-size: 12.5px; font-family:Arial, Helvetica, sans-serif;   text-align:justify" width="100%">
+<tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;">
+</img></font></td><td><font color="#005581"><a href="NewEvents/746.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (25/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;">
+</img></font></td><td><font color="#005581"><a href="NewEvents/745.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (24/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/744.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (23/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/743.docx" target="_blank">Revised - Short listed Candidates for online interview to the post of Specialist in different specialty under A &amp; N Health Department - Online Interview scheduled to be held on 28.07.2021 to 31.07.2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/742.docx" target="_blank">Short listed Candidates for online interview to the post of Specialist in different specialty under A &amp; N Health Department - Online Interview scheduled to be held on 28.07.2021 to 31.07.2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/741.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (22/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/740.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (21/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/739.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (20/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/738.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (19/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/737.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (18/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/736.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (17/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/735.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (16/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/734.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (15/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/733.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (14/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/732.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (13/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/731.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (12/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/730.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (11/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/729" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (11/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/728.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (10/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/727.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (09/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/726.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (08/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/725.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (07/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/724.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (06/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/723.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (05/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/722.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (04/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/721.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (03/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/720.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (02/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/719.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (01/07/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/718.docx" target="_blank">WALK-IN-INTERVIEW FOR THE POST OF SPECIALISTS ON CONTRACT BASIS.</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/717.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (30/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/716.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (29/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/715.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (28/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/713.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (26/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/712.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (25/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/711.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (24/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/710.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (23/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/709.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (22/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/708.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (21/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/707" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (21/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/706.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (20/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/705.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (19/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/704.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (18/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/703.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (17/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/702.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (16/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/701.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (15/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/700.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (14/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/699.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (13/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/698.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (12/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/697.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (11/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/696.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (10/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/695.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (09/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/694.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (08/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/693.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (07/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/692.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (06/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/691.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (05/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/690.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (04/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/689.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (03/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/688" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (03/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/687.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (02/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/686.pdf" target="_blank">A&amp;N ISLANDS HEALTH BULLETIN FOR CONTAINMENT OF COVID-19 (01/06/2021)</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/597.pdf" target="_blank">CORRIGENDUM - Merit list for contract appointment of ANM under DHS.</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/594.pdf" target="_blank">Merit List of MTS (Safai Karamchari) on contract basis under DHS, Walk-in-Interview held on 19-02-2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/593.pdf" target="_blank">Merit List of MTS (Ayah) on contract basis under DHS, Walk-in-Interview held on 19-02-2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/592.pdf" target="_blank">Merit List of MTS (Ward Attendant) on contract basis under DHS, Walk-in-Interview held on 19-02-2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/591.pdf" target="_blank">Merit List of Nursing Officer on contract basis under DHS, Walk-in-Interview held on 17-02-2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/590.pdf" target="_blank">Merit List of ANM on contract basis under DHS, Walk-in-Interview held on 18-02-2021</a></font></td>
+</tr><tr>
+<td><font color="#005581">
+<img src="images/arrow1.png" style="width:15px; height:20px; border-radius:4px;"/>
+</font></td><td><font color="#005581"><a href="NewEvents/433.pdf" target="_blank">GUIDELINES FOR REFERRAL OF PATIENTS AND REIMBURSEMENT OF TRANSPORT COST AND WAGE LOSS COMPENSATION UNDER AYUSHMAN BHARAT-PMJAY</a></font></td>
+</tr>
+</table>
+</p></marquee>
+</td>
+</tr>
+</table>
+<br/>
+<br/>
+<table class="style6">
+<tr>
+<td align="center">
+<a href="http://www.india.gov.in" target="_blank" title="http://www.india.gov.in:External website that open in new window "><img src="images/india.gov.png"/></a></td>
+<td align="center">
+<span lang="en-us"> <a href="http://www.mohfw.gov.in" target="_blank" title="http://www.mohfw.nic.in, Ministry Of Health &amp; Family welfare:External website that open in new window ">
+<img class="style3" src="icons/120px-Health_pictogram.png" style="height:60px;width:60px"/></a></span></td>
+<td align="center">
+<span lang="en-us"> <a href="http://andssw1.and.nic.in/aniims/" target="_blank" title="http://andssw1.and.nic.in/aniims, 
+Andaman &amp; Nicobar Islands Institute of Medical Sciences:External website that open in new window ">
+<img class="style2" src="icons/logo.png" style="height:60px;width:60px" title="Medical College"/></a></span></td>
+<td align="center">
+<span lang="en-us"> <a href="http://nrhm.gov.in" target="_blank" title="http://nrhm.gov.in/,National Health Mission, ministry Health &amp; Family Welfare, Govt. of India:External website that open in new window">
+<img class="style4" src="icons/logo-nrhm.png" style="height:60px;width:60px"/></a></span></td>
+<td align="center">
+<span lang="en-us"> <a href="http://ls1.and.nic.in/birds/index2.php" target="_blank" title="http://ls1.and.nic.in/birds/index2.php/,Birth &amp; Death Registration System,DHS:External website that open in new window">
+<img class="style4" src="icons/rbd.png" style="height:60px;width:60px"/></a></span></td>
+</tr>
+</table>
+</div>
+</div>
+<div style="width:30%; float:right ; pading-right:100px;">
+<div style=" float:right ; width:100%">
+<h4>Our Services</h4>
+<div class="demo5 demof" style="width:82%;">
+<ul>
+<li><a href="DulariSchemes.aspx">
+<img class="style22" src="images/dulari.png"/> </a></li>
+<li><a href="Telemedicine.aspx">
+<img class="style22" src="images/TELLOGO.png"/></a></li>
+<li><a href="Beneficiarylist.aspx">
+<img class="style22" src="images/Beneficiarylist.png"/></a></li>
+<li><a href="Documents/PMNDP.pdf">
+<img class="style23" src="images/PMNDP.jpg"/></a>
+</li>
+<li><a href="https://druglicense.andaman.gov.in/" target="_blank">
+<img class="style23" src="images/druginf.png"/></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="boxs">
+<div class="style16">
+<div class="section group"></div>
+</div>
+</div>
+<!----End-content----->
+</div>
+<!---End-wrap---->
+<!---start-footer---->
+<div class="footer">
+<div class="wrap">
+<div class="footer-grids">
+<div class="footer-grid" style="width:15%">
+<h3 align="center">Profile</h3>
+<ul>
+<li><a href="SiteMap.aspx"> <span lang="en-us">
+<img class="style10" src="icons/sitemap.png" title="Site Map"/></span>Site Map</a></li>
+<li><a href="PIOList.aspx"> <span lang="en-us">
+<img class="style10" src="icons/contact.png" title="Contact Us"/></span>Contact Us</a></li>
+<li><a href="Profile.aspx"> <span lang="en-us">
+<img class="style13" src="icons/Profile.png" title="Profile"/> </span>Profile</a></li>
+<li><a href="DHSGallery.aspx"> <span lang="en-us">
+<img class="style13" src="icons/gallery.png" title="Gallery"/> </span>Gallery</a></li>
+</ul>
+</div>
+<div class="footer-grid" style="width:15%">
+<h3 align="center">Quik Links</h3>
+<ul>
+<li><a href="DHSSchemes.aspx"> <span lang="en-us">
+<img class="style10" src="icons/schemes.png" title="Schemes"/></span>Schemes</a></li>
+<li><a href="DHSRTI.aspx"> <span lang="en-us">
+<img class="style14" src="icons/programs.png" title="RTI"/> </span>RTI</a></li>
+<li><a href="FamilyWelfare.aspx"> <span lang="en-us">
+<img class="style15" src="icons/family.png" title="Family Welfare"/> </span>Family Welfare</a></li>
+<li><a href="Services.aspx"> <span lang="en-us">
+<img class="style15" src="icons/Service.png" title="Services"/> </span>Services</a></li>
+<li><a href="DHSForms.aspx"> <span lang="en-us">
+<img class="style15" src="icons/hospital1.png" title="Forms"/> </span>Forms</a></li>
+</ul>
+</div>
+<div class="footer-grid" style="width:20%">
+<h3>      Our Fleet</h3>
+<ul>
+<li><a href="ANM School.aspx"> <span lang="en-us">
+<img class="style15" src="icons/Nurse-1-48.png" title="ANM School"/> </span>ANM School</a></li>
+<li><a href="GNMSchool.aspx"> <span lang="en-us">
+<img class="style15" src="icons/nurse.png" title="GNM School"/> </span>GNM School</a></li>
+<li><a href="HospitalAyush.aspx"> <span lang="en-us">
+<img class="style15" src="icons/ayush.png" title="Ayush Hospital"/> </span>Ayush Hospital</a></li>
+<li><a href="CentralMedicalStore.aspx"> <span lang="en-us">
+<img class="style15" src="icons/health.png" title="Central Medical Store"/> </span>Central Medical Store</a></li>
+<li><a href="State Health Bureau.aspx"> <span lang="en-us">
+<img class="style15" src="icons/storage.png" title="State Health Education Bureau"/> </span>State Health Education Bureau</a></li>
+</ul>
+</div>
+<div class="footer-grid" style="width:22%">
+<h3>Contacts</h3>
+<p>Directorate of Health Services,<br/>
+						Andaman and Nicobar Administration, <br/>
+						 Port Blair , 744101.<br/>
+<img src="icons/email.png" style="width:20px; height:20px" title="Email"/>  E-mail ID :dirdhs.and@nic.in<br/>
+<span> <span lang="en-us"> <img src="icons/phone.png" style="width:20px; height:20px" title="Contact"/>  </span>03192-233331</span> <span lang="en-us">            </span>
+</p></div>
+<div class="clear">
+</div>
+</div>
+<div class="clear"> <span lang="en-us">          </span></div>
+<!---start-copy-right----->
+<div class="copy-tight">
+<p> The website is designed and maintained by  <a href="http://sovtech.andaman.gov.in" target="blank"> SOVTECH </a>. Contents on 
+                        this website is published and managed by DHS, South Andaman. </p>
+<p>|  SiteCounter : 
+                        <span id="lblcounter" style="color:White">02054569</span> || Last Update On:
+                        <span id="lblupdate" style="color:White">30 Jun, 2021</span>
+                          |</p>
+</div>
+<!---End-copy-right----->
+</div>
+</div>
+<script src="js/jquery.easy-ticker.js"></script>
+<script>
+    $(function() {
+  
+
+        $('.demo3').easyTicker({
+            visible: 1,
+            interval: 4000
+        });
+
+
+
+    });
+    	$('.demo5').easyTicker({
+		direction: 'up',
+		visible: 4,
+		interval: 2500,
+		controls: {
+			up: '.btnUp',
+			down: '.btnDown',
+			toggle: '.btnToggle'
+		}
+	});
+
+</script>
+<script type="text/javascript">
+
+    $(function() {
+
+
+        $('#marquee-vertical').marquee();
+        $('#marquee-horizontal').marquee({ direction: 'horizontal', delay: 0, timing: 50 });
+
+    });
+
+</script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+ 
+
+</script>
+</div></td>
+</tr>
+</table></center>
+<!---End-footer---->
+<script type="text/javascript">
+//<![CDATA[
+;(function() {var fn = function() {AjaxControlToolkit.ModalPopupBehavior.invokeViaServer('mpe', true); Sys.Application.remove_load(fn);};Sys.Application.add_load(fn);})();Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"btnHide","PopupControlID":"pnlPopup","dynamicServicePath":"/default.aspx","id":"mpe"}, null, null, $get("lnkDummy"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
