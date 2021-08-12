@@ -15,8 +15,8 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet"/><link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" rel="stylesheet"/>
 <!-- Vendor CSS Files -->
 <link href="Style/style1.css" rel="stylesheet"/><link href="Style/jAccessibility.css" rel="stylesheet"/>
-<!--------------------------------------------
-<link rel="stylesheet" href="css5/bootstrap.min.css" />
+<!-------------------------------------------->
+<link href="css5/bootstrap.min.css" rel="stylesheet"/>
 <script src="css5/jquery-3.5.1.min.js"></script>
 <script src="css5/bootstrap.min.js"></script>
 <script>
@@ -24,40 +24,34 @@
 		$("#myModal").modal('show');
 	});
 </script>
-
--------------------------------------------->
+<!---------------------------------------------->
 </head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="9dFoLcIaz2OaPDNoT2hVGyL++jdJOD6xg7+iycaw3Atd1ruKegfgAibqdcvRF4pjWO1pdJbQYlaL+Jm1jORoY9u/87CjkgS6xz31cSem4qR/SUA84Lm8r7CeQgfwOLJqA8yUEg3d6BU6rh9yCun1YoIHMJRTtZt0YM5Zf0eEZulmeo+f9SnRl9w/2Uv5hBaQFt4gOojU/k4gv+rArMITbmEH2viF1FEW4p1eeqyzsLFclYedoJrJ7xLcjMbQN4Zn"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="bKrl5zEXjcKRwCgr7hmzifo/wOBS1NcuqJYWubDEiEbnQMlqKJnmSseaDcFGPHzA9TgT7RPn+S1h34MN80YNiYfKyAhg6ZBSEFcrcEo0BbFMi1AA2QqHZyEqO2VKJ6KriTdnWRQYOfYBOn+h4IYXCxhrB6YAqDDrYS4N5mnGWIHfeF5P9smZNgRKfD/QsO3j+2puCl/RKRJ3mZkrnWam1SXjKbcpIaNku6/JfH/PPykfNf91eC/SrazqgqbQZfhu"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
-<!--------------------------------------------
-<div id="myModal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header" style="background-color:#ffffff;">
-                <h5 class="modal-title"><font color="#FD7034" style="font-weight:bold;">As the Nation celebrates Azadi ka Amrit Mahotsav</font></h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-				<p align="center">
-				<div> 
-
-
-
-<p align="center">
-
-<a href="https://rashtragaan.in/" target="_blank"><img src="national_celebrates.jpg" width="100%"></a>
-</p>
-
- </div>
-				</p>
-
-            </div>
-        </div>
-    </div>
+<!-------------------------------------------->
+<div class="modal fade" id="myModal">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header" style="background-color:#ffffff;">
+<h5 class="modal-title"><font color="#FD7034" style="font-weight:bold;">As the Nation celebrates Azadi ka Amrit Mahotsav</font></h5>
+<button class="close" data-dismiss="modal" type="button">×</button>
 </div>
--------------------------------------------->
+<div class="modal-body">
+<p align="center">
+<div>
+<p align="center">
+<!--<embed type="text/html" src="final.html"  width="100%" height="320">-->
+<a href="https://rashtragaan.in/" target="_blank"><img src="national_celebrates.jpg" width="100%"/></a>
+</p>
+</div>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!---------------------------------------------->
 <header class="bg-light-black">
 <nav class="navbar bg-dark">
 <div class="container-fluid text-right">
@@ -370,7 +364,7 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <span id="lblStatsAsPerDate">11 Aug 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">678857</span></strong>
+<span id="lblVisitorNumber">678874</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
