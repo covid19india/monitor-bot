@@ -434,7 +434,7 @@ setInterval(GetClock,1000);
 <br clear="all"/>
 <div class="sidebarmenu" style="border: 1px solid #eee; width:189px; background-color:#EEEEEE; float:left; text-align:left;">
 <div id="online" style="background-color: #000; color: #fff;padding: 10px 3px 10px 10px;"><strong>E-GOVERNANCE : </strong><span id="txtHint"></span></div>
-<div id="online" style="max-height:370px;overflow:auto;">
+<div id="online" style="max-height:635px;overflow:auto;">
 <li><a class="arrow" href="http://exchange.wbhealth.gov.in:8032">EXCHANGE</a></li>
 <li><a class="arrow" href=" http://pcpndt.silpasathi.in/aspx/signin.aspx">Online PCPNDT License</a></li>
 <li><a class="arrow" href=" http://bloodbank.silpasathi.in/aspx/signin.aspx">Online Blood Bank License</a></li>
