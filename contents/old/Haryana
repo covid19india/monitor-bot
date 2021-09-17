@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Root element is missing.</title>
+<meta content="width=device-width" name="viewport"/>
+<style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+</head>
+<body bgcolor="white">
+<span><h1>Server Error in '/' Application.<hr color="silver" size="1" width="100%"/></h1>
+<h2> <i>Root element is missing.</i> </h2></span>
+<font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+<b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br/><br/>
+<b> Exception Details: </b>System.Xml.XmlException: Root element is missing.<br/><br/>
+<b>Source Error:</b> <br/><br/>
+<table bgcolor="#ffffcc" width="100%">
+<tr>
+<td>
+<code><pre>
+
+Line 7:          // Code that runs on application startup
+Line 8:          System.Data.DataSet tmpDs = new System.Data.DataSet();
+<font color="red">Line 9:          tmpDs.ReadXml(Server.MapPath("~/Y903526_/counter.xml"));
+</font>Line 10:         Application["OnlineUsers"] = Convert.ToInt32(tmpDs.Tables[0].Rows[0]["hits"]);
+Line 11:     }</pre></code>
+</td>
+</tr>
+</table>
+<br/>
+<b> Source File: </b> d:\FTP\nrhmharyana.gov.in\nrhmharyana.gov.in\Global.asax<b>    Line: </b> 9
+            <br/><br/>
+<b>Stack Trace:</b> <br/><br/>
+<table bgcolor="#ffffcc" width="100%">
+<tr>
+<td>
+<code><pre>
+
+[XmlException: Root element is missing.]
+   System.Xml.XmlTextReaderImpl.Throw(Exception e) +72
+   System.Xml.XmlTextReaderImpl.ParseDocumentContent() +5320383
+   System.Xml.XmlTextReaderImpl.Read() +163
+   System.Xml.XmlTextReader.Read() +15
+   System.Xml.XmlReader.MoveToContent() +61
+   System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving) +325
+   System.Data.DataSet.ReadXml(String fileName) +76
+   ASP.global_asax.Application_Start(Object sender, EventArgs e) in d:\FTP\nrhmharyana.gov.in\nrhmharyana.gov.in\Global.asax:9
+
+[HttpException (0x80004005): Root element is missing.]
+   System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app) +10093517
+   System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers) +118
+   System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context) +173
+   System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context) +218
+   System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext) +296
+
+[HttpException (0x80004005): Root element is missing.]
+   System.Web.HttpRuntime.FirstRequestInit(HttpContext context) +10074716
+   System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context) +95
+   System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context) +254
+</pre></code>
+</td>
+</tr>
+</table>
+<br/>
+<hr color="silver" size="1" width="100%"/>
+<b>Version Information:</b> Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.7.3429.0
+
+            </font>
+</body>
+</html>
+<!-- 
+[XmlException]: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlTextReader.Read()
+   at System.Xml.XmlReader.MoveToContent()
+   at System.Data.DataSet.ReadXml(XmlReader reader, Boolean denyResolving)
+   at System.Data.DataSet.ReadXml(String fileName)
+   at ASP.global_asax.Application_Start(Object sender, EventArgs e) in d:\FTP\nrhmharyana.gov.in\nrhmharyana.gov.in\Global.asax:line 9
+[HttpException]: Root element is missing.
+   at System.Web.HttpApplicationFactory.EnsureAppStartCalledForIntegratedMode(HttpContext context, HttpApplication app)
+   at System.Web.HttpApplication.RegisterEventSubscriptionsWithIIS(IntPtr appContext, HttpContext context, MethodInfo[] handlers)
+   at System.Web.HttpApplication.InitSpecial(HttpApplicationState state, MethodInfo[] handlers, IntPtr appContext, HttpContext context)
+   at System.Web.HttpApplicationFactory.GetSpecialApplicationInstance(IntPtr appContext, HttpContext context)
+   at System.Web.Hosting.PipelineRuntime.InitializeApplication(IntPtr appContext)
+[HttpException]: Root element is missing.
+   at System.Web.HttpRuntime.FirstRequestInit(HttpContext context)
+   at System.Web.HttpRuntime.EnsureFirstRequestInit(HttpContext context)
+   at System.Web.HttpRuntime.ProcessRequestNotificationPrivate(IIS7WorkerRequest wr, HttpContext context)
+--><!-- 
+This error page might contain sensitive information because ASP.NET is configured to show verbose error messages using &lt;customErrors mode="Off"/&gt;. Consider using &lt;customErrors mode="On"/&gt; or &lt;customErrors mode="RemoteOnly"/&gt; in production environments.-->
