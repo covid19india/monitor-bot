@@ -28,7 +28,7 @@
 </head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="f+hYmuuJCKbxBjMYQQKxfm/Zteu67qCfmmHghZYMjoKQXxfOzYzmnq03hQQEcJdJzkLvkAJ7me91PTPFzgwi9vLM6Nhchi/H8a/MNG8Dkl4HlNICCaWodlFZP+s+p1XEimprMwZ5DzMULx1S/K+Zi3OIw1xXipTnLceYbN6QZgLs2dFH1g2PpXknInhTusgsSJs7QLntl5vSA65TzlSxRCN9ylApKR28/8YwIivHNaxUOsv0UN3JYmYMoS0cmShV"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="OVYPyHCaTbYDjPtsU9UtrvboZ2sAMY63XK2vNMhnXC7lCWH1QkZloXXOyc5AfQOpXHhouKdVKTR0mLONKkhW//bTQVsxAmBPKY1rYxfZiCzie8yq5OC3s4Nh/1PF4/4eaBg37E2zsiiwObb4hYXHzbmM2OQfJKHCIcJ+8tgNB+wwTNUgmjn/oR/Cah9aV36sCo/NrE2I3RTH7aJhBR0PwyNHm9RcGOcMCdRwEe0YU94b3qqjloy1EM29RgryT/hg"/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <!-------------------------------------------->
 <div class="modal fade" id="myModal">
@@ -147,14 +147,14 @@
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-file-medical text-danger"></i>
-<span class="Count" id="lblActiceCases">110</span>
+<span class="Count" id="lblActiceCases">122</span>
 <p>Active COVID-19 Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-heartbeat text-danger"></i>
-<span class="Count" id="lblCuredCases">83416</span>
+<span class="Count" id="lblCuredCases">83422</span>
 <p>Cured Cases</p>
 </div>
 </div>
@@ -361,10 +361,10 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <div class="col-lg-12 mt-4 text-danger">
 <span>Stats are as on Date: </span>
 <strong>
-<span id="lblStatsAsPerDate">25 Oct 2021</span></strong><br/>
+<span id="lblStatsAsPerDate">26 Oct 2021</span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">715252</span></strong>
+<span id="lblVisitorNumber">715262</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
