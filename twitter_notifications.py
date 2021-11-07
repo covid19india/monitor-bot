@@ -40,7 +40,7 @@ def setup():
     auth.set_access_token(tc["access_token"], tc["access_token_secret"])
 
     api = tweepy.API(
-        auth_handler=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
+        auth=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
     )
 
     # Telegram
