@@ -40,8 +40,7 @@ def setup():
     auth.set_access_token(tc["access_token"], tc["access_token_secret"])
 
     api = tweepy.API(
-        auth=auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True
-    )
+        auth=auth, wait_on_rate_limit=True)
 
     # Telegram
     bot_token = os.environ["MONITOR_BOT_TOKEN"]
