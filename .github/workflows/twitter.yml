@@ -30,7 +30,7 @@ jobs:
           ${{ runner.os }}-pip-
           ${{ runner.os }}-
     - name: Install Python dependencies
-      run: pip3 install -r requirements.txt
+      run: pip3 install wheel && pip3 install -r requirements.txt
     - name: Run scanning script
       run: |
         python3 twitter_notifications.py
