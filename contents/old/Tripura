@@ -28,7 +28,7 @@
 </head>
 <body>
 <form action="./" id="form1" method="post">
-<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="OuDPmrJ2iyNfQYV5KssBxEEfo+JcVrnxvAl4JCqPyTqOW3/xsvrpv2OJFBc8yzpeMhzYczBtNteIh1ohI/ku3L9Rs4feC7i+NZSfL2V2UtXn0p3zZsI/zueXTDqzjL5HN8EddgVZjN/nfLfO+Rm0VjEC0dY7YrUodhuYZWzB8trUrXWOG/EI/hETUsV/9ZdvSGatfciN5M4sC75k12lSUumPv4Xk0cNNuCM9K9Xx0VtArxnnKTOLRmQUHzaVoqEd"/>
+<input id="__VIEWSTATE" name="__VIEWSTATE" type="hidden" value="x+gngR8M1vl8LF+Eo4iGkcRqDWAr3P7cYOY+tZ4THXXpjr6HdFG8tCSZgc1MvuF48Mts/401oz1qcoRoCJSK0o+4JMlZxffgeuBWmejU0wonpgWUXKhIlbdxKaMm4cQHriXNDKn5Vc/i1Jk03XIkyw=="/>
 <input id="__VIEWSTATEGENERATOR" name="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334"/>
 <!-------------------------------------------->
 <div class="modal fade" id="myModal">
@@ -140,28 +140,28 @@
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-suitcase-rolling text-danger"></i>
-<span class="Count" id="lblPassengerScreened">84570</span>
+<span class="Count" id="lblPassengerScreened">0</span>
 <p>Persons screened</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box py-5">
 <i class="fas fa-file-medical text-danger"></i>
-<span class="Count" id="lblActiceCases">7745</span>
+<span class="Count" id="lblActiceCases">0</span>
 <p>Active COVID-19 Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-heartbeat text-danger"></i>
-<span class="Count" id="lblCuredCases">89513</span>
+<span class="Count" id="lblCuredCases">0</span>
 <p>Cured Cases</p>
 </div>
 </div>
 <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
 <div class="count-box pb-5 pt-0 pt-lg-5">
 <i class="fas fa-frown text-danger"></i>
-<span class="Count" id="lblDeathCases">869</span>
+<span class="Count" id="lblDeathCases">0</span>
 <p>Death Cases</p>
 </div>
 </div>
@@ -361,10 +361,10 @@ The disease causes respiratory illness (like the flu) with symptoms such as a co
 <div class="col-lg-12 mt-4 text-danger">
 <span>Stats are as on Date: </span>
 <strong>
-<span id="lblStatsAsPerDate">23 Jan 2022</span></strong><br/>
+<span id="lblStatsAsPerDate"></span></strong><br/>
 <span>You are Visitor Number: </span>
 <strong>
-<span id="lblVisitorNumber">1479045</span></strong>
+<span id="lblVisitorNumber">1479389</span></strong>
 </div>
 <div class="col-lg-12">
 <small class="text-white">All COVID-19 related Data &amp; Statistics on this site, are being being Provided &amp; Managed by the Health Department, Government of Tripura.</small><br/>
