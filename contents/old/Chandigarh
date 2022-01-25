@@ -35,30 +35,6 @@
       top: 0px !important; 
     }
   </style> -->
-<style>
-        .reportbtnleft {
-            position: fixed;
-            top: 57px;
-            left: -2px;
-            z-index: 1;
-            border-radius: 0px 30px 30px 0px;
-            border: 1px solid #1a18a0;
-            background: #0062cc;
-        }
-        
-        .reportbtnright {
-            position: fixed;
-            top: 57px;
-            right: 0px;
-            z-index: 1;
-            border-radius: 30px 0px 0px 30px;
-        }
-        
-       
-        .reportbtn:focus {
-            color: #fff;
-        }
-  </style>
 </link></link></link></head>
 <style type="text/css">.section-header h3.uline { margin: 10px 0 30px;
 } </style>
@@ -112,8 +88,6 @@
 <header id="header">
 <div class="container">
 <div class="row">
-<a class="btn btn-danger reportbtnleft" href="http://chdcovid19.in/chdcovidbed19" target="_blank">Check Beds Availability <i class="fa fa-arrow-right"></i></a>
-<a class="btn btn-dark reportbtnright" href="http://chdcovid19.in/chdcovidbed19/index.php/mobile_team_data" target="_blank">Mobile Vaccination &amp; Testing Team Schedule <i class="fa fa-arrow-right"></i></a>
 <div class="col-md-2 d-none d-md-block d-lg-block">
 <div class="logo pull-right">
 <a href="http://chdcovid19.in/"><img alt="" class="img-fluid" src="http://chdcovid19.in/assets/img/Chandigarh-Administration.png"/>
@@ -135,6 +109,26 @@
 </div>
 </div>
 </header><!-- #header -->
+<!-- Modal View -->
+<div class="modal fade" id="home_view_pmkay" role="dialog">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header ptb-5 plr-20">
+<button class="close" data-dismiss="modal" type="button">×</button>
+</div>
+<div class="modal-body">
+<h2 class="text-danger"><img src="http://chdcovid19.in/assets/img/pmgkay.jpg" width="100%"/></h2>
+</div>
+<div class="modal-footer">
+<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
+</div>
+</div>
+</div>
+</div>
+<a class="btn btn-warning mediabulletin text-white" href="http://chdcovid19.in/chdcovidbed19/index.php/media_bulletin/index" target="_blank">Check Media Bulletin <i class="fa fa-arrow-right"></i></a>
+<a class="btn btn-primary bedavailability" href="http://chdcovid19.in/chdcovidbed19/index.php/home/index" target="_blank">Check Beds Availability <i class="fa fa-arrow-right"></i></a>
+<!--<a href="http://chdcovid19.in/chdcovidbed19/index.php/paediatric_home/index" target="_blank" class="btn btn-danger bedavailabilitypaediatric text-white">Check Beds Availability Paediatric <i class="fa fa-arrow-right"></i></a>-->
+<a class="btn btn-dark mobilevaccination" href="http://chdcovid19.in/chdcovidbed19/index.php/mobile_team_data" style="top: 121px" target="_blank">Mobile Vaccination &amp; Testing Team Schedule <i class="fa fa-arrow-right"></i></a>
 <!--==========================
     Intro Section
   ============================-->
@@ -156,8 +150,8 @@
 <img alt="http://chdcovid19.in/uploads/slider/1587015144.jpg" src="http://chdcovid19.in/uploads/slider/1587015144.jpg" title="http://chdcovid19.in/uploads/slider/1587015144.jpg" width="100%">
 </img></div>
 <div class="carousel-item">
-<img alt="http://chdcovid19.in/uploads/slider/1587015174.jpg" src="http://chdcovid19.in/uploads/slider/1587015174.jpg" title="http://chdcovid19.in/uploads/slider/1587015174.jpg" width="100%">
-</img></div>
+<img alt="http://chdcovid19.in/uploads/slider/1587015174.jpg" src="http://chdcovid19.in/uploads/slider/1587015174.jpg" title="http://chdcovid19.in/uploads/slider/1587015174.jpg" width="100%"/>
+</div>
 <div class="carousel-item">
 <img alt="http://chdcovid19.in/uploads/slider/1587017139.jpg" src="http://chdcovid19.in/uploads/slider/1587017139.jpg" title="http://chdcovid19.in/uploads/slider/1587017139.jpg" width="100%"/>
 </div>
@@ -946,7 +940,7 @@ stdClass Object
 
         )
 
-    [lastRefreshed] =&gt; 2022-01-25T16:04:22.791Z
+    [lastRefreshed] =&gt; 2022-01-25T16:30:21.212Z
     [lastOriginUpdate] =&gt; 2022-01-25T02:30:00.000Z
 )
 
@@ -970,23 +964,6 @@ stdClass Object
 <div class="modal-footer">
 <a class="btn btn-danger" data-dismiss="modal" href="#" type="button">Cancel</a>
 <a class="btn btn-primary" href="http://sampark.chd.nic.in/Epayment/covid_19.apk" type="button">Yes</a>
-</div>
-</div>
-</div>
-</div>
-<!-- Modal View -->
-<div class="modal fade" id="view" role="dialog">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<button class="close" data-dismiss="modal" type="button">×</button>
-<!-- <div class="modal-header">
-            <h4 class="modal-title">Request By <strong></strong></h4>
-          </div> -->
-<div class="modal-body">
-<h2 class="text-danger"><img src="http://chdcovid19.in/assets/img/pmgkay.jpg" width="100%"/></h2>
-</div>
-<div class="modal-footer">
-<button class="btn btn-primary" data-dismiss="modal" type="button">Close</button>
 </div>
 </div>
 </div>
@@ -1036,7 +1013,7 @@ stdClass Object
 
     $( function() {  
       
-      $("#view").modal('show');
+      $("#home_view_pmkay").modal('show');
 
 	  $('.fancybox').fancybox();
                 
